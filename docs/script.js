@@ -1,4 +1,10 @@
 const KEYS_URL = "keys.json";
+const FALLBACK_DOWNLOADS = {
+  top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.txt",
+  full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.txt",
+};
+const VK_PLACEHOLDER_URL = "https://vk.com/id000";
+let currentDownloads = { ...FALLBACK_DOWNLOADS };
 
 function encodeKey(key) {
   return key.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
@@ -91,10 +97,74 @@ function renderList(data) {
   container.innerHTML = entries.map(renderEntry).join("");
 }
 
+function parseDownloadUrl(url) {
+  if (!url) {
+    return null;
+  }
+
+  const jsdelivrMatch = url.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^/]+)\/([^@]+)@([^/]+)\/(.+)$/);
+  if (!jsdelivrMatch) {
+    return null;
+  }
+
+  const [, owner, repo, ref, path] = jsdelivrMatch;
+  return { owner, repo, ref, path };
+}
+
+function buildModalLinks(kind) {
+  const parsed = parseDownloadUrl(currentDownloads[kind]);
+  if (!parsed) {
+    return null;
+  }
+
+  const { owner, repo, ref, path } = parsed;
+  const raw = "https://raw.githubusercontent.com/" + owner + "/" + repo + "/refs/heads/" + ref + "/" + path;
+
+  return {
+    jsdelivr: currentDownloads[kind],
+    statically: "https://cdn.statically.io/gh/" + owner + "/" + repo + "@" + ref + "/" + path,
+    githackCdn: "https://rawcdn.githack.com/" + owner + "/" + repo + "/" + ref + "/" + path,
+    githack: "https://raw.githack.com/" + owner + "/" + repo + "/" + ref + "/" + path,
+    yandex: "https://translate.yandex.ru/translate?url=" + raw + "&lang=de-de",
+    github: "https://github.com/" + owner + "/" + repo + "/blob/" + ref + "/" + path,
+  };
+}
+
+function setModalActionValue(id, mode, value) {
+  const button = document.getElementById(id);
+  if (!button) {
+    return;
+  }
+
+  button.dataset.mode = mode;
+  button.dataset.value = value;
+}
+
+function resetModalActionSubtitles() {
+  document.querySelectorAll(".modal-action-subtitle").forEach((subtitle) => {
+    if (subtitle.dataset.originalText) {
+      subtitle.textContent = subtitle.dataset.originalText;
+    }
+  });
+}
+
 function openDownloadModal(kind) {
+  const links = buildModalLinks(kind);
+  if (!links) {
+    return;
+  }
+
   const title = kind === "top15" ? "Подписка ТОП15" : "Подписка полная";
+  resetModalActionSubtitles();
   setText("download-modal-title", title);
   setText("download-modal-text", "Выберите способ получение подписки:");
+  setModalActionValue("download-jsdelivr", "copy", links.jsdelivr);
+  setModalActionValue("download-statically", "copy", links.statically);
+  setModalActionValue("download-githack-cdn", "copy", links.githackCdn);
+  setModalActionValue("download-githack", "copy", links.githack);
+  setModalActionValue("download-yandex", "open", links.yandex);
+  setModalActionValue("download-vk", "open", VK_PLACEHOLDER_URL);
+  setModalActionValue("download-github", "copy", links.github);
   document.getElementById("download-modal").hidden = false;
   document.body.classList.add("modal-open");
 }
@@ -126,6 +196,14 @@ function renderMeta(data) {
   document.getElementById("status-line").textContent = statusParts.join(" • ");
 }
 
+function applyDownloads(data) {
+  const downloads = data.downloads || FALLBACK_DOWNLOADS;
+  currentDownloads = {
+    top15: downloads.top15 || FALLBACK_DOWNLOADS.top15,
+    full: downloads.full || FALLBACK_DOWNLOADS.full,
+  };
+}
+
 async function loadData() {
   try {
     const response = await fetch(KEYS_URL + "?t=" + Date.now());
@@ -134,6 +212,7 @@ async function loadData() {
     }
 
     const data = await response.json();
+    applyDownloads(data);
     renderMeta(data);
     renderList(data);
   } catch (error) {

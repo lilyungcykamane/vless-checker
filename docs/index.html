@@ -19,7 +19,7 @@
   <meta property="og:url" content="https://lilyungcykamane.github.io/vless-checker/" />
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛽</text></svg>" />
-  <link rel="stylesheet" href="styles.css?v=9" />
+  <link rel="stylesheet" href="styles.css?v=10" />
 </head>
 
 <body>
@@ -90,24 +90,20 @@
         <h3 class="modal-group-title">Белые ссылки с авто-обновлением (рекомендуем)</h3>
         <p class="modal-group-subtitle">Ссылка скопируется в буфер обмена для последующей вставки в клиент</p>
         <div class="modal-actions">
-          <button class="modal-action" type="button" data-mode="copy"
-            data-value="https://cdn.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/WHITE-SNI-RU-all.txt">
+          <button class="modal-action" id="download-jsdelivr" type="button" data-mode="copy">
             <span class="modal-action-title">Ссылка 1 (JSDelivr)</span>
             <span class="modal-action-subtitle">cdn.jsdelivr.net</span>
           </button>
-          <button class="modal-action" type="button" data-mode="copy"
-            data-value="https://cdn.statically.io/gh/igareck/vpn-configs-for-russia@main/WHITE-SNI-RU-all.txt">
+          <button class="modal-action" id="download-statically" type="button" data-mode="copy">
             <span class="modal-action-title">Ссылка 2 (Statically)</span>
             <span class="modal-action-subtitle">cdn.statically.io</span>
           </button>
-          <button class="modal-action" type="button" data-mode="copy"
-            data-value="https://rawcdn.githack.com/igareck/vpn-configs-for-russia/main/WHITE-SNI-RU-all.txt">
+          <button class="modal-action" id="download-githack-cdn" type="button" data-mode="copy">
             <span class="modal-action-title">Ссылка 3 (Githack CDN)</span>
             <span class="modal-action-subtitle">rawcdn.githack.com</span>
           </button>
-          <button class="modal-action" type="button" data-mode="copy"
-            data-value="https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-SNI-RU-all.txt">
-            <span class="modal-action-title">Сылка 4 (Githack)</span>
+          <button class="modal-action" id="download-githack" type="button" data-mode="copy">
+            <span class="modal-action-title">Ссылка 4 (Githack)</span>
             <span class="modal-action-subtitle">raw.githack.com</span>
           </button>
         </div>
@@ -117,12 +113,11 @@
         <h3 class="modal-group-title">Белые ссылки с ручным обновлением</h3>
         <p class="modal-group-subtitle">Перейдите по ссылке и вставьте сервера вручную</p>
         <div class="modal-actions">
-          <button class="modal-action" type="button" data-mode="open"
-            data-value="https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt&amp;lang=de-de">
+          <button class="modal-action" id="download-yandex" type="button" data-mode="open">
             <span class="modal-action-title">Ссылка 5 (Yandex Translate)</span>
             <span class="modal-action-subtitle">translate.yandex.ru</span>
           </button>
-          <button class="modal-action" type="button" data-mode="open" data-value="https://vk.com/id000">
+          <button class="modal-action" id="download-vk" type="button" data-mode="open">
             <span class="modal-action-title">СКОРО</span>
             <span class="modal-action-subtitle">Ссылка 6 (VK)</span>
           </button>
@@ -132,9 +127,8 @@
       <section class="modal-group">
         <h3 class="modal-group-title">Прямые ссылки с авто-обновлением (ссылки ограничены при режиме БС)</h3>
         <div class="modal-actions">
-          <button class="modal-action" type="button" data-mode="copy"
-            data-value="https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt">
-            <span class="modal-action-title">Ссылка 7 (Githab)</span>
+          <button class="modal-action" id="download-github" type="button" data-mode="copy">
+            <span class="modal-action-title">Ссылка 7 (Github)</span>
             <span class="modal-action-subtitle">github.com</span>
           </button>
         </div>
@@ -144,7 +138,7 @@
     </div>
   </div>
 
-  <script src="script.js?v=9"></script>
+  <script src="script.js?v=10"></script>
 </body>
 
 </html>
