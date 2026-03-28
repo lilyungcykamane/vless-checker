@@ -241,7 +241,8 @@ h1 {
   font-weight: 700;
 }
 
-.latency {
+.stability,
+.streak {
   display: inline-flex;
   align-items: center;
   padding: 5px 10px;
@@ -252,10 +253,50 @@ h1 {
   font-weight: 700;
 }
 
+.streak {
+  background: rgba(196, 77, 29, 0.1);
+  color: var(--accent);
+}
+
+.entry-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 14px 0 12px;
+}
+
+.metric {
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(95, 62, 39, 0.08);
+}
+
+.metric-label {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.metric strong {
+  font-size: 1.08rem;
+  letter-spacing: -0.03em;
+}
+
 .hostline {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.85rem;
+}
+
+.secondary-line {
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
 }
 
 .keyline {
@@ -323,6 +364,10 @@ h1 {
   }
 
   .entry {
+    grid-template-columns: 1fr;
+  }
+
+  .entry-metrics {
     grid-template-columns: 1fr;
   }
 

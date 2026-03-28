@@ -12,16 +12,68 @@ function setText(id, value) {
   document.getElementById(id).textContent = value;
 }
 
+function formatPercent(value) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) {
+    return "—";
+  }
+  return number.toFixed(number % 1 === 0 ? 0 : 1) + "%";
+}
+
+function formatLatency(value) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) {
+    return "—";
+  }
+  return number.toFixed(number % 1 === 0 ? 0 : 1) + " мс";
+}
+
+function formatObservations(value) {
+  if (Array.isArray(value)) {
+    return String(value.length);
+  }
+  if (value === null || value === undefined || value === "") {
+    return "—";
+  }
+  if (typeof value === "object") {
+    return String(Object.keys(value).length);
+  }
+  return String(value);
+}
+
 function renderEntry(item) {
+  const availability = formatPercent(item.availability_pct);
+  const streak = Number(item.success_streak);
+  const streakLabel = Number.isFinite(streak) ? String(streak) : "—";
+  const medianLatency = formatLatency(item.median_latency_ms);
+  const currentLatency = formatLatency(item.latency_ms);
+  const observations = formatObservations(item.observations);
+
   return (
     '<article class="entry">' +
       '<div class="entry-rank">#' + item.rank + '</div>' +
       '<div class="entry-main">' +
         '<div class="entry-topline">' +
           '<span class="country">' + (item.flag || "🌍") + " " + item.country + "</span>" +
-          '<span class="latency">' + item.latency_ms + " мс</span>" +
+          '<span class="stability">' + availability + " доступность</span>" +
+          '<span class="streak">' + streakLabel + " подряд</span>" +
+        "</div>" +
+        '<div class="entry-metrics">' +
+          '<div class="metric">' +
+            '<span class="metric-label">Медиана</span>' +
+            '<strong>' + medianLatency + '</strong>' +
+          "</div>" +
+          '<div class="metric">' +
+            '<span class="metric-label">Последний чек</span>' +
+            '<strong>' + currentLatency + '</strong>' +
+          "</div>" +
+          '<div class="metric">' +
+            '<span class="metric-label">Наблюдений</span>' +
+            '<strong>' + observations + "</strong>" +
+          "</div>" +
         "</div>" +
         '<div class="hostline">' + item.host + ":" + item.port + "</div>" +
+        '<div class="secondary-line">Стабильность важнее задержки. Сервер попадает в ТОП-15 только при устойчивом прохождении чека.</div>' +
         '<div class="keyline">' + item.key + "</div>" +
       "</div>" +
       '<button class="copy-btn" onclick="copyText(\'' + encodeKey(item.key) + '\', this)">Копировать</button>' +
@@ -34,7 +86,7 @@ function renderList(data) {
   const container = document.getElementById("entries");
 
   if (!entries.length) {
-    container.innerHTML = '<div class="empty-state">Рабочих ключей пока нет. Следующая проверка обновит рейтинг.</div>';
+    container.innerHTML = '<div class="empty-state">Стабильных ключей пока нет. Следующая проверка обновит рейтинг.</div>';
     return;
   }
 
@@ -63,6 +115,7 @@ function renderMeta(data) {
 
   const statusParts = [];
   statusParts.push(data.check_mode === "tcp" ? "Проверка через TCP connect" : "Проверка через sing-box + generate_204");
+  statusParts.push("Рейтинг построен по стабильности: availability, streak и история чеков");
   if (skipped) {
     statusParts.push("Пропущено: " + skipped);
   }
