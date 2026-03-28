@@ -350,6 +350,10 @@ h1 {
   backdrop-filter: blur(8px);
 }
 
+.modal-backdrop[hidden] {
+  display: none;
+}
+
 .modal-panel {
   position: relative;
   width: min(620px, 100%);

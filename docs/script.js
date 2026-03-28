@@ -221,4 +221,5 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
+closeDownloadModal();
 loadData();
