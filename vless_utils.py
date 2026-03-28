@@ -257,7 +257,7 @@ def msk_timestamp():
 
 
 def announce_line():
-    return f"Обновлено {msk_timestamp()}"
+    return f"Последнее сканирование: {msk_timestamp()}"
 
 
 def format_subscription_file(profile_title, keys):

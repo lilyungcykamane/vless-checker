@@ -18,8 +18,8 @@ GOOD_KEYS_PATH = "good.txt"
 TOP15_KEYS_PATH = "top15.txt"
 KEYS_JSON_PATH = "docs/keys.json"
 
-FULL_PROFILE_TITLE = "Kerosin Белые Списки (Full)"
-TOP15_PROFILE_TITLE = "Kerosin Белые Списки (TOP15)"
+FULL_PROFILE_TITLE = "Kerosin Обход БС (Full)"
+TOP15_PROFILE_TITLE = "Kerosin Обход БС (TOP15)"
 
 FULL_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.txt"
 TOP15_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.txt"
