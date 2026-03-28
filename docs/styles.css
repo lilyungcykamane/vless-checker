@@ -371,10 +371,28 @@ h1 {
   line-height: 1.5;
 }
 
+.modal-group {
+  margin-top: 20px;
+}
+
+.modal-group-title {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: -0.03em;
+}
+
+.modal-group-subtitle {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 .modal-actions {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
-  margin-top: 22px;
+  margin-top: 14px;
 }
 
 .modal-action {
@@ -461,6 +479,10 @@ h1 {
 
   .copy-btn {
     width: 100%;
+  }
+
+  .modal-actions {
+    grid-template-columns: 1fr;
   }
 
   .modal-panel {

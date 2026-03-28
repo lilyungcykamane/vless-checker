@@ -1,16 +1,15 @@
 const KEYS_URL = "keys.json";
-const FALLBACK_DOWNLOADS = {
-  top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15-base64.txt",
-  full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good-base64.txt",
-};
-let currentDownloads = { ...FALLBACK_DOWNLOADS };
 
 function encodeKey(key) {
   return key.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
 }
 
 function setText(id, value) {
-  document.getElementById(id).textContent = value;
+  const element = document.getElementById(id);
+  if (!element) {
+    return;
+  }
+  element.textContent = value;
 }
 
 function formatPercent(value) {
@@ -92,41 +91,10 @@ function renderList(data) {
   container.innerHTML = entries.map(renderEntry).join("");
 }
 
-function parseDownloadUrl(url) {
-  if (!url) {
-    return null;
-  }
-
-  const jsdelivrMatch = url.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^/]+)\/([^@]+)@([^/]+)\/(.+)$/);
-  if (jsdelivrMatch) {
-    const [, owner, repo, ref, path] = jsdelivrMatch;
-    const raw = "https://raw.githubusercontent.com/" + owner + "/" + repo + "/refs/heads/" + ref + "/" + path;
-    return {
-      jsdelivr: url,
-      raw,
-      yandex: "https://translate.yandex.ru/translate?url=" + raw + "&lang=de-de",
-    };
-  }
-
-  return {
-    jsdelivr: url,
-    raw: url,
-    yandex: "https://translate.yandex.ru/translate?url=" + url + "&lang=de-de",
-  };
-}
-
 function openDownloadModal(kind) {
   const title = kind === "top15" ? "Подписка ТОП15" : "Подписка полная";
-  const downloads = parseDownloadUrl(currentDownloads[kind]);
-  if (!downloads) {
-    return;
-  }
-
   setText("download-modal-title", title);
-  setText("download-modal-text", "Выбери формат ссылки. Нажатие копирует ее в буфер обмена.");
-  document.getElementById("download-github").dataset.copyValue = downloads.raw;
-  document.getElementById("download-yandex").dataset.copyValue = downloads.yandex;
-  document.getElementById("download-jsdelivr").dataset.copyValue = downloads.jsdelivr;
+  setText("download-modal-text", "Выберите способ получение подписки:");
   document.getElementById("download-modal").hidden = false;
   document.body.classList.add("modal-open");
 }
@@ -136,18 +104,9 @@ function closeDownloadModal() {
   document.body.classList.remove("modal-open");
 }
 
-function applyDownloads(data) {
-  const downloads = data.downloads || FALLBACK_DOWNLOADS;
-  currentDownloads = {
-    top15: downloads.top15 || FALLBACK_DOWNLOADS.top15,
-    full: downloads.full || FALLBACK_DOWNLOADS.full,
-  };
-}
-
 function renderMeta(data) {
   const totals = data.totals || {};
   setText("updated", data.updated_at_msk ? "Обновлено: " + data.updated_at_msk : "Обновление недоступно");
-  setText("announce", data.announce || "Анонс недоступен");
   setText("working-count", totals.working ?? "—");
   setText("top-count", totals.top15 ?? "—");
   setText("unique-count", totals.unique ?? "—");
@@ -176,11 +135,9 @@ async function loadData() {
 
     const data = await response.json();
     renderMeta(data);
-    applyDownloads(data);
     renderList(data);
   } catch (error) {
     setText("updated", "Ошибка загрузки данных");
-    setText("announce", "Попробуйте обновить страницу позже");
     document.getElementById("status-line").textContent = "Не удалось загрузить актуальный рейтинг";
     document.getElementById("entries").innerHTML =
       '<div class="empty-state">JSON с результатами сейчас недоступен.</div>';
@@ -197,24 +154,46 @@ function copyText(text, button) {
   });
 }
 
-function copyDownloadLink(button) {
-  const value = button.dataset.copyValue;
-  if (!value) {
+function flashModalSubtitle(button, message) {
+  const subtitle = button.querySelector(".modal-action-subtitle");
+  if (!subtitle) {
     return;
   }
 
-  navigator.clipboard.writeText(value).then(() => {
-    const subtitle = button.querySelector(".modal-action-subtitle");
-    if (!subtitle) {
-      return;
-    }
+  const originalText = subtitle.dataset.originalText || subtitle.textContent;
+  subtitle.dataset.originalText = originalText;
+  subtitle.textContent = message;
+  setTimeout(() => {
+    subtitle.textContent = originalText;
+  }, 1600);
+}
 
-    const originalText = subtitle.textContent;
-    subtitle.textContent = "Ссылка скопирована";
-    setTimeout(() => {
-      subtitle.textContent = originalText;
-    }, 1600);
+function copyDownloadLink(button, value) {
+  navigator.clipboard.writeText(value).then(() => {
+    flashModalSubtitle(button, "Ссылка скопирована");
   });
+}
+
+function openDownloadLink(button, value) {
+  flashModalSubtitle(button, "Открываем ссылку");
+  window.open(value, "_blank", "noopener,noreferrer");
+}
+
+function handleModalAction(button) {
+  const value = button.dataset.value;
+  const mode = button.dataset.mode;
+  if (!value || !mode) {
+    return;
+  }
+
+  if (mode === "copy") {
+    copyDownloadLink(button, value);
+    return;
+  }
+
+  if (mode === "open") {
+    openDownloadLink(button, value);
+  }
 }
 
 document.getElementById("top15-link").addEventListener("click", () => {
@@ -241,7 +220,7 @@ document.addEventListener("keydown", (event) => {
 
 document.querySelectorAll(".modal-action").forEach((button) => {
   button.addEventListener("click", () => {
-    copyDownloadLink(button);
+    handleModalAction(button);
   });
 });
 
