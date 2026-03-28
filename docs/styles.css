@@ -330,9 +330,13 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 18px;
+  padding:
+    max(18px, env(safe-area-inset-top))
+    18px
+    max(18px, env(safe-area-inset-bottom));
   background: rgba(24, 18, 12, 0.42);
   backdrop-filter: blur(8px);
+  overflow-y: auto;
 }
 
 .modal-backdrop[hidden] {
@@ -342,6 +346,10 @@ h1 {
 .modal-panel {
   position: relative;
   width: min(620px, 100%);
+  max-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 36px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   padding: 26px;
   border-radius: 28px;
   background: rgba(255, 249, 240, 0.96);
@@ -485,7 +493,17 @@ h1 {
     grid-template-columns: 1fr;
   }
 
+  .modal-backdrop {
+    align-items: flex-start;
+    padding:
+      max(12px, env(safe-area-inset-top))
+      12px
+      max(12px, env(safe-area-inset-bottom));
+  }
+
   .modal-panel {
+    width: 100%;
+    max-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 24px);
     padding: 22px 18px;
     border-radius: 22px;
   }
