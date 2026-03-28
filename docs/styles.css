@@ -29,6 +29,10 @@ body {
   padding: 32px 18px 64px;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .shell {
   max-width: 1100px;
   margin: 0 auto;
@@ -126,6 +130,8 @@ h1 {
   font-size: 0.94rem;
   border: 1px solid transparent;
   transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+  font: inherit;
+  cursor: pointer;
 }
 
 .action:hover {
@@ -332,6 +338,92 @@ h1 {
   text-align: center;
 }
 
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(24, 18, 12, 0.42);
+  backdrop-filter: blur(8px);
+}
+
+.modal-panel {
+  position: relative;
+  width: min(620px, 100%);
+  padding: 26px;
+  border-radius: 28px;
+  background: rgba(255, 249, 240, 0.96);
+  border: 1px solid rgba(95, 62, 39, 0.14);
+  box-shadow: 0 26px 90px rgba(41, 25, 11, 0.18);
+}
+
+.modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 999px;
+  background: rgba(35, 29, 25, 0.08);
+  color: var(--text);
+  font: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.modal-text {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.modal-actions {
+  display: grid;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.modal-action {
+  display: block;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(95, 62, 39, 0.12);
+  color: var(--text);
+  text-decoration: none;
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+
+.modal-action:hover {
+  transform: translateY(-1px);
+  border-color: rgba(196, 77, 29, 0.32);
+  background: #fffefb;
+}
+
+.modal-action-title {
+  display: block;
+  font-weight: 700;
+}
+
+.modal-action-subtitle {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.modal-note {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
@@ -377,5 +469,10 @@ h1 {
 
   .copy-btn {
     width: 100%;
+  }
+
+  .modal-panel {
+    padding: 22px 18px;
+    border-radius: 22px;
   }
 }

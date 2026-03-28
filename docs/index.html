@@ -19,7 +19,7 @@
   <meta property="og:url" content="https://lilyungcykamane.github.io/vless-checker/" />
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛽</text></svg>" />
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="stylesheet" href="styles.css?v=5" />
 </head>
 
 <body>
@@ -39,8 +39,8 @@
         <p class="announce" id="announce">Подготавливаем список...</p>
 
         <div class="actions">
-          <a class="action primary" id="top15-link" href="#" target="_blank" rel="noreferrer">Подписка ТОП15</a>
-          <a class="action secondary" id="full-link" href="#" target="_blank" rel="noreferrer">Подписка полная</a>
+          <button class="action primary" id="top15-link" type="button">Подписка ТОП15</button>
+          <button class="action secondary" id="full-link" type="button">Подписка полная</button>
         </div>
 
         <div class="meta-grid">
@@ -80,7 +80,33 @@
     </section>
   </main>
 
-  <script src="script.js?v=4"></script>
+  <div class="modal-backdrop" id="download-modal" hidden>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="download-modal-title">
+      <button class="modal-close" id="download-modal-close" type="button" aria-label="Закрыть">×</button>
+      <p class="eyebrow">Выбор ссылки</p>
+      <h2 id="download-modal-title">Подписка</h2>
+      <p class="modal-text" id="download-modal-text">Выбери подходящий вариант выдачи файла.</p>
+
+      <div class="modal-actions">
+        <a class="modal-action" id="download-github" href="#" target="_blank" rel="noreferrer">
+          <span class="modal-action-title">Прямая ссылка (GitHub)</span>
+          <span class="modal-action-subtitle">raw.githubusercontent.com</span>
+        </a>
+        <a class="modal-action" id="download-yandex" href="#" target="_blank" rel="noreferrer">
+          <span class="modal-action-title">Белая ссылка (Yandex)</span>
+          <span class="modal-action-subtitle">translate.yandex.ru</span>
+        </a>
+        <a class="modal-action" id="download-jsdelivr" href="#" target="_blank" rel="noreferrer">
+          <span class="modal-action-title">Белая ссылка (JSDelivr)</span>
+          <span class="modal-action-subtitle">cdn.jsdelivr.net</span>
+        </a>
+      </div>
+
+      <p class="modal-note">*белые ссылки работают с мобильной сети в режиме ограничений</p>
+    </div>
+  </div>
+
+  <script src="script.js?v=5"></script>
 </body>
 
 </html>

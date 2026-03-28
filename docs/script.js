@@ -3,6 +3,7 @@ const FALLBACK_DOWNLOADS = {
   top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.txt",
   full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.txt",
 };
+let currentDownloads = { ...FALLBACK_DOWNLOADS };
 
 function encodeKey(key) {
   return key.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
@@ -93,10 +94,56 @@ function renderList(data) {
   container.innerHTML = entries.map(renderEntry).join("");
 }
 
+function parseDownloadUrl(url) {
+  if (!url) {
+    return null;
+  }
+
+  const jsdelivrMatch = url.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^/]+)\/([^@]+)@([^/]+)\/(.+)$/);
+  if (jsdelivrMatch) {
+    const [, owner, repo, ref, path] = jsdelivrMatch;
+    const raw = "https://raw.githubusercontent.com/" + owner + "/" + repo + "/refs/heads/" + ref + "/" + path;
+    return {
+      jsdelivr: url,
+      raw,
+      yandex: "https://translate.yandex.ru/translate?url=" + encodeURIComponent(raw) + "&lang=de-de",
+    };
+  }
+
+  return {
+    jsdelivr: url,
+    raw: url,
+    yandex: "https://translate.yandex.ru/translate?url=" + encodeURIComponent(url) + "&lang=de-de",
+  };
+}
+
+function openDownloadModal(kind) {
+  const title = kind === "top15" ? "Подписка ТОП15" : "Подписка полная";
+  const downloads = parseDownloadUrl(currentDownloads[kind]);
+  if (!downloads) {
+    return;
+  }
+
+  setText("download-modal-title", title);
+  setText("download-modal-text", "Выбери способ открыть или получить файл этой подписки.");
+  document.getElementById("download-github").href = downloads.raw;
+  document.getElementById("download-yandex").href = downloads.yandex;
+  document.getElementById("download-jsdelivr").href = downloads.jsdelivr;
+  document.getElementById("download-modal").hidden = false;
+  document.body.classList.add("modal-open");
+}
+
+function closeDownloadModal() {
+  document.getElementById("download-modal").hidden = true;
+  document.body.classList.remove("modal-open");
+}
+
 function applyDownloads(data) {
   const downloads = data.downloads || FALLBACK_DOWNLOADS;
-  document.getElementById("top15-link").href = downloads.top15 || FALLBACK_DOWNLOADS.top15;
-  document.getElementById("full-link").href = downloads.full || FALLBACK_DOWNLOADS.full;
+  currentDownloads = {
+    top15: downloads.top15 || FALLBACK_DOWNLOADS.top15,
+    full: downloads.full || FALLBACK_DOWNLOADS.full,
+  };
 }
 
 function renderMeta(data) {
@@ -151,5 +198,27 @@ function copyText(text, button) {
     }, 1500);
   });
 }
+
+document.getElementById("top15-link").addEventListener("click", () => {
+  openDownloadModal("top15");
+});
+
+document.getElementById("full-link").addEventListener("click", () => {
+  openDownloadModal("full");
+});
+
+document.getElementById("download-modal-close").addEventListener("click", closeDownloadModal);
+
+document.getElementById("download-modal").addEventListener("click", (event) => {
+  if (event.target.id === "download-modal") {
+    closeDownloadModal();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeDownloadModal();
+  }
+});
 
 loadData();
