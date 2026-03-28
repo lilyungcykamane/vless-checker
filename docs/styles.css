@@ -379,12 +379,15 @@ h1 {
 
 .modal-action {
   display: block;
+  width: 100%;
   padding: 16px 18px;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.72);
   border: 1px solid rgba(95, 62, 39, 0.12);
   color: var(--text);
-  text-decoration: none;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
   transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
 }
 

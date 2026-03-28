@@ -1,7 +1,7 @@
 const KEYS_URL = "keys.json";
 const FALLBACK_DOWNLOADS = {
-  top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.b64",
-  full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.b64",
+  top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15-base64.txt",
+  full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good-base64.txt",
 };
 let currentDownloads = { ...FALLBACK_DOWNLOADS };
 
@@ -104,14 +104,14 @@ function parseDownloadUrl(url) {
     return {
       jsdelivr: url,
       raw,
-      yandex: "https://translate.yandex.ru/translate?url=" + encodeURIComponent(raw) + "&lang=de-de",
+      yandex: "https://translate.yandex.ru/translate?url=" + raw + "&lang=de-de",
     };
   }
 
   return {
     jsdelivr: url,
     raw: url,
-    yandex: "https://translate.yandex.ru/translate?url=" + encodeURIComponent(url) + "&lang=de-de",
+    yandex: "https://translate.yandex.ru/translate?url=" + url + "&lang=de-de",
   };
 }
 
@@ -123,10 +123,10 @@ function openDownloadModal(kind) {
   }
 
   setText("download-modal-title", title);
-  setText("download-modal-text", "Выбери способ открыть или получить файл этой подписки.");
-  document.getElementById("download-github").href = downloads.raw;
-  document.getElementById("download-yandex").href = downloads.yandex;
-  document.getElementById("download-jsdelivr").href = downloads.jsdelivr;
+  setText("download-modal-text", "Выбери формат ссылки. Нажатие копирует ее в буфер обмена.");
+  document.getElementById("download-github").dataset.copyValue = downloads.raw;
+  document.getElementById("download-yandex").dataset.copyValue = downloads.yandex;
+  document.getElementById("download-jsdelivr").dataset.copyValue = downloads.jsdelivr;
   document.getElementById("download-modal").hidden = false;
   document.body.classList.add("modal-open");
 }
@@ -197,6 +197,26 @@ function copyText(text, button) {
   });
 }
 
+function copyDownloadLink(button) {
+  const value = button.dataset.copyValue;
+  if (!value) {
+    return;
+  }
+
+  navigator.clipboard.writeText(value).then(() => {
+    const subtitle = button.querySelector(".modal-action-subtitle");
+    if (!subtitle) {
+      return;
+    }
+
+    const originalText = subtitle.textContent;
+    subtitle.textContent = "Ссылка скопирована";
+    setTimeout(() => {
+      subtitle.textContent = originalText;
+    }, 1600);
+  });
+}
+
 document.getElementById("top15-link").addEventListener("click", () => {
   openDownloadModal("top15");
 });
@@ -217,6 +237,12 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     closeDownloadModal();
   }
+});
+
+document.querySelectorAll(".modal-action").forEach((button) => {
+  button.addEventListener("click", () => {
+    copyDownloadLink(button);
+  });
 });
 
 closeDownloadModal();

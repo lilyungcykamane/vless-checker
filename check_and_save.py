@@ -26,16 +26,16 @@ from vless_utils import (
 
 GOOD_KEYS_PATH = "good.txt"
 TOP15_KEYS_PATH = "top15.txt"
-GOOD_B64_PATH = "good.b64"
-TOP15_B64_PATH = "top15.b64"
+GOOD_B64_PATH = "good-base64.txt"
+TOP15_B64_PATH = "top15-base64.txt"
 KEYS_JSON_PATH = "docs/keys.json"
 HISTORY_PATH = "history.json"
 
 FULL_PROFILE_TITLE = "Kerosin Обход БС (Full)"
 TOP15_PROFILE_TITLE = "Kerosin Обход БС (TOP15)"
 
-FULL_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.b64"
-TOP15_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.b64"
+FULL_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good-base64.txt"
+TOP15_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15-base64.txt"
 
 
 def write_text(path, content):
