@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import base64
 import json
 import os
 from collections import Counter
@@ -25,19 +26,26 @@ from vless_utils import (
 
 GOOD_KEYS_PATH = "good.txt"
 TOP15_KEYS_PATH = "top15.txt"
+GOOD_B64_PATH = "good.b64"
+TOP15_B64_PATH = "top15.b64"
 KEYS_JSON_PATH = "docs/keys.json"
 HISTORY_PATH = "history.json"
 
 FULL_PROFILE_TITLE = "Kerosin Обход БС (Full)"
 TOP15_PROFILE_TITLE = "Kerosin Обход БС (TOP15)"
 
-FULL_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.txt"
-TOP15_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.txt"
+FULL_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.b64"
+TOP15_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.b64"
 
 
 def write_text(path, content):
     with open(path, "w", encoding="utf-8") as file:
         file.write(content)
+
+
+def write_base64(path, content):
+    encoded = base64.b64encode(content.encode("utf-8")).decode("ascii") + "\n"
+    write_text(path, encoded)
 
 
 def log_result(done, total, result):
@@ -103,20 +111,25 @@ def main():
     os.makedirs("docs", exist_ok=True)
     save_history(HISTORY_PATH, history)
 
+    good_content = format_subscription_file(
+        FULL_PROFILE_TITLE,
+        [item["key"] for item in ranked_working_results],
+    )
+    top15_content = format_subscription_file(
+        TOP15_PROFILE_TITLE,
+        [item["key"] for item in top15_results],
+    )
+
     write_text(
         GOOD_KEYS_PATH,
-        format_subscription_file(
-            FULL_PROFILE_TITLE,
-            [item["key"] for item in ranked_working_results],
-        ),
+        good_content,
     )
     write_text(
         TOP15_KEYS_PATH,
-        format_subscription_file(
-            TOP15_PROFILE_TITLE,
-            [item["key"] for item in top15_results],
-        ),
+        top15_content,
     )
+    write_base64(GOOD_B64_PATH, good_content)
+    write_base64(TOP15_B64_PATH, top15_content)
 
     payload = {
         "updated_at": utc_timestamp(),
@@ -153,6 +166,7 @@ def main():
     print(f"Стабильных кандидатов: {history_info['stable_candidates']}")
     print(f"Топ-15 сохранён в {TOP15_KEYS_PATH}")
     print(f"Полная подписка сохранена в {GOOD_KEYS_PATH}")
+    print(f"Base64 подписки сохранены в {GOOD_B64_PATH} и {TOP15_B64_PATH}")
     print(f"JSON для сайта сохранён в {KEYS_JSON_PATH}")
     print(f"История чеков сохранена в {HISTORY_PATH}")
 

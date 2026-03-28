@@ -1,7 +1,7 @@
 const KEYS_URL = "keys.json";
 const FALLBACK_DOWNLOADS = {
-  top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.txt",
-  full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.txt",
+  top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.b64",
+  full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.b64",
 };
 let currentDownloads = { ...FALLBACK_DOWNLOADS };
 
@@ -72,10 +72,8 @@ function renderEntry(item) {
             '<span class="metric-label">Наблюдений</span>' +
             '<strong>' + observations + "</strong>" +
           "</div>" +
-        "</div>" +
+      "</div>" +
         '<div class="hostline">' + item.host + ":" + item.port + "</div>" +
-        '<div class="secondary-line">Стабильность важнее задержки. Сервер попадает в ТОП-15 только при устойчивом прохождении чека.</div>' +
-        '<div class="keyline">' + item.key + "</div>" +
       "</div>" +
       '<button class="copy-btn" onclick="copyText(\'' + encodeKey(item.key) + '\', this)">Копировать</button>' +
     "</article>"
