@@ -1,92 +1,70 @@
-# VLESS Key Checker
+# Kerosin White Lists Checker
 
-Автоматический сервис для поиска рабочих VLESS-ключей с проверкой доступности серверов.
+Репозиторий собирает VLESS-ключи из четырёх источников, проверяет TCP-доступность серверов и публикует два текстовых файла:
 
-🌐 **Сайт:** [tiagorrg.github.io/vless-checker](https://tiagorrg.github.io/vless-checker/)
+- `good.txt` — полная подписка со всеми ключами, успешно прошедшими TCP-проверку
+- `top15.txt` — подписка с 15 ключами с минимальной задержкой
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=tiagorrg.vless-checker)
+Сайт в `docs/` показывает текущий `top15`, задержку, страну и даёт кнопки подписки через jsDelivr.
 
----
+## Источники
 
-## Как пользоваться
+- `WHITE-CIDR-RU-all.txt`
+- `Vless-Reality-White-Lists-Rus-Mobile.txt`
+- `Vless-Reality-White-Lists-Rus-Mobile-2.txt`
+- `WHITE-CIDR-RU-checked.txt`
 
-Открой сайт и выбери нужный режим:
-
-### Обычный VPN (полный туннель трафика)
-
-| Страна | Описание |
-|---|---|
-| 🇪🇪 **Эстония** | Рекомендуется для России — близко, быстро |
-| 🇫🇮 **Финляндия** | Близко к России, стабильное соединение |
-| 🇩🇪 **Германия** | Хорошая пропускная способность |
-| 🇸🇪 **Швеция** | Быстрые серверы, близко к России |
-| 🇳🇱 **Нидерланды** | Один из крупнейших интернет-хабов Европы |
-
-### Белые списки (туннелирование только заблокированных сайтов)
-
-| Режим | Описание |
-|---|---|
-| 🌐 **Белые списки** | Только заблокированные сайты через VPN, остальное напрямую |
-| 🇷🇺 **Россия (Москва)** | Через московские серверы — для белых списков |
-
-Нажми **Копировать** и вставь ключ в своё VPN-приложение (v2rayTUN, Hiddify, Streisand и др.).
-
----
-
-## Источник данных
-
-Ключи берутся из репозитория [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia):
-
-- **Обычный VPN (страны)** — `BLACK_VLESS_RUS.txt`, фильтрация по названию страны в ключе
-- **Белые списки / Россия** — `WHITE-CIDR-RU-checked.txt`
-
----
+Все списки берутся из репозитория [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia).
 
 ## Как работает
 
-1. **GitHub Actions** запускает скрипт `check_and_save.py` каждые 30 минут
-2. Скрипт загружает ключи с GitHub, фильтрует по стране/режиму, проверяет TCP-доступность каждого сервера и замеряет задержку
-3. Результаты сохраняются в `docs/keys.json`
-4. **GitHub Pages** отдаёт статичный сайт, который читает `keys.json` и показывает лучшие ключи
+1. `check_and_save.py` загружает все четыре списка.
+2. Скрипт оставляет только `vless://`-строки, нормализует хвост после названия страны и дедуплицирует ключи.
+3. Скрипт делает TCP-подключение к `host:port` каждого ключа и измеряет задержку.
+4. Успешные ключи сортируются по задержке и сохраняются в `good.txt`, а топ-15 — в `top15.txt`.
+5. `docs/keys.json` обновляется для GitHub Pages.
+6. GitHub Actions коммитит новые артефакты обратно в репозиторий.
 
-> **Важно:** проверка выполняется с серверов GitHub (США), поэтому задержки могут отличаться от реальных из твоей сети.
+## Ограничения
 
----
+- Это не полноценная VLESS-проверка, а именно TCP-check до `host:port`.
+- Проверка выполняется с GitHub-hosted runners, поэтому задержки отличаются от реальных у пользователя.
 
 ## Локальный запуск
 
 ```bash
-git clone https://github.com/tiagorrg/vless-checker.git
+git clone https://github.com/lilyungcykamane/vless-checker.git
 cd vless-checker
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install requests
-python3 checker.py
+python3 check_and_save.py
 ```
 
----
+## GitHub Pages
 
-## Поддержать автора
+После включения Pages сайт будет доступен по адресу:
+[lilyungcykamane.github.io/vless-checker](https://lilyungcykamane.github.io/vless-checker/)
 
-Если проект оказался полезным — буду рад любой поддержке:
+Файлы подписок публикуются через jsDelivr:
 
-| Способ | Реквизиты |
-|---|---|
-| 🟡 **ЮMoney** | [Ссылка на донат](https://yoomoney.ru/to/4100119494911366)
-
----
+- [good.txt](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.txt)
+- [top15.txt](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.txt)
 
 ## Структура проекта
 
-```
+```text
 vless-checker/
-├── checker.py          # Оригинальный скрипт для запуска в терминале
-├── check_and_save.py   # Скрипт для GitHub Actions (сохраняет в JSON)
+├── check_and_save.py    # Основной пайплайн генерации
+├── checker.py           # Точка входа для локального запуска
+├── vless_utils.py       # Загрузка и нормализация ключей
+├── good.txt             # Полная подписка
+├── top15.txt            # Топ-15 по задержке
 ├── docs/
-│   ├── index.html      # Статичный сайт (GitHub Pages)
-│   └── keys.json       # Актуальные рабочие ключи (обновляется автоматически)
-└── .github/
-    └── workflows/
-        └── check_keys.yml  # Расписание автоматической проверки
+│   ├── index.html       # Сайт GitHub Pages
+│   ├── script.js        # Рендер top15
+│   ├── styles.css       # Стили сайта
+│   └── keys.json        # Данные для фронта
+└── .github/workflows/
+    └── check_keys.yml   # Автоматическое обновление
 ```
