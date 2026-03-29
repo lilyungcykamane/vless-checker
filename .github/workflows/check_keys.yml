@@ -2,7 +2,9 @@ name: Check VLESS Keys
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    # Offset from the top of the hour because GitHub may delay or drop
+    # scheduled jobs during high-load periods around :00.
+    - cron: '17,47 * * * *'
   workflow_dispatch:
 
 concurrency:

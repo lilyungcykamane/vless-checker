@@ -5,7 +5,7 @@
 - `good.txt` — полная подписка со всеми ключами, успешно прошедшими TCP-проверку
 - `top15.txt` — подписка с 15 самыми стабильными ключами по истории успешных чеков
 
-Сайт в `docs/` показывает текущий `top15`, доступность, серию успешных прохождений и даёт кнопки подписки через jsDelivr.
+Сайт в `docs/` показывает текущий `top15`, доступность, серию успешных прохождений и даёт варианты получения подписки через белые и прямые ссылки.
 
 ## Источники
 
@@ -26,6 +26,12 @@
 6. Полный список сохраняется в `good.txt`, а `top15.txt` получает 15 самых стабильных ключей.
 7. `docs/keys.json` обновляется для GitHub Pages.
 8. GitHub Actions коммитит новые артефакты обратно в репозиторий.
+
+## Автоматическое обновление
+
+- Workflow `.github/workflows/check_keys.yml` запускается каждые 30 минут по `schedule` и вручную через `workflow_dispatch`.
+- Из-за особенностей GitHub Actions scheduled workflow может запускаться с задержкой, а при высокой нагрузке отдельные окна могут быть пропущены.
+- Чтобы уменьшить такие пропуски, cron смещён с начала часа на `17` и `47` минут каждого часа по UTC.
 
 ## Ограничения
 
@@ -49,10 +55,18 @@ python3 check_and_save.py
 После включения Pages сайт будет доступен по адресу:
 [lilyungcykamane.github.io/vless-checker](https://lilyungcykamane.github.io/vless-checker/)
 
-Файлы подписок публикуются через jsDelivr:
+Основные подписки:
 
-- [good.txt](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.txt)
-- [top15.txt](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.txt)
+- [good.txt через jsDelivr](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt)
+- [top15.txt через jsDelivr](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top15.txt)
+- [good.txt через raw.githubusercontent.com](https://raw.githubusercontent.com/lilyungcykamane/vless-checker/refs/heads/main/good.txt)
+- [top15.txt через raw.githubusercontent.com](https://raw.githubusercontent.com/lilyungcykamane/vless-checker/refs/heads/main/top15.txt)
+
+На сайте кнопки подписки открывают модальное окно со способами выдачи:
+
+- белая auto-update ссылка через jsDelivr
+- ручная ссылка через Yandex Translate
+- прямая ссылка через `raw.githubusercontent.com`
 
 ## Структура проекта
 
