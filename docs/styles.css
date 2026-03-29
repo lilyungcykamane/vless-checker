@@ -1,16 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
-
 :root {
   --bg: #f4efe7;
-  --panel: rgba(255, 250, 242, 0.78);
-  --panel-strong: rgba(255, 248, 236, 0.92);
+  --panel: rgba(255, 250, 242, 0.96);
+  --panel-strong: rgba(255, 248, 236, 0.98);
   --line: rgba(95, 62, 39, 0.14);
   --text: #1d1a16;
   --muted: #625a52;
   --accent: #c44d1d;
   --accent-soft: #f4bf87;
   --ok: #196f4a;
-  --shadow: 0 24px 70px rgba(72, 46, 24, 0.12);
+  --shadow: 0 10px 28px rgba(72, 46, 24, 0.08);
 }
 
 * {
@@ -21,11 +19,8 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--text);
-  background:
-    radial-gradient(circle at top left, rgba(250, 210, 160, 0.7), transparent 34%),
-    radial-gradient(circle at top right, rgba(229, 117, 52, 0.18), transparent 28%),
-    linear-gradient(180deg, #fff6eb 0%, #f2eadf 58%, #ece2d6 100%);
-  font-family: "Space Grotesk", "Trebuchet MS", sans-serif;
+  background: linear-gradient(180deg, #fff6eb 0%, #f2eadf 58%, #ece2d6 100%);
+  font-family: "Segoe UI", "Trebuchet MS", sans-serif;
   padding: 32px 18px 64px;
 }
 
@@ -50,7 +45,6 @@ body.modal-open {
 .hero-panel,
 .list-wrap {
   background: var(--panel);
-  backdrop-filter: blur(18px);
   border: 1px solid var(--line);
   border-radius: 28px;
   box-shadow: var(--shadow);
@@ -187,17 +181,11 @@ h1 {
   margin-bottom: 12px;
 }
 
-.repo-link {
-  color: var(--text);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(29, 26, 22, 0.25);
-}
-
 .status-line {
   margin-bottom: 18px;
   padding: 12px 14px;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.48);
+  background: rgba(255, 255, 255, 0.7);
   border: 1px solid var(--line);
   font-size: 0.92rem;
 }
@@ -226,7 +214,7 @@ h1 {
   color: #f5ead9;
   text-align: center;
   font-size: 0.92rem;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: ui-monospace, "SFMono-Regular", "Cascadia Mono", "Consolas", monospace;
 }
 
 .entry-main {
@@ -335,7 +323,6 @@ h1 {
     18px
     max(18px, env(safe-area-inset-bottom));
   background: rgba(24, 18, 12, 0.42);
-  backdrop-filter: blur(8px);
   overflow-y: auto;
 }
 

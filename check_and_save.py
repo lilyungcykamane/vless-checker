@@ -31,13 +31,15 @@ HISTORY_PATH = "history.json"
 FULL_PROFILE_TITLE = "Kerosin Обход БС (Full)"
 TOP15_PROFILE_TITLE = "Kerosin Обход БС (TOP15)"
 
-FULL_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.txt"
-TOP15_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.txt"
+FULL_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt"
+TOP15_DOWNLOAD_URL = "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top15.txt"
 
 
 def write_text(path, content):
     with open(path, "w", encoding="utf-8") as file:
         file.write(content)
+
+
 def log_result(done, total, result):
     status = result["status"]
     if status == "ok":

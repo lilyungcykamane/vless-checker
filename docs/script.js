@@ -1,7 +1,7 @@
 const KEYS_URL = "keys.json";
 const FALLBACK_DOWNLOADS = {
-  top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/top15.txt",
-  full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker@main/good.txt",
+  top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top15.txt",
+  full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
 };
 const VK_PLACEHOLDER_URL = "https://vk.com/id000";
 let currentDownloads = { ...FALLBACK_DOWNLOADS };
@@ -102,13 +102,13 @@ function parseDownloadUrl(url) {
     return null;
   }
 
-  const jsdelivrMatch = url.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^/]+)\/([^@]+)@([^/]+)\/(.+)$/);
+  const jsdelivrMatch = url.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^/]+)\/([^/]+)\/(.+)$/);
   if (!jsdelivrMatch) {
     return null;
   }
 
-  const [, owner, repo, ref, path] = jsdelivrMatch;
-  return { owner, repo, ref, path };
+  const [, owner, repo, path] = jsdelivrMatch;
+  return { owner, repo, ref: "main", path };
 }
 
 function buildModalLinks(kind) {
@@ -122,11 +122,8 @@ function buildModalLinks(kind) {
 
   return {
     jsdelivr: currentDownloads[kind],
-    statically: "https://cdn.statically.io/gh/" + owner + "/" + repo + "@" + ref + "/" + path,
-    githackCdn: "https://rawcdn.githack.com/" + owner + "/" + repo + "/" + ref + "/" + path,
-    githack: "https://raw.githack.com/" + owner + "/" + repo + "/" + ref + "/" + path,
     yandex: "https://translate.yandex.ru/translate?url=" + raw + "&lang=de-de",
-    github: "https://github.com/" + owner + "/" + repo + "/blob/" + ref + "/" + path,
+    github: raw,
   };
 }
 
@@ -159,9 +156,6 @@ function openDownloadModal(kind) {
   setText("download-modal-title", title);
   setText("download-modal-text", "Выберите способ получение подписки:");
   setModalActionValue("download-jsdelivr", "copy", links.jsdelivr);
-  setModalActionValue("download-statically", "copy", links.statically);
-  setModalActionValue("download-githack-cdn", "copy", links.githackCdn);
-  setModalActionValue("download-githack", "copy", links.githack);
   setModalActionValue("download-yandex", "open", links.yandex);
   setModalActionValue("download-vk", "open", VK_PLACEHOLDER_URL);
   setModalActionValue("download-github", "copy", links.github);
