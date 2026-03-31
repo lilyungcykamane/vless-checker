@@ -3,7 +3,6 @@ import json
 import os
 from collections import Counter
 
-from singbox_utils import run_singbox_checks
 from stability_utils import (
     history_now,
     history_summary,
@@ -17,7 +16,6 @@ from vless_utils import (
     announce_line,
     count_transports,
     fetch_all_keys,
-    filter_supported_keys,
     format_subscription_file,
     get_country_metadata,
     msk_timestamp,
@@ -83,39 +81,24 @@ def build_top_entries(entries):
 def main():
     print("Загружаем списки...")
     all_keys, source_stats = fetch_all_keys()
-    candidate_keys, unsupported_reasons = filter_supported_keys(all_keys)
-    transport_counts = count_transports(candidate_keys)
+    transport_counts = count_transports(all_keys)
     for source_name, info in source_stats.items():
         if source_name == "combined":
             continue
         print(f"  {source_name}: {info['total']} ключей")
     print(f"Всего уникальных ключей после дедупликации: {source_stats['combined']['total']}")
-    print(f"Кандидатов после prefilter: {len(candidate_keys)}")
-    if unsupported_reasons:
-        print(f"Пропущено по prefilter: {unsupported_reasons}")
     print(f"Транспортов: {transport_counts}")
 
-    print("Проверяем кандидаты по TCP...")
-    tcp_results = run_tcp_checks(candidate_keys, on_result=log_result)
-    tcp_passed_keys = [item["key"] for item in tcp_results["working"]]
-
-    print("Проверяем прошедшие TCP через sing-box...")
-    singbox_results = run_singbox_checks(tcp_passed_keys, on_result=log_result)
-    final_results = {
-        "working": singbox_results["working"],
-        "failed": tcp_results["failed"] + singbox_results["failed"],
-    }
-
+    print("Проверяем ключи по TCP...")
+    tcp_results = run_tcp_checks(all_keys, on_result=log_result)
     history = load_history(HISTORY_PATH)
-    history = update_history(history, candidate_keys, final_results, run_timestamp=history_now())
-    ranked_working_results = rank_working_results(final_results["working"], history)
+    history = update_history(history, all_keys, tcp_results, run_timestamp=history_now())
+    ranked_working_results = rank_working_results(tcp_results["working"], history)
     top15_results = select_stable_top15(ranked_working_results, limit=15)
     history_info = history_summary(history, ranked_working_results)
 
     source_stats["combined"]["working"] = len(ranked_working_results)
-    source_stats["combined"]["eligible"] = len(candidate_keys)
-    source_stats["combined"]["tcp_passed"] = len(tcp_passed_keys)
-    failed_reasons = Counter(item["reason"] for item in final_results["failed"])
+    failed_reasons = Counter(item["reason"] for item in tcp_results["failed"])
 
     os.makedirs("docs", exist_ok=True)
     save_history(HISTORY_PATH, history)
@@ -142,7 +125,7 @@ def main():
         "updated_at": utc_timestamp(),
         "updated_at_msk": msk_timestamp(),
         "announce": announce_line(),
-        "check_mode": "sing-box",
+        "check_mode": "tcp",
         "downloads": {
             "full": FULL_DOWNLOAD_URL,
             "top15": TOP15_DOWNLOAD_URL,
@@ -155,14 +138,13 @@ def main():
         "transport_counts": transport_counts,
         "totals": {
             "unique": len(all_keys),
-            "eligible": len(candidate_keys),
             "working": len(ranked_working_results),
             "top15": len(top15_results),
-            "unsupported": sum(unsupported_reasons.values()),
-            "failed": len(final_results["failed"]),
+            "unsupported": 0,
+            "failed": len(tcp_results["failed"]),
             "stable_candidates": history_info["stable_candidates"],
         },
-        "unsupported_reasons": unsupported_reasons,
+        "unsupported_reasons": {},
         "failed_reasons": dict(failed_reasons.most_common(10)),
         "top15": build_top_entries(top15_results),
     }
