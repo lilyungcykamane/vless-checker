@@ -90,7 +90,7 @@ function renderList(data) {
   const container = document.getElementById("entries");
 
   if (!entries.length) {
-    container.innerHTML = '<div class="empty-state">Рабочих ключей пока нет. Следующая проверка обновит список.</div>';
+    container.innerHTML = '<div class="empty-state">Стабильных ключей пока нет. Следующая проверка обновит рейтинг.</div>';
     return;
   }
 
@@ -183,7 +183,7 @@ function renderMeta(data) {
 
   const statusParts = [];
   statusParts.push(data.check_mode === "tcp" ? "Проверка через TCP connect" : "Проверка через sing-box + generate_204");
-  statusParts.push("Порядок в списке построен по стабильности: availability, streak и история чеков");
+  statusParts.push("Рейтинг построен по стабильности: availability, streak и история чеков");
   if (skipped) {
     statusParts.push("Пропущено: " + skipped);
   }
