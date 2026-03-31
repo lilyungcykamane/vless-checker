@@ -34,17 +34,17 @@ SOURCE_SPECS = [
         "igareck_white_checked",
         "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt",
     ),
-    (
-        "whoahaow_bypass_all",
-        "https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/bypass/bypass-all.txt",
-    ),
-    (
-        "avencores_githubmirror_26",
-        "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt",
-    ),
 ]
 
 # Disabled candidate sources from the previous expansion. Keep nearby for quick rollback.
+# (
+#     "whoahaow_bypass_all",
+#     "https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/bypass/bypass-all.txt",
+# ),
+# (
+#     "avencores_githubmirror_26",
+#     "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt",
+# ),
 # (
 #     "avencores_01_openray_all_valid_proxies",
 #     "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt",

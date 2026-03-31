@@ -78,8 +78,6 @@ def build_top_entries(entries):
         }
         for index, item in enumerate(entries, 1)
     ]
-
-
 def main():
     print("Загружаем списки...")
     all_keys, source_stats = fetch_all_keys()

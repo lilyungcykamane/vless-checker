@@ -10,9 +10,7 @@
 ## Источники
 
 - Активный список источников описан в `vless_utils.py`.
-- Сейчас используются 4 базовых списка из `igareck/vpn-configs-for-russia` и 2 дополнительных источника:
-  - `whoahaow/rjsxrd` → `githubmirror/bypass/bypass-all.txt`
-  - `AvenCores/goida-vpn-configs` → `githubmirror/26.txt`
+- Сейчас используются только 4 базовых списка из `igareck/vpn-configs-for-russia`.
 - Остальные кандидаты из предыдущего расширения не удалены, а закомментированы рядом в коде.
 
 ## Как работает
