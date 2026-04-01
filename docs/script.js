@@ -1,5 +1,6 @@
 const KEYS_URL = "keys.json";
 const FALLBACK_DOWNLOADS = {
+  top100: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top100.txt",
   top50: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top50.txt",
   top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top15.txt",
   full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -87,7 +88,7 @@ function renderEntry(item) {
 }
 
 function renderList(data) {
-  const entries = data.top50 || data.top15 || [];
+  const entries = data.top100 || data.top50 || data.top15 || [];
   const container = document.getElementById("entries");
 
   if (!entries.length) {
@@ -152,7 +153,7 @@ function openDownloadModal(kind) {
     return;
   }
 
-  const title = kind === "top50" ? "Подписка ТОП50" : "Подписка полная";
+  const title = kind === "top100" ? "Подписка ТОП100" : "Подписка полная";
   resetModalActionSubtitles();
   setText("download-modal-title", title);
   setText("download-modal-text", "Выберите способ получение подписки:");
@@ -173,7 +174,7 @@ function renderMeta(data) {
   const totals = data.totals || {};
   setText("updated", data.updated_at_msk ? "Обновлено: " + data.updated_at_msk : "Обновление недоступно");
   setText("working-count", totals.working ?? "—");
-  setText("top-count", totals.top50 ?? totals.top15 ?? "—");
+  setText("top-count", totals.top100 ?? totals.top50 ?? totals.top15 ?? "—");
   setText("unique-count", totals.unique ?? "—");
   setText("unsupported-count", totals.unsupported ?? "—");
 
@@ -194,6 +195,7 @@ function renderMeta(data) {
 function applyDownloads(data) {
   const downloads = data.downloads || FALLBACK_DOWNLOADS;
   currentDownloads = {
+    top100: downloads.top100 || downloads.top50 || downloads.top15 || FALLBACK_DOWNLOADS.top100,
     top50: downloads.top50 || downloads.top15 || FALLBACK_DOWNLOADS.top50,
     top15: downloads.top15 || FALLBACK_DOWNLOADS.top15,
     full: downloads.full || FALLBACK_DOWNLOADS.full,
@@ -271,8 +273,8 @@ function handleModalAction(button) {
   }
 }
 
-document.getElementById("top50-link").addEventListener("click", () => {
-  openDownloadModal("top50");
+document.getElementById("top100-link").addEventListener("click", () => {
+  openDownloadModal("top100");
 });
 
 document.getElementById("full-link").addEventListener("click", () => {

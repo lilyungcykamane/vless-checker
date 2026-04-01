@@ -249,7 +249,7 @@ def rank_working_results(working_results, history_state):
     return sorted(merged, key=stability_sort_key)
 
 
-def select_stable_top15(ranked_results, limit=50):
+def select_stable_top15(ranked_results, limit=100):
     selected = []
     selected_keys = set()
     host_counts = Counter()
