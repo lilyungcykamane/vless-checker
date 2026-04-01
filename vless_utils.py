@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from collections import Counter
 from datetime import datetime, timedelta, timezone
+from html import unescape as html_unescape
 from urllib.parse import parse_qs, quote, unquote, urlparse, urlsplit
 import socket
 import re
@@ -9,17 +10,44 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 
-CIDRALL = "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt"
-CIDRTOP1501 = "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt"
-CIDRTOP1502 = "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt"
-CIDRCHECKED = "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt"
-
-SOURCE_URLS = {
-    "cidr_all": CIDRALL,
-    "cidr_top150_1": CIDRTOP1501,
-    "cidr_top150_2": CIDRTOP1502,
-    "cidr_checked": CIDRCHECKED,
+REQUEST_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/143.0.0.0 Safari/537.36"
+    )
 }
+
+SOURCE_SPECS = [
+    (
+        "igareck_white_cidr_all",
+        "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
+    ),
+    (
+        "igareck_mobile_1",
+        "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
+    ),
+    (
+        "igareck_mobile_2",
+        "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
+    ),
+    (
+        "igareck_white_checked",
+        "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt",
+    ),
+    (
+        "flexiy0_russia_whitelist",
+        "https://raw.githubusercontent.com/FLEXIY0/matryoshka-vpn/refs/heads/main/configs/russia_whitelist.txt",
+    ),
+    (
+        "avencores_githubmirror_26",
+        "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt",
+    ),
+    (
+        "whoahaow_bypass_all",
+        "https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/bypass/bypass-all.txt",
+    ),
+]
 
 COUNTRY_WORD_RE = r"(?:[A-Z][A-Za-z\u00C0-\u017E']*|and|of|the)"
 COUNTRY_FRAGMENT_RE = re.compile(
@@ -30,6 +58,50 @@ MSK = timezone(timedelta(hours=3), name="MSK")
 MAX_TCP_WORKERS = 20
 TEST_TIMEOUT = 5
 MAX_LATENCY_MS = 2000
+UNSUPPORTED_TRANSPORTS = {"xhttp"}
+UNSUPPORTED_SECURITIES = {"none", ""}
+REGIONAL_INDICATOR_START = 0x1F1E6
+REGIONAL_INDICATOR_END = 0x1F1FF
+FLAG_COUNTRY_NAMES = {
+    "AE": "United Arab Emirates",
+    "AL": "Albania",
+    "AT": "Austria",
+    "BG": "Bulgaria",
+    "BR": "Brazil",
+    "CA": "Canada",
+    "CH": "Switzerland",
+    "CN": "China",
+    "CZ": "Czech Republic",
+    "DE": "Germany",
+    "EE": "Estonia",
+    "ES": "Spain",
+    "FI": "Finland",
+    "FM": "Micronesia",
+    "FR": "France",
+    "GB": "United Kingdom",
+    "ID": "Indonesia",
+    "IN": "India",
+    "IT": "Italy",
+    "JP": "Japan",
+    "KR": "South Korea",
+    "KZ": "Kazakhstan",
+    "LT": "Lithuania",
+    "LV": "Latvia",
+    "MD": "Moldova",
+    "ME": "Montenegro",
+    "NL": "The Netherlands",
+    "NO": "Norway",
+    "PL": "Poland",
+    "RS": "Serbia",
+    "RU": "Russia",
+    "SE": "Sweden",
+    "SG": "Singapore",
+    "TM": "Turkmenistan",
+    "TR": "Turkey",
+    "UA": "Ukraine",
+    "UN": "United Nations",
+    "US": "United States",
+}
 
 
 def normalize_source_url(url):
@@ -44,6 +116,23 @@ def normalize_source_url(url):
         return f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{rest}"
 
     return url
+
+
+def build_source_urls():
+    source_urls = {}
+    seen_urls = set()
+
+    for name, url in SOURCE_SPECS:
+        normalized_url = normalize_source_url(url)
+        if normalized_url in seen_urls:
+            continue
+        seen_urls.add(normalized_url)
+        source_urls[name] = url
+
+    return source_urls
+
+
+SOURCE_URLS = build_source_urls()
 
 
 def dedupe_keys(keys):
@@ -64,26 +153,65 @@ def parse_country_from_key(key):
     return country, flag
 
 
+def find_first_flag_emoji(text):
+    if not text:
+        return None
+
+    for index in range(len(text) - 1):
+        first = ord(text[index])
+        second = ord(text[index + 1])
+        if (
+            REGIONAL_INDICATOR_START <= first <= REGIONAL_INDICATOR_END
+            and REGIONAL_INDICATOR_START <= second <= REGIONAL_INDICATOR_END
+        ):
+            return text[index:index + 2]
+
+    return None
+
+
+def flag_emoji_to_country_code(flag_emoji):
+    if not flag_emoji or len(flag_emoji) != 2:
+        return None
+
+    chars = []
+    for char in flag_emoji:
+        codepoint = ord(char)
+        if not (REGIONAL_INDICATOR_START <= codepoint <= REGIONAL_INDICATOR_END):
+            return None
+        chars.append(chr(ord("A") + codepoint - REGIONAL_INDICATOR_START))
+
+    return "".join(chars)
+
+
+def flag_emoji_to_country_name(flag_emoji):
+    country_code = flag_emoji_to_country_code(flag_emoji)
+    if not country_code:
+        return None
+
+    return FLAG_COUNTRY_NAMES.get(country_code)
+
+
 def normalize_key(key):
-    key = key.strip()
+    key = html_unescape(key.strip())
     if not key.startswith("vless://"):
         return None
 
-    if "#" not in key:
-        return key
+    base = key.split("#", 1)[0]
+    fragment = unquote(key.split("#", 1)[1]).strip() if "#" in key else ""
+    flag_emoji = find_first_flag_emoji(fragment)
+    country_name = flag_emoji_to_country_name(flag_emoji) if flag_emoji else None
 
-    base, fragment = key.split("#", 1)
-    country, flag = parse_country_from_key(key)
-    if not country:
-        return f"{base}#{fragment}"
+    if country_name:
+        display_name = f"{flag_emoji} {country_name}"
+    else:
+        display_name = "Cosmos"
 
-    cleaned_fragment = " ".join(part for part in (flag, country) if part).strip()
-    return f"{base}#{quote(cleaned_fragment, safe='')}"
+    return f"{base}#{quote(display_name, safe='')}"
 
 
 def fetch_keys(url):
     raw_url = normalize_source_url(url)
-    response = requests.get(raw_url, timeout=15)
+    response = requests.get(raw_url, timeout=15, headers=REQUEST_HEADERS)
     response.raise_for_status()
 
     keys = []
@@ -99,13 +227,21 @@ def fetch_all_keys():
     all_keys = []
 
     for name, url in SOURCE_URLS.items():
-        keys = fetch_keys(url)
-        source_stats[name] = {
-            "url": url,
-            "raw_url": normalize_source_url(url),
-            "total": len(keys),
-        }
-        all_keys.extend(keys)
+        try:
+            keys = fetch_keys(url)
+            source_stats[name] = {
+                "url": url,
+                "raw_url": normalize_source_url(url),
+                "total": len(keys),
+            }
+            all_keys.extend(keys)
+        except requests.RequestException as error:
+            source_stats[name] = {
+                "url": url,
+                "raw_url": normalize_source_url(url),
+                "total": 0,
+                "error": str(error),
+            }
 
     deduped_keys = dedupe_keys(all_keys)
     source_stats["combined"] = {"total": len(deduped_keys)}
@@ -136,7 +272,10 @@ def parse_vless_key(key):
         "mode": query.get("mode", ""),
         "extra": query.get("extra", ""),
         "allow_insecure": (
-            query.get("allowinsecure") or query.get("allowInsecure") or ""
+            query.get("allowinsecure")
+            or query.get("allowInsecure")
+            or query.get("insecure")
+            or ""
         ).lower() in {"1", "true", "yes"},
     }
 
@@ -146,25 +285,89 @@ def get_country_metadata(key):
     if country:
         return {
             "country": country,
-            "flag": flag or "🌍",
+            "flag": flag or "",
         }
 
     return {
-        "country": "Unknown",
-        "flag": "🌍",
+        "country": "Cosmos",
+        "flag": "",
     }
 
 
 def count_transports(keys):
     counter = Counter()
     for key in keys:
-        counter[parse_vless_key(key)["transport"]] += 1
+        counter[normalize_transport(parse_vless_key(key)["transport"])] += 1
     return dict(counter)
 
 
 def parse_host_port(key):
-    parsed = parse_vless_key(key)
+    try:
+        parsed = parse_vless_key(key)
+    except ValueError:
+        return None, None
     return parsed["server"], parsed["server_port"]
+
+
+def normalize_transport(transport):
+    normalized = (transport or "tcp").strip().lower()
+    if normalized == "raw":
+        return "tcp"
+    return normalized
+
+
+def filter_supported_keys(keys):
+    filtered = []
+    unsupported_reasons = Counter()
+
+    for key in keys:
+        try:
+            parsed = parse_vless_key(key)
+        except ValueError:
+            unsupported_reasons["invalid_uri"] += 1
+            continue
+
+        if parsed["allow_insecure"]:
+            unsupported_reasons["insecure"] += 1
+            continue
+
+        security = (parsed["security"] or "").strip().lower()
+        if security in UNSUPPORTED_SECURITIES:
+            unsupported_reasons["security_none"] += 1
+            continue
+
+        transport = normalize_transport(parsed["transport"])
+        if transport in UNSUPPORTED_TRANSPORTS:
+            unsupported_reasons[transport] += 1
+            continue
+
+        filtered.append(key)
+
+    return dedupe_keys(filtered), dict(unsupported_reasons)
+
+
+def build_endpoint_groups(keys):
+    groups = {}
+    invalid_results = []
+
+    for key in keys:
+        host, port = parse_host_port(key)
+        if not host or not port:
+            invalid_results.append(
+                {
+                    "status": "invalid",
+                    "key": key,
+                    "host": host,
+                    "port": port,
+                    "reason": "invalid",
+                }
+            )
+            continue
+
+        endpoint = (host.lower(), int(port))
+        groups.setdefault(endpoint, []).append(key)
+
+    return groups, invalid_results
 
 
 def test_key_tcp(key):
@@ -223,9 +426,14 @@ def test_key_tcp(key):
 
 
 def run_tcp_checks(keys, on_result=None):
-    results = []
+    endpoint_groups, invalid_results = build_endpoint_groups(keys)
+    results = list(invalid_results)
+
     with ThreadPoolExecutor(max_workers=MAX_TCP_WORKERS) as executor:
-        futures = {executor.submit(test_key_tcp, key): key for key in keys}
+        futures = {
+            executor.submit(test_key_tcp, group_keys[0]): endpoint
+            for endpoint, group_keys in endpoint_groups.items()
+        }
         total = len(futures)
         done = 0
 
@@ -234,7 +442,11 @@ def run_tcp_checks(keys, on_result=None):
             done += 1
             if on_result:
                 on_result(done, total, result)
-            results.append(result)
+            endpoint = futures[future]
+            for key in endpoint_groups[endpoint]:
+                replicated = dict(result)
+                replicated["key"] = key
+                results.append(replicated)
 
     working = sorted(
         [item for item in results if item["status"] == "ok"],

@@ -12,7 +12,7 @@ HISTORY_WINDOW = 96
 MIN_OBSERVATIONS_FOR_STABLE = 8
 MIN_AVAILABILITY_PCT = 85.0
 MIN_SUCCESS_STREAK = 3
-TOP15_HOST_CAP = 1
+TOP_HOST_CAP = 1
 STALE_RETENTION_DAYS = 14
 
 
@@ -249,14 +249,14 @@ def rank_working_results(working_results, history_state):
     return sorted(merged, key=stability_sort_key)
 
 
-def select_stable_top15(ranked_results, limit=15):
+def select_stable_top15(ranked_results, limit=50):
     selected = []
     selected_keys = set()
     host_counts = Counter()
 
     def can_add(item):
         host = item.get("host") or item.get("server") or ""
-        return host_counts[host] < TOP15_HOST_CAP
+        return host_counts[host] < TOP_HOST_CAP
 
     def add_item(item):
         host = item.get("host") or item.get("server") or ""
@@ -300,6 +300,7 @@ def history_summary(history_state, ranked_results):
         "min_observations": MIN_OBSERVATIONS_FOR_STABLE,
         "min_availability_pct": MIN_AVAILABILITY_PCT,
         "min_success_streak": MIN_SUCCESS_STREAK,
-        "top15_host_cap": TOP15_HOST_CAP,
+        "top_host_cap": TOP_HOST_CAP,
+        "top15_host_cap": TOP_HOST_CAP,
         "stable_candidates": stable_candidates,
     }
