@@ -35,18 +35,6 @@ SOURCE_SPECS = [
         "igareck_white_checked",
         "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt",
     ),
-    (
-        "flexiy0_russia_whitelist",
-        "https://raw.githubusercontent.com/FLEXIY0/matryoshka-vpn/refs/heads/main/configs/russia_whitelist.txt",
-    ),
-    (
-        "avencores_githubmirror_26",
-        "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt",
-    ),
-    (
-        "whoahaow_bypass_all",
-        "https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/bypass/bypass-all.txt",
-    ),
 ]
 
 COUNTRY_WORD_RE = r"(?:[A-Z][A-Za-z\u00C0-\u017E']*|and|of|the)"

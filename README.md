@@ -1,6 +1,6 @@
 # Kerosin White Lists Checker
 
-Репозиторий собирает VLESS-ключи из семи источников, фильтрует неподходящие конфиги, проверяет TCP-доступность серверов и публикует две основные подписки:
+Репозиторий собирает VLESS-ключи из четырёх исходных источников, фильтрует неподходящие конфиги, проверяет TCP-доступность серверов и публикует две основные подписки:
 
 - `good.txt` — полная подписка со всеми ключами, успешно прошедшими TCP-проверку
 - `top100.txt` — подписка со 100 самыми стабильными ключами по истории успешных чеков
@@ -16,16 +16,9 @@
   - `Vless-Reality-White-Lists-Rus-Mobile.txt`
   - `Vless-Reality-White-Lists-Rus-Mobile-2.txt`
   - `WHITE-CIDR-RU-checked.txt`
-- [FLEXIY0/matryoshka-vpn](https://github.com/FLEXIY0/matryoshka-vpn)
-  - `configs/russia_whitelist.txt`
-- [AvenCores/goida-vpn-configs](https://github.com/AvenCores/goida-vpn-configs)
-  - `githubmirror/26.txt`
-- [whoahaow/rjsxrd](https://github.com/whoahaow/rjsxrd)
-  - `githubmirror/bypass/bypass-all.txt`
-
 ## Как работает
 
-1. `check_and_save.py` загружает все семь списков.
+1. `check_and_save.py` загружает четыре исходных списка.
 2. Скрипт оставляет только `vless://`-строки, дедуплицирует их и нормализует имя: по первому emoji-флагу определяет страну и приводит хвост к формату `🇳🇱 The Netherlands`. Если флага нет, имя становится `Cosmos`.
 3. Перед проверкой скрипт отбрасывает конфиги с `allowinsecure/insecure`, `security=none` и транспортом `xhttp`.
 4. Скрипт делает TCP-подключение к уникальным `host:port` и переиспользует результат для конфигов, которые смотрят в один endpoint.
