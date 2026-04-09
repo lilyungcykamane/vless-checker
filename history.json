@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "window_size": 96,
-  "updated_at": "2026-04-09T12:47:52Z",
+  "updated_at": "2026-04-09T15:00:51Z",
   "items": {
     "vless://8e986313-624d-4c2a-b4e0-ba6cf0d465bb@185.141.216.174:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&sid=7755e972daf8eec8&sni=video.intfreed.ru#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-03-29T03:34:27Z",
@@ -535325,10 +535325,10 @@
     },
     "vless://043b5b85-184f-464b-b46c-d4903f336373@51.250.126.221:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2Ea-rod_ya4aiuRbjC4qwzjZmXdjnjW9n_5Z4DI6M0k&sid=8f64bb95&sni=tunnel.vk-apps.com#%F0%9F%87%AB%F0%9F%87%B7%20France": {
       "first_seen_at": "2026-04-07T23:24:20Z",
-      "last_seen_at": "2026-04-09T03:29:29Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
       "last_success_at": "2026-04-09T03:29:29Z",
-      "last_failure_at": null,
-      "last_status": "ok",
+      "last_failure_at": "2026-04-09T15:00:51Z",
+      "last_status": "tcp",
       "history": [
         {
           "ts": "2026-04-07T23:24:20Z",
@@ -535369,6 +535369,11 @@
           "ts": "2026-04-09T03:29:29Z",
           "ok": true,
           "latency_ms": 140.4
+        },
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": false,
+          "reason": "tcp"
         }
       ]
     },
@@ -558357,10 +558362,10 @@
     },
     "vless://0df8187c-7a27-452d-b617-ffd047a878ca@144.31.2.228:443?type=grpc&security=reality&encryption=none&pbk=zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E&sid=562ad474c4fabcd7&sni=moktana.digital&mode=gun&serviceName=xyz&authority=#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
       "first_seen_at": "2026-04-09T10:35:39Z",
-      "last_seen_at": "2026-04-09T12:47:52Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
       "last_success_at": "2026-04-09T12:47:52Z",
-      "last_failure_at": null,
-      "last_status": "ok",
+      "last_failure_at": "2026-04-09T15:00:51Z",
+      "last_status": "tcp",
       "history": [
         {
           "ts": "2026-04-09T10:35:39Z",
@@ -558376,6 +558381,11 @@
           "ts": "2026-04-09T12:47:52Z",
           "ok": true,
           "latency_ms": 158.9
+        },
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": false,
+          "reason": "tcp"
         }
       ]
     },
@@ -559076,6 +559086,132 @@
           "ts": "2026-04-09T12:47:52Z",
           "ok": true,
           "latency_ms": 231.2
+        }
+      ]
+    },
+    "vless://b59cf03c-704f-44b0-b329-d3443e860481@85.239.54.119:9877?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=www.io.ozone.ru&pbk=im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-04-09T15:00:51Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
+      "last_success_at": "2026-04-09T15:00:51Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": true,
+          "latency_ms": 219.0
+        }
+      ]
+    },
+    "vless://f8f46625-d418-41cd-a44f-01ec7498245d@46.30.46.161:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=45Hmp5iW7pQJTt_0BDLBemuZDy4r8_txF2DshyqUE2Y&sni=nlx1.braidpro.online#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-04-09T15:00:51Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
+      "last_success_at": "2026-04-09T15:00:51Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": true,
+          "latency_ms": 88.4
+        }
+      ]
+    },
+    "vless://c5ab5239-442d-4a25-9d74-e28e09a86e6a@176.109.104.186:443?encryption=none&flow=xtls-rprx-vision&fp=qq&headerType=none&packetEncoding=xudp&pbk=1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ&security=reality&sid=8bd29483ded126b4&sni=wikihow.com&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-04-09T15:00:51Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
+      "last_success_at": "2026-04-09T15:00:51Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": true,
+          "latency_ms": 123.8
+        }
+      ]
+    },
+    "vless://310bba1c-df91-4dc2-a8d4-0fbcf1075e09@217.16.27.13:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=fJw3vtVu2P_brJfxCrOJP9qcCtSPlvixYe1k3h2_sXk&sid=a6731b44e74de185#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-04-09T15:00:51Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
+      "last_success_at": "2026-04-09T15:00:51Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": true,
+          "latency_ms": 129.6
+        }
+      ]
+    },
+    "vless://4788b643-4356-46d9-b96c-ca905b3e26c8@176.108.242.148:869/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=eh.vk.com&fp=qq&security=reality&pbk=lggRqXlpIE3Pirqc1G_CZUn3oITFtmzvYNvGsEdEcDA&sid=999999&packetEncoding=xudp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-04-09T15:00:51Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
+      "last_success_at": "2026-04-09T15:00:51Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": true,
+          "latency_ms": 127.2
+        }
+      ]
+    },
+    "vless://24d60352-f839-4df6-86e3-e19591a1ca9d@51.250.97.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=wl-6-4.legendary-vpn.com&pbk=UZcUXcDWwIkPoLsqflKMGiFx50MERRpum96y-y5Dv1Q&sid=ffd676bc2a2657ef#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-04-09T15:00:51Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-04-09T15:00:51Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://533df493-2249-4e6d-8638-2d39b4d6b577@158.160.240.92:1443?encryption=none&flow=xtls-rprx-vision&fp=qq&headerType=none&packetEncoding=xudp&pbk=JeMoMGNqaxs0RkMU75hvpO3UbfL0Xc8UFDcf0uPBj3A&security=reality&sid=c7963b161540ef&sni=www.amd.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-04-09T15:00:51Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
+      "last_success_at": "2026-04-09T15:00:51Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": true,
+          "latency_ms": 540.0
+        }
+      ]
+    },
+    "vless://564cfa99-9bf0-40bf-a9a8-685b2680c678@93.77.179.11:1443?encryption=none&flow=xtls-rprx-vision&fp=qq&headerType=none&packetEncoding=xudp&pbk=MVRNPCHMN7_U6X2c6AbxG52t_PFOaU09H3wdcDjqGUY&security=reality&sid=833fda1e&sni=www.sony.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-04-09T15:00:51Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
+      "last_success_at": "2026-04-09T15:00:51Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": true,
+          "latency_ms": 127.2
+        }
+      ]
+    },
+    "vless://6c448828-453d-450e-81cc-21190b63475c@93.77.179.11:443?encryption=none&flow=xtls-rprx-vision&fp=qq&headerType=none&packetEncoding=xudp&pbk=XU5l8xkBsyizFzVIFqIE9pDIj2P8_u6mxqQGbidacQk&security=reality&sid=fc8470&sni=www.tesla.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-04-09T15:00:51Z",
+      "last_seen_at": "2026-04-09T15:00:51Z",
+      "last_success_at": "2026-04-09T15:00:51Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-04-09T15:00:51Z",
+          "ok": true,
+          "latency_ms": 125.5
         }
       ]
     }
