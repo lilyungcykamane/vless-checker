@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "window_size": 96,
-  "updated_at": "2026-06-05T12:19:51Z",
+  "updated_at": "2026-06-05T15:40:20Z",
   "items": {
     "vless://9e1d737e-f3c1-4757-84b2-3dcf66a468ed@158.160.246.28:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=NaONDf0qCoNVteBefVS25yLJbMMLdnKnwsu7_il9MXE&sni=ads.x5.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-05-11T08:49:30Z",
@@ -1679,137 +1679,6 @@
         }
       ]
     },
-    "vless://d165bb72-bd96-44a7-9361-71da3b1ea792@51.250.4.2:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=api-maps.yandex.ru&pbk=EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI&sid=226509f017e4c36d#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-05-22T10:01:27Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T10:01:27Z",
-          "ok": true,
-          "latency_ms": 443.5
-        },
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 147.7
-        }
-      ]
-    },
-    "vless://893874a0-d169-4002-ae9a-c294ec25e8a8@158.160.187.237:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=api-maps.yandex.ru&pbk=xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I&sid=27e53bbcab7593d7&spx=%2F#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": null,
-      "last_failure_at": "2026-05-22T12:35:15Z",
-      "last_status": "tcp",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": false,
-          "reason": "tcp"
-        }
-      ]
-    },
-    "vless://b4a89da7-dcf9-1811-b0c3-4003bc956450@94.131.121.70:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=qq&sni=ads.x5.ru&pbk=0gKl7TLTz-1qjLfuisoEwgkQ8SwfxlBeNWQ3SgLPiCg&sid=c1a7e9b4382d5f60#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 148.2
-        }
-      ]
-    },
-    "vless://d24dbad9-e81d-1811-97ee-613f231ad5fa@94.131.121.70:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=qq&sni=ads.x5.ru&pbk=0gKl7TLTz-1qjLfuisoEwgkQ8SwfxlBeNWQ3SgLPiCg&sid=c1a7e9b4382d5f60#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 148.2
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@158.160.57.73:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": null,
-      "last_failure_at": "2026-05-22T12:35:15Z",
-      "last_status": "tcp",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": false,
-          "reason": "tcp"
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@51.250.103.104:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 190.4
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@51.250.106.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 175.6
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@51.250.108.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 189.1
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@84.201.144.113:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 185.1
-        }
-      ]
-    },
     "vless://69a2af58-d74a-44ca-864a-e09b493f4274@45.151.182.34:443?type=tcp&security=reality&pbk=WMy1KN-awWYkz-3jct8VM4qvCeK3ICvJj3wzam6pAyE&fp=chrome&sni=pimg.mycdn.me&sid=b8f9f01b#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-05-22T12:35:15Z",
       "last_seen_at": "2026-05-23T10:04:52Z",
@@ -1861,174 +1730,6 @@
           "ts": "2026-05-23T10:04:52Z",
           "ok": true,
           "latency_ms": 132.4
-        }
-      ]
-    },
-    "vless://a428ae52-3bac-45c7-bd9f-f526989745ea@193.168.46.180:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=rruu.persik.host&pbk=D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY&sid=c1a7e9b4711d5f60#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 156.0
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@158.160.130.173:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 144.5
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@158.160.136.203:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 140.4
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@158.160.51.70:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 146.1
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@51.250.102.69:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 148.5
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@51.250.17.80:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 146.3
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@51.250.24.232:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 150.6
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@51.250.97.18:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 149.0
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@84.201.136.5:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 163.1
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@84.201.168.186:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 180.6
-        }
-      ]
-    },
-    "vless://782c68b2-1bbb-4e6b-a772-f79c493059c3@84.201.168.220:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 138.3
-        }
-      ]
-    },
-    "vless://5a9f437e-ad8a-4c68-b3b2-b0ecc41a0542@185.14.46.108:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=1L89euUftEWspViGKdG7Ivwj-k1ySPROZEfZWaL5Hhw&sid=6cc5290e6f0b47c3#%F0%9F%87%AB%F0%9F%87%B7%20France": {
-      "first_seen_at": "2026-05-22T12:35:15Z",
-      "last_seen_at": "2026-05-22T12:35:15Z",
-      "last_success_at": "2026-05-22T12:35:15Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-05-22T12:35:15Z",
-          "ok": true,
-          "latency_ms": 131.3
         }
       ]
     },
@@ -77693,8 +77394,8 @@
     },
     "vless://cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4@89.208.208.92:7443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=chrome&sni=loadtest.dev.urent.ru&pbk=_AXs-QnufIq918tbb2pwM3MDbe7kQ6i0cIHDMLwPmGs&sid=3210e0eee6605048#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-06-01T02:03:45Z",
-      "last_seen_at": "2026-06-03T22:16:23Z",
-      "last_success_at": "2026-06-03T22:16:23Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -77722,6 +77423,11 @@
           "ts": "2026-06-03T22:16:23Z",
           "ok": true,
           "latency_ms": 163.8
+        },
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 152.6
         }
       ]
     },
@@ -86104,8 +85810,8 @@
     },
     "vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@l1.l-itx.info:7443?type=grpc&headerType=none&security=reality&encryption=none&sni=colorlib.com&fp=firefox&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&serviceName=xyz#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-06-03T19:37:04Z",
-      "last_seen_at": "2026-06-04T22:46:10Z",
-      "last_success_at": "2026-06-04T22:46:10Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -86123,6 +85829,11 @@
           "ts": "2026-06-04T22:46:10Z",
           "ok": true,
           "latency_ms": 103.9
+        },
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 120.8
         }
       ]
     },
@@ -90521,8 +90232,8 @@
     },
     "vless://7283d2d5-7b14-431b-9d1f-96f2dac4a97b@83.229.14.125:13569?encryption=none&flow=xtls-rprx-vision&security=reality&sni=business.vk.ru&pbk=Xl6notHrxamdPvx0cZGGPRQOT-PR1rkjryRazI9i1VI&type=tcp&headerType=none#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
       "first_seen_at": "2026-06-05T12:19:51Z",
-      "last_seen_at": "2026-06-05T12:19:51Z",
-      "last_success_at": "2026-06-05T12:19:51Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -90530,6 +90241,11 @@
           "ts": "2026-06-05T12:19:51Z",
           "ok": true,
           "latency_ms": 168.1
+        },
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 155.3
         }
       ]
     },
@@ -90600,6 +90316,454 @@
           "ts": "2026-06-05T12:19:51Z",
           "ok": true,
           "latency_ms": 140.5
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.199:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=max.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=dd01020304#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 153.8
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.199:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.vk.com&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=bb0203&spx=%2FfsdfqpAqqwfqw21v#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 153.8
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.199:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.vk.com&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=cc020304&spx=%2FfsdfqpAqqwfqw21v#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 153.8
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.199:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.vk.com&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=dd02030405&spx=%2FfsdfqpAqqwfqw21v#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 153.8
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.199:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=yandex.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=aa03#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 153.8
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.199:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=yandex.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=bb0304#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 153.8
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.199:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=yandex.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=cc030405#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 153.8
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.199:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=yandex.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=dd03040506#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 153.8
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.5:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=max.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=aa01#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 159.5
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.5:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=max.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=cc010203#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 159.5
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.5:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=max.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=dd01020304#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 159.5
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.5:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.vk.com&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=aa02&spx=%2FfsdfqpAqqwfqw21v#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 159.5
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.5:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.vk.com&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=bb0203&spx=%2FfsdfqpAqqwfqw21v#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 159.5
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.5:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.vk.com&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=cc020304&spx=%2FfsdfqpAqqwfqw21v#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 159.5
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.5:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.vk.com&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=dd02030405&spx=%2FfsdfqpAqqwfqw21v#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 159.5
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.5:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=yandex.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=aa03#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 159.5
+        }
+      ]
+    },
+    "vless://025b5550-cb81-4a51-8e46-45cc1b54a46f@185.130.115.5:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=yandex.ru&pbk=n7SozQLXoCxDya7vBJwS5ebj39r4KCUZrfsnBfcCLGs&sid=dd03040506#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 159.5
+        }
+      ]
+    },
+    "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.156.143:8443?allowInsecure=0&sni=cdn7-09.vk-cdnvideo.com&fp=chrome&security=tls#Cosmos": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 157.6
+        }
+      ]
+    },
+    "vless://478ada59-0a0a-4467-9d76-af3dcbdfd4eb@51.250.102.69:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 158.6
+        }
+      ]
+    },
+    "vless://478ada59-0a0a-4467-9d76-af3dcbdfd4eb@51.250.106.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 152.4
+        }
+      ]
+    },
+    "vless://70a76c1e-c6ae-48e0-b52e-753bb571d2cf@51.250.102.69:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 158.6
+        }
+      ]
+    },
+    "vless://70a76c1e-c6ae-48e0-b52e-753bb571d2cf@51.250.106.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 152.4
+        }
+      ]
+    },
+    "vless://70a76c1e-c6ae-48e0-b52e-753bb571d2cf@51.250.108.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 163.5
+        }
+      ]
+    },
+    "vless://70a76c1e-c6ae-48e0-b52e-753bb571d2cf@51.250.24.222:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 157.2
+        }
+      ]
+    },
+    "vless://70a76c1e-c6ae-48e0-b52e-753bb571d2cf@51.250.97.18:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 157.2
+        }
+      ]
+    },
+    "vless://63a16ebb-8687-42ac-972a-5914cafad1d5@146.185.211.107:8444?type=tcp&headerType=none&security=reality&encryption=none&sni=yandex.ru&fp=chrome&pbk=hL6rNCNtquIMhYV8V3WOrowSgIwko61yQIX2o1w6_lY&sid=0d62c138f2bf1ba8&flow=xtls-rprx-vision#%F0%9F%87%A8%F0%9F%87%BF%20Czech%20Republic": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 157.8
+        }
+      ]
+    },
+    "vless://6525f506-56b0-0006-a77d-52676645c8da@62.152.56.142:443?type=tcp&headerType=none&security=reality&encryption=none&sni=gateway-dppb.x5.ru&fp=firefox&pbk=akCWFrGBboGajZT5HS4m5fw32uJsdw6esUTC1qN4LR0&sid=79ed76c157977111&flow=xtls-rprx-vision#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 152.4
+        }
+      ]
+    },
+    "vless://cfb70000-ed61-4a7e-89a3-2b9c2caa6001@185.242.19.249:443?path=%2Flivestreamcontent%2F&security=tls&encryption=none&insecure=0&host=top707762634.mwscdn.ru&fp=chrome&type=ws&allowInsecure=0&sni=top707762634.mwscdn.ru#%F0%9F%87%B2%F0%9F%87%A9%20Moldova": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 194.3
+        }
+      ]
+    },
+    "vless://636f578e-e8bc-4f14-b7eb-8415e6dcd63e@185.91.53.153:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=5post-gate.x5.ru&pbk=kDGigLxn2RUJ8HqhPVUb8pRAcjn5zMhR0-QrORmbIDk&sid=be6abde66d48cd13&spx=%2F#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 255.6
+        }
+      ]
+    },
+    "vless://636f578e-e8bc-4f14-b7eb-8415e6dcd63e@185.91.53.153:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=api-maps.yandex.ru&pbk=kDGigLxn2RUJ8HqhPVUb8pRAcjn5zMhR0-QrORmbIDk&sid=be6abde66d48cd13&spx=%2F#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 255.6
+        }
+      ]
+    },
+    "vless://636f578e-e8bc-4f14-b7eb-8415e6dcd63e@185.91.53.153:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=api.yandex.ru&pbk=HhzAvJmqEjt_CeifAJmDfg7DgeD2t2cvzWqvyyPSVz0&sid=664b8a28e735af5f&spx=%2F#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 255.6
+        }
+      ]
+    },
+    "vless://b8d300c6-057d-4ac8-9bee-7c66f94778c8@51.250.97.18:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-06-05T15:40:20Z",
+      "last_seen_at": "2026-06-05T15:40:20Z",
+      "last_success_at": "2026-06-05T15:40:20Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-05T15:40:20Z",
+          "ok": true,
+          "latency_ms": 157.2
         }
       ]
     }
