@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-19 13:49 UTC",
-  "updated_at_msk": "2026-06-19 16:49 МСК",
-  "announce": "Последнее сканирование: 2026-06-19 16:49 МСК",
+  "updated_at": "2026-06-19 16:41 UTC",
+  "updated_at_msk": "2026-06-19 19:41 МСК",
+  "announce": "Последнее сканирование: 2026-06-19 19:41 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 2503,
+    "tracked_keys": 2502,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 5
+      "total": 7
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 5
+      "total": 7
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -42,160 +42,121 @@
       "total": 2
     },
     "combined": {
-      "total": 5,
-      "working": 3,
+      "total": 7,
+      "working": 2,
       "eligible": 5
     }
   },
   "transport_counts": {
-    "grpc": 1,
-    "tcp": 4
+    "tcp": 4,
+    "ws": 1
   },
   "totals": {
-    "unique": 5,
+    "unique": 7,
     "eligible": 5,
-    "working": 3,
-    "top100": 3,
-    "top50": 3,
-    "top15": 3,
-    "unsupported": 0,
-    "failed": 2,
+    "working": 2,
+    "top100": 2,
+    "top50": 2,
+    "top15": 2,
+    "unsupported": 2,
+    "failed": 3,
     "stable_candidates": 0
   },
-  "unsupported_reasons": {},
+  "unsupported_reasons": {
+    "insecure": 1,
+    "xhttp": 1
+  },
   "failed_reasons": {
-    "tcp": 2
+    "tcp": 3
   },
   "top100": [
     {
       "rank": 1,
-      "key": "vless://ff76c582-77fa-4840-9247-729076fbab29@45.141.119.16:443?security=reality&encryption=none&pbk=1Txlqu4hCFzUPBSO6anONR0ql930aitMuh4ZcsJcxm4&headerType=none&fp=firefox&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=ch-zrh-1.blook.network&sid=f7ef1b05#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland",
-      "host": "45.141.119.16",
+      "key": "vless://7e6d3393-bb84-45c7-9eef-35de95805b7e@176.108.243.253:443?type=tcp&headerType=none&security=reality&encryption=none&sni=tc-most.api-yandex.net&fp=firefox&pbk=hx551Gx5MsoXCBfylyRDQDxa156NtbyHQbmJ0m9TiFM&sid=0a77acf800003f&flow=xtls-rprx-vision#Cosmos",
+      "host": "176.108.243.253",
       "port": 443,
-      "latency_ms": 125.9,
-      "median_latency_ms": 125.9,
+      "latency_ms": 161.5,
+      "median_latency_ms": 161.5,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Switzerland",
-      "flag": "🇨🇭"
+      "country": "Cosmos",
+      "flag": ""
     },
     {
       "rank": 2,
-      "key": "vless://8a59eb4c-d127-4f32-9f51-9a1be5086fc0@65.109.217.246:2026?encryption=none&flow=xtls-rprx-vision&fp=random&pbk=yt2kyF7DABbLCwB49Hd3VuNu7-QN57GiLoeiD5vVg30&security=reality&sid=c576f7ccd9019b&sni=www.oracle.com&spx=%2F1xYs210rjIjteeD&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland",
-      "host": "65.109.217.246",
-      "port": 2026,
-      "latency_ms": 140.9,
-      "median_latency_ms": 140.9,
+      "key": "vless://227131c5-1063-4d5d-9038-8dacdcefc569@176.108.244.152:443?type=tcp&headerType=none&security=reality&encryption=none&sni=kz-most.api-yandex.net&fp=firefox&pbk=oVRbpcmh0rTxbe2y_zyVQqqzCVIPOFfkk-CHv9QFLF4&sid=0fdfdcf08733a33f&flow=xtls-rprx-vision#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan",
+      "host": "176.108.244.152",
+      "port": 443,
+      "latency_ms": 165.5,
+      "median_latency_ms": 165.5,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Finland",
-      "flag": "🇫🇮"
-    },
-    {
-      "rank": 3,
-      "key": "vless://70ee1dd4-5d67-49ac-b9c4-d0c08826116d@31.31.197.82:10000?type=grpc&security=reality&fp=qq&sni=max.ru&pbk=9xzdm_jzkLpqPjYVEJ_74EtFkQUGp6UG1TtaVLPng2s&sid=afee962d&serviceName=grpc2#%F0%9F%87%AA%F0%9F%87%AA%20Estonia",
-      "host": "31.31.197.82",
-      "port": 10000,
-      "latency_ms": 161.8,
-      "median_latency_ms": 161.8,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Estonia",
-      "flag": "🇪🇪"
+      "country": "Kazakhstan",
+      "flag": "🇰🇿"
     }
   ],
   "top50": [
     {
       "rank": 1,
-      "key": "vless://ff76c582-77fa-4840-9247-729076fbab29@45.141.119.16:443?security=reality&encryption=none&pbk=1Txlqu4hCFzUPBSO6anONR0ql930aitMuh4ZcsJcxm4&headerType=none&fp=firefox&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=ch-zrh-1.blook.network&sid=f7ef1b05#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland",
-      "host": "45.141.119.16",
+      "key": "vless://7e6d3393-bb84-45c7-9eef-35de95805b7e@176.108.243.253:443?type=tcp&headerType=none&security=reality&encryption=none&sni=tc-most.api-yandex.net&fp=firefox&pbk=hx551Gx5MsoXCBfylyRDQDxa156NtbyHQbmJ0m9TiFM&sid=0a77acf800003f&flow=xtls-rprx-vision#Cosmos",
+      "host": "176.108.243.253",
       "port": 443,
-      "latency_ms": 125.9,
-      "median_latency_ms": 125.9,
+      "latency_ms": 161.5,
+      "median_latency_ms": 161.5,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Switzerland",
-      "flag": "🇨🇭"
+      "country": "Cosmos",
+      "flag": ""
     },
     {
       "rank": 2,
-      "key": "vless://8a59eb4c-d127-4f32-9f51-9a1be5086fc0@65.109.217.246:2026?encryption=none&flow=xtls-rprx-vision&fp=random&pbk=yt2kyF7DABbLCwB49Hd3VuNu7-QN57GiLoeiD5vVg30&security=reality&sid=c576f7ccd9019b&sni=www.oracle.com&spx=%2F1xYs210rjIjteeD&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland",
-      "host": "65.109.217.246",
-      "port": 2026,
-      "latency_ms": 140.9,
-      "median_latency_ms": 140.9,
+      "key": "vless://227131c5-1063-4d5d-9038-8dacdcefc569@176.108.244.152:443?type=tcp&headerType=none&security=reality&encryption=none&sni=kz-most.api-yandex.net&fp=firefox&pbk=oVRbpcmh0rTxbe2y_zyVQqqzCVIPOFfkk-CHv9QFLF4&sid=0fdfdcf08733a33f&flow=xtls-rprx-vision#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan",
+      "host": "176.108.244.152",
+      "port": 443,
+      "latency_ms": 165.5,
+      "median_latency_ms": 165.5,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Finland",
-      "flag": "🇫🇮"
-    },
-    {
-      "rank": 3,
-      "key": "vless://70ee1dd4-5d67-49ac-b9c4-d0c08826116d@31.31.197.82:10000?type=grpc&security=reality&fp=qq&sni=max.ru&pbk=9xzdm_jzkLpqPjYVEJ_74EtFkQUGp6UG1TtaVLPng2s&sid=afee962d&serviceName=grpc2#%F0%9F%87%AA%F0%9F%87%AA%20Estonia",
-      "host": "31.31.197.82",
-      "port": 10000,
-      "latency_ms": 161.8,
-      "median_latency_ms": 161.8,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Estonia",
-      "flag": "🇪🇪"
+      "country": "Kazakhstan",
+      "flag": "🇰🇿"
     }
   ],
   "top15": [
     {
       "rank": 1,
-      "key": "vless://ff76c582-77fa-4840-9247-729076fbab29@45.141.119.16:443?security=reality&encryption=none&pbk=1Txlqu4hCFzUPBSO6anONR0ql930aitMuh4ZcsJcxm4&headerType=none&fp=firefox&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=ch-zrh-1.blook.network&sid=f7ef1b05#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland",
-      "host": "45.141.119.16",
+      "key": "vless://7e6d3393-bb84-45c7-9eef-35de95805b7e@176.108.243.253:443?type=tcp&headerType=none&security=reality&encryption=none&sni=tc-most.api-yandex.net&fp=firefox&pbk=hx551Gx5MsoXCBfylyRDQDxa156NtbyHQbmJ0m9TiFM&sid=0a77acf800003f&flow=xtls-rprx-vision#Cosmos",
+      "host": "176.108.243.253",
       "port": 443,
-      "latency_ms": 125.9,
-      "median_latency_ms": 125.9,
+      "latency_ms": 161.5,
+      "median_latency_ms": 161.5,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Switzerland",
-      "flag": "🇨🇭"
+      "country": "Cosmos",
+      "flag": ""
     },
     {
       "rank": 2,
-      "key": "vless://8a59eb4c-d127-4f32-9f51-9a1be5086fc0@65.109.217.246:2026?encryption=none&flow=xtls-rprx-vision&fp=random&pbk=yt2kyF7DABbLCwB49Hd3VuNu7-QN57GiLoeiD5vVg30&security=reality&sid=c576f7ccd9019b&sni=www.oracle.com&spx=%2F1xYs210rjIjteeD&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland",
-      "host": "65.109.217.246",
-      "port": 2026,
-      "latency_ms": 140.9,
-      "median_latency_ms": 140.9,
+      "key": "vless://227131c5-1063-4d5d-9038-8dacdcefc569@176.108.244.152:443?type=tcp&headerType=none&security=reality&encryption=none&sni=kz-most.api-yandex.net&fp=firefox&pbk=oVRbpcmh0rTxbe2y_zyVQqqzCVIPOFfkk-CHv9QFLF4&sid=0fdfdcf08733a33f&flow=xtls-rprx-vision#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan",
+      "host": "176.108.244.152",
+      "port": 443,
+      "latency_ms": 165.5,
+      "median_latency_ms": 165.5,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Finland",
-      "flag": "🇫🇮"
-    },
-    {
-      "rank": 3,
-      "key": "vless://70ee1dd4-5d67-49ac-b9c4-d0c08826116d@31.31.197.82:10000?type=grpc&security=reality&fp=qq&sni=max.ru&pbk=9xzdm_jzkLpqPjYVEJ_74EtFkQUGp6UG1TtaVLPng2s&sid=afee962d&serviceName=grpc2#%F0%9F%87%AA%F0%9F%87%AA%20Estonia",
-      "host": "31.31.197.82",
-      "port": 10000,
-      "latency_ms": 161.8,
-      "median_latency_ms": 161.8,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Estonia",
-      "flag": "🇪🇪"
+      "country": "Kazakhstan",
+      "flag": "🇰🇿"
     }
   ]
 }
