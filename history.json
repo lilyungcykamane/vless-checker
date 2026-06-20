@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "window_size": 96,
-  "updated_at": "2026-06-20T13:13:21Z",
+  "updated_at": "2026-06-20T15:15:23Z",
   "items": {
     "vless://94ae5ad5-8f3e-41bf-9546-99a1543d3cd1@84.32.209.96:443?type=tcp&headerType=none&security=reality&encryption=none&fp=chrome&pbk=h7CCbT_1gwxhQGM-4_pZkNRbAe_I6YFQM6jO9x6uORw&flow=xtls-rprx-vision#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania": {
       "first_seen_at": "2026-05-28T23:02:06Z",
@@ -2691,20 +2691,6 @@
           "ts": "2026-06-19T00:14:48Z",
           "ok": true,
           "latency_ms": 129.2
-        }
-      ]
-    },
-    "vless://cc13e71e-aaf0-47c7-b565-391856749987@193.233.216.70:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=metrika.yandex.ru&pbk=wDW0XXr39U-W7fPtsy_qcR39hjIGVNUVFTCVURNdbwM&sid=d8f3a9c2#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-06-06T14:53:40Z",
-      "last_seen_at": "2026-06-06T14:53:40Z",
-      "last_success_at": "2026-06-06T14:53:40Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-06-06T14:53:40Z",
-          "ok": true,
-          "latency_ms": 111.2
         }
       ]
     },
@@ -46912,6 +46898,34 @@
           "ts": "2026-06-20T13:13:21Z",
           "ok": false,
           "reason": "tcp"
+        }
+      ]
+    },
+    "vless://dba50bb9-2456-4128-8632-f7ba1e6a7ab5@s10211.cdn.ngenix.net:443?path=%2Fapi%2Fuser&security=tls&alpn=http%2F1.1&encryption=none&host=s10211.cdn.ngenix.net&fp=qq&type=ws&sni=s10211.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-06-20T15:15:23Z",
+      "last_seen_at": "2026-06-20T15:15:23Z",
+      "last_success_at": "2026-06-20T15:15:23Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-20T15:15:23Z",
+          "ok": true,
+          "latency_ms": 176.2
+        }
+      ]
+    },
+    "vless://3cbf82a7-1f95-4a39-a77f-788b1737ed64@62.152.56.157:443?flow=xtls-rprx-vision&fp=firefox&pbk=F_ibx7pBjkhhTBHhi-8Tma7w3DtfGTzpE6uqRDB-KWU&security=reality&sid=e75f556eef8f096f&sni=max.ru&type=tcp#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
+      "first_seen_at": "2026-06-20T15:15:23Z",
+      "last_seen_at": "2026-06-20T15:15:23Z",
+      "last_success_at": "2026-06-20T15:15:23Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-06-20T15:15:23Z",
+          "ok": true,
+          "latency_ms": 1196.0
         }
       ]
     }

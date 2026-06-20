@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-20 13:13 UTC",
-  "updated_at_msk": "2026-06-20 16:13 МСК",
-  "announce": "Последнее сканирование: 2026-06-20 16:13 МСК",
+  "updated_at": "2026-06-20 15:15 UTC",
+  "updated_at_msk": "2026-06-20 18:15 МСК",
+  "announce": "Последнее сканирование: 2026-06-20 18:15 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 2428,
+    "tracked_keys": 2429,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 13
+      "total": 6
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 13
+      "total": 6
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -42,121 +42,118 @@
       "total": 0
     },
     "combined": {
-      "total": 13,
+      "total": 6,
       "working": 2,
-      "eligible": 8
+      "eligible": 2
     }
   },
   "transport_counts": {
-    "tcp": 1,
-    "grpc": 7
+    "ws": 1,
+    "tcp": 1
   },
   "totals": {
-    "unique": 13,
-    "eligible": 8,
+    "unique": 6,
+    "eligible": 2,
     "working": 2,
     "top100": 2,
     "top50": 2,
     "top15": 2,
-    "unsupported": 5,
-    "failed": 6,
+    "unsupported": 4,
+    "failed": 0,
     "stable_candidates": 0
   },
   "unsupported_reasons": {
-    "insecure": 2,
-    "xhttp": 3
+    "security_none": 4
   },
-  "failed_reasons": {
-    "tcp": 6
-  },
+  "failed_reasons": {},
   "top100": [
     {
       "rank": 1,
-      "key": "vless://9b59bf90-62ae-4f64-8d0e-ec236c260f74@cuisine.mikata.ru:443?type=grpc&headerType=none&security=tls&encryption=none&sni=cuisine.mikata.ru&fp=edge&alpn=h3&serviceName=multi&insecure=0#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "cuisine.mikata.ru",
+      "key": "vless://dba50bb9-2456-4128-8632-f7ba1e6a7ab5@s10211.cdn.ngenix.net:443?path=%2Fapi%2Fuser&security=tls&alpn=http%2F1.1&encryption=none&host=s10211.cdn.ngenix.net&fp=qq&type=ws&sni=s10211.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "s10211.cdn.ngenix.net",
       "port": 443,
-      "latency_ms": 139.2,
-      "median_latency_ms": 139.2,
+      "latency_ms": 176.2,
+      "median_latency_ms": 176.2,
       "availability_pct": 100.0,
-      "success_streak": 3,
-      "observations": 3,
+      "success_streak": 1,
+      "observations": 1,
       "stable_qualified": false,
       "country": "Germany",
       "flag": "🇩🇪"
     },
     {
       "rank": 2,
-      "key": "vless://9b59bf90-62ae-4f64-8d0e-ec236c260f74@cuisine.mikata.ru:443?type=grpc&security=tls&fp=edge&sni=cuisine.mikata.ru&serviceName=multi#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "cuisine.mikata.ru",
+      "key": "vless://3cbf82a7-1f95-4a39-a77f-788b1737ed64@62.152.56.157:443?flow=xtls-rprx-vision&fp=firefox&pbk=F_ibx7pBjkhhTBHhi-8Tma7w3DtfGTzpE6uqRDB-KWU&security=reality&sid=e75f556eef8f096f&sni=max.ru&type=tcp#%F0%9F%87%B5%F0%9F%87%B1%20Poland",
+      "host": "62.152.56.157",
       "port": 443,
-      "latency_ms": 139.2,
-      "median_latency_ms": 139.2,
+      "latency_ms": 1196.0,
+      "median_latency_ms": 1196.0,
       "availability_pct": 100.0,
-      "success_streak": 3,
-      "observations": 3,
+      "success_streak": 1,
+      "observations": 1,
       "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
+      "country": "Poland",
+      "flag": "🇵🇱"
     }
   ],
   "top50": [
     {
       "rank": 1,
-      "key": "vless://9b59bf90-62ae-4f64-8d0e-ec236c260f74@cuisine.mikata.ru:443?type=grpc&headerType=none&security=tls&encryption=none&sni=cuisine.mikata.ru&fp=edge&alpn=h3&serviceName=multi&insecure=0#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "cuisine.mikata.ru",
+      "key": "vless://dba50bb9-2456-4128-8632-f7ba1e6a7ab5@s10211.cdn.ngenix.net:443?path=%2Fapi%2Fuser&security=tls&alpn=http%2F1.1&encryption=none&host=s10211.cdn.ngenix.net&fp=qq&type=ws&sni=s10211.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "s10211.cdn.ngenix.net",
       "port": 443,
-      "latency_ms": 139.2,
-      "median_latency_ms": 139.2,
+      "latency_ms": 176.2,
+      "median_latency_ms": 176.2,
       "availability_pct": 100.0,
-      "success_streak": 3,
-      "observations": 3,
+      "success_streak": 1,
+      "observations": 1,
       "stable_qualified": false,
       "country": "Germany",
       "flag": "🇩🇪"
     },
     {
       "rank": 2,
-      "key": "vless://9b59bf90-62ae-4f64-8d0e-ec236c260f74@cuisine.mikata.ru:443?type=grpc&security=tls&fp=edge&sni=cuisine.mikata.ru&serviceName=multi#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "cuisine.mikata.ru",
+      "key": "vless://3cbf82a7-1f95-4a39-a77f-788b1737ed64@62.152.56.157:443?flow=xtls-rprx-vision&fp=firefox&pbk=F_ibx7pBjkhhTBHhi-8Tma7w3DtfGTzpE6uqRDB-KWU&security=reality&sid=e75f556eef8f096f&sni=max.ru&type=tcp#%F0%9F%87%B5%F0%9F%87%B1%20Poland",
+      "host": "62.152.56.157",
       "port": 443,
-      "latency_ms": 139.2,
-      "median_latency_ms": 139.2,
+      "latency_ms": 1196.0,
+      "median_latency_ms": 1196.0,
       "availability_pct": 100.0,
-      "success_streak": 3,
-      "observations": 3,
+      "success_streak": 1,
+      "observations": 1,
       "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
+      "country": "Poland",
+      "flag": "🇵🇱"
     }
   ],
   "top15": [
     {
       "rank": 1,
-      "key": "vless://9b59bf90-62ae-4f64-8d0e-ec236c260f74@cuisine.mikata.ru:443?type=grpc&headerType=none&security=tls&encryption=none&sni=cuisine.mikata.ru&fp=edge&alpn=h3&serviceName=multi&insecure=0#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "cuisine.mikata.ru",
+      "key": "vless://dba50bb9-2456-4128-8632-f7ba1e6a7ab5@s10211.cdn.ngenix.net:443?path=%2Fapi%2Fuser&security=tls&alpn=http%2F1.1&encryption=none&host=s10211.cdn.ngenix.net&fp=qq&type=ws&sni=s10211.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "s10211.cdn.ngenix.net",
       "port": 443,
-      "latency_ms": 139.2,
-      "median_latency_ms": 139.2,
+      "latency_ms": 176.2,
+      "median_latency_ms": 176.2,
       "availability_pct": 100.0,
-      "success_streak": 3,
-      "observations": 3,
+      "success_streak": 1,
+      "observations": 1,
       "stable_qualified": false,
       "country": "Germany",
       "flag": "🇩🇪"
     },
     {
       "rank": 2,
-      "key": "vless://9b59bf90-62ae-4f64-8d0e-ec236c260f74@cuisine.mikata.ru:443?type=grpc&security=tls&fp=edge&sni=cuisine.mikata.ru&serviceName=multi#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "cuisine.mikata.ru",
+      "key": "vless://3cbf82a7-1f95-4a39-a77f-788b1737ed64@62.152.56.157:443?flow=xtls-rprx-vision&fp=firefox&pbk=F_ibx7pBjkhhTBHhi-8Tma7w3DtfGTzpE6uqRDB-KWU&security=reality&sid=e75f556eef8f096f&sni=max.ru&type=tcp#%F0%9F%87%B5%F0%9F%87%B1%20Poland",
+      "host": "62.152.56.157",
       "port": 443,
-      "latency_ms": 139.2,
-      "median_latency_ms": 139.2,
+      "latency_ms": 1196.0,
+      "median_latency_ms": 1196.0,
       "availability_pct": 100.0,
-      "success_streak": 3,
-      "observations": 3,
+      "success_streak": 1,
+      "observations": 1,
       "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
+      "country": "Poland",
+      "flag": "🇵🇱"
     }
   ]
 }
