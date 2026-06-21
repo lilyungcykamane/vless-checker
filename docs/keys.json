@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-21 12:30 UTC",
-  "updated_at_msk": "2026-06-21 15:30 МСК",
-  "announce": "Последнее сканирование: 2026-06-21 15:30 МСК",
+  "updated_at": "2026-06-21 15:03 UTC",
+  "updated_at_msk": "2026-06-21 18:03 МСК",
+  "announce": "Последнее сканирование: 2026-06-21 18:03 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,14 +11,14 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 2309,
+    "tracked_keys": 2304,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
     "min_success_streak": 3,
     "top_host_cap": 1,
     "top15_host_cap": 1,
-    "stable_candidates": 1
+    "stable_candidates": 2
   },
   "source_counts": {
     "igareck_white_cidr_all": {
@@ -39,50 +39,132 @@
     "igareck_white_checked": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
-      "total": 1
+      "total": 6
     },
     "combined": {
       "total": 40,
-      "working": 1,
-      "eligible": 2
+      "working": 7,
+      "eligible": 7
     }
   },
   "transport_counts": {
-    "grpc": 1,
-    "tcp": 1
+    "grpc": 3,
+    "tcp": 4
   },
   "totals": {
     "unique": 40,
-    "eligible": 2,
-    "working": 1,
-    "top100": 1,
-    "top50": 1,
-    "top15": 1,
-    "unsupported": 38,
-    "failed": 1,
-    "stable_candidates": 1
+    "eligible": 7,
+    "working": 7,
+    "top100": 7,
+    "top50": 7,
+    "top15": 7,
+    "unsupported": 33,
+    "failed": 0,
+    "stable_candidates": 2
   },
   "unsupported_reasons": {
-    "security_none": 34,
-    "xhttp": 4
+    "security_none": 31,
+    "xhttp": 2
   },
-  "failed_reasons": {
-    "tcp": 1
-  },
+  "failed_reasons": {},
   "top100": [
     {
       "rank": 1,
       "key": "vless://8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1@217.144.184.251:2053?fp=firefox&pbk=ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA&security=reality&serviceName=grpc&sid=d9a7c1e2b3f4481a&sni=cdn.jsdelivr.net&type=grpc#%F0%9F%87%A7%F0%9F%87%B7%20Brazil",
       "host": "217.144.184.251",
       "port": 2053,
-      "latency_ms": 129.7,
-      "median_latency_ms": 132.8,
+      "latency_ms": 152.5,
+      "median_latency_ms": 133.6,
       "availability_pct": 100.0,
-      "success_streak": 10,
-      "observations": 10,
+      "success_streak": 11,
+      "observations": 11,
       "stable_qualified": true,
       "country": "Brazil",
       "flag": "🇧🇷"
+    },
+    {
+      "rank": 2,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=rezerv11.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "158.160.198.162",
+      "port": 443,
+      "latency_ms": 261.4,
+      "median_latency_ms": 146.2,
+      "availability_pct": 100.0,
+      "success_streak": 8,
+      "observations": 8,
+      "stable_qualified": true,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "rank": 3,
+      "key": "vless://ec242fb6-faeb-4f34-afb8-3fbf80e527e3@fr-1.coinbridge.nl:443?mode=gun&security=reality&encryption=none&pbk=kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI&fp=random&type=grpc&serviceName=data-sync&sni=google.com&sid=d5c7f84e37e0c12d#%F0%9F%87%AB%F0%9F%87%B7%20France",
+      "host": "fr-1.coinbridge.nl",
+      "port": 443,
+      "latency_ms": 149.1,
+      "median_latency_ms": 148.1,
+      "availability_pct": 100.0,
+      "success_streak": 4,
+      "observations": 4,
+      "stable_qualified": false,
+      "country": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "rank": 4,
+      "key": "vless://ec242fb6-faeb-4f34-afb8-3fbf80e527e3@130.49.179.128:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=data-sync&fp=random&sni=google.com&pbk=kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI&sid=d5c7f84e37e0c12d#%F0%9F%87%AB%F0%9F%87%B7%20France",
+      "host": "130.49.179.128",
+      "port": 443,
+      "latency_ms": 106.0,
+      "median_latency_ms": 106.0,
+      "availability_pct": 100.0,
+      "success_streak": 3,
+      "observations": 3,
+      "stable_qualified": false,
+      "country": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "rank": 5,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@rezerv12.yunus.guru:443?flow=xtls-rprx-vision&fp=firefox&headertype=none&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&security=reality&sid=34256b39b4ebb864&sni=rezerv7.yunus.guru&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "rezerv12.yunus.guru",
+      "port": 443,
+      "latency_ms": 201.3,
+      "median_latency_ms": 164.9,
+      "availability_pct": 100.0,
+      "success_streak": 2,
+      "observations": 2,
+      "stable_qualified": false,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "rank": 6,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.161.175:443?security=reality&encryption=none&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=rezerv7.yunus.guru&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "158.160.161.175",
+      "port": 443,
+      "latency_ms": 217.2,
+      "median_latency_ms": 217.2,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "rank": 7,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?type=tcp&headerType=none&security=reality&encryption=none&sni=rezerv11.yunus.guru&fp=edge&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864&flow=xtls-rprx-vision#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "158.160.198.162",
+      "port": 443,
+      "latency_ms": 261.4,
+      "median_latency_ms": 261.4,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     }
   ],
   "top50": [
@@ -91,14 +173,98 @@
       "key": "vless://8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1@217.144.184.251:2053?fp=firefox&pbk=ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA&security=reality&serviceName=grpc&sid=d9a7c1e2b3f4481a&sni=cdn.jsdelivr.net&type=grpc#%F0%9F%87%A7%F0%9F%87%B7%20Brazil",
       "host": "217.144.184.251",
       "port": 2053,
-      "latency_ms": 129.7,
-      "median_latency_ms": 132.8,
+      "latency_ms": 152.5,
+      "median_latency_ms": 133.6,
       "availability_pct": 100.0,
-      "success_streak": 10,
-      "observations": 10,
+      "success_streak": 11,
+      "observations": 11,
       "stable_qualified": true,
       "country": "Brazil",
       "flag": "🇧🇷"
+    },
+    {
+      "rank": 2,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=rezerv11.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "158.160.198.162",
+      "port": 443,
+      "latency_ms": 261.4,
+      "median_latency_ms": 146.2,
+      "availability_pct": 100.0,
+      "success_streak": 8,
+      "observations": 8,
+      "stable_qualified": true,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "rank": 3,
+      "key": "vless://ec242fb6-faeb-4f34-afb8-3fbf80e527e3@fr-1.coinbridge.nl:443?mode=gun&security=reality&encryption=none&pbk=kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI&fp=random&type=grpc&serviceName=data-sync&sni=google.com&sid=d5c7f84e37e0c12d#%F0%9F%87%AB%F0%9F%87%B7%20France",
+      "host": "fr-1.coinbridge.nl",
+      "port": 443,
+      "latency_ms": 149.1,
+      "median_latency_ms": 148.1,
+      "availability_pct": 100.0,
+      "success_streak": 4,
+      "observations": 4,
+      "stable_qualified": false,
+      "country": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "rank": 4,
+      "key": "vless://ec242fb6-faeb-4f34-afb8-3fbf80e527e3@130.49.179.128:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=data-sync&fp=random&sni=google.com&pbk=kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI&sid=d5c7f84e37e0c12d#%F0%9F%87%AB%F0%9F%87%B7%20France",
+      "host": "130.49.179.128",
+      "port": 443,
+      "latency_ms": 106.0,
+      "median_latency_ms": 106.0,
+      "availability_pct": 100.0,
+      "success_streak": 3,
+      "observations": 3,
+      "stable_qualified": false,
+      "country": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "rank": 5,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@rezerv12.yunus.guru:443?flow=xtls-rprx-vision&fp=firefox&headertype=none&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&security=reality&sid=34256b39b4ebb864&sni=rezerv7.yunus.guru&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "rezerv12.yunus.guru",
+      "port": 443,
+      "latency_ms": 201.3,
+      "median_latency_ms": 164.9,
+      "availability_pct": 100.0,
+      "success_streak": 2,
+      "observations": 2,
+      "stable_qualified": false,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "rank": 6,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.161.175:443?security=reality&encryption=none&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=rezerv7.yunus.guru&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "158.160.161.175",
+      "port": 443,
+      "latency_ms": 217.2,
+      "median_latency_ms": 217.2,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "rank": 7,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?type=tcp&headerType=none&security=reality&encryption=none&sni=rezerv11.yunus.guru&fp=edge&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864&flow=xtls-rprx-vision#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "158.160.198.162",
+      "port": 443,
+      "latency_ms": 261.4,
+      "median_latency_ms": 261.4,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     }
   ],
   "top15": [
@@ -107,14 +273,98 @@
       "key": "vless://8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1@217.144.184.251:2053?fp=firefox&pbk=ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA&security=reality&serviceName=grpc&sid=d9a7c1e2b3f4481a&sni=cdn.jsdelivr.net&type=grpc#%F0%9F%87%A7%F0%9F%87%B7%20Brazil",
       "host": "217.144.184.251",
       "port": 2053,
-      "latency_ms": 129.7,
-      "median_latency_ms": 132.8,
+      "latency_ms": 152.5,
+      "median_latency_ms": 133.6,
       "availability_pct": 100.0,
-      "success_streak": 10,
-      "observations": 10,
+      "success_streak": 11,
+      "observations": 11,
       "stable_qualified": true,
       "country": "Brazil",
       "flag": "🇧🇷"
+    },
+    {
+      "rank": 2,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=rezerv11.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "158.160.198.162",
+      "port": 443,
+      "latency_ms": 261.4,
+      "median_latency_ms": 146.2,
+      "availability_pct": 100.0,
+      "success_streak": 8,
+      "observations": 8,
+      "stable_qualified": true,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "rank": 3,
+      "key": "vless://ec242fb6-faeb-4f34-afb8-3fbf80e527e3@fr-1.coinbridge.nl:443?mode=gun&security=reality&encryption=none&pbk=kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI&fp=random&type=grpc&serviceName=data-sync&sni=google.com&sid=d5c7f84e37e0c12d#%F0%9F%87%AB%F0%9F%87%B7%20France",
+      "host": "fr-1.coinbridge.nl",
+      "port": 443,
+      "latency_ms": 149.1,
+      "median_latency_ms": 148.1,
+      "availability_pct": 100.0,
+      "success_streak": 4,
+      "observations": 4,
+      "stable_qualified": false,
+      "country": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "rank": 4,
+      "key": "vless://ec242fb6-faeb-4f34-afb8-3fbf80e527e3@130.49.179.128:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=data-sync&fp=random&sni=google.com&pbk=kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI&sid=d5c7f84e37e0c12d#%F0%9F%87%AB%F0%9F%87%B7%20France",
+      "host": "130.49.179.128",
+      "port": 443,
+      "latency_ms": 106.0,
+      "median_latency_ms": 106.0,
+      "availability_pct": 100.0,
+      "success_streak": 3,
+      "observations": 3,
+      "stable_qualified": false,
+      "country": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "rank": 5,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@rezerv12.yunus.guru:443?flow=xtls-rprx-vision&fp=firefox&headertype=none&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&security=reality&sid=34256b39b4ebb864&sni=rezerv7.yunus.guru&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "rezerv12.yunus.guru",
+      "port": 443,
+      "latency_ms": 201.3,
+      "median_latency_ms": 164.9,
+      "availability_pct": 100.0,
+      "success_streak": 2,
+      "observations": 2,
+      "stable_qualified": false,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "rank": 6,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.161.175:443?security=reality&encryption=none&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=rezerv7.yunus.guru&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "158.160.161.175",
+      "port": 443,
+      "latency_ms": 217.2,
+      "median_latency_ms": 217.2,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "rank": 7,
+      "key": "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?type=tcp&headerType=none&security=reality&encryption=none&sni=rezerv11.yunus.guru&fp=edge&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864&flow=xtls-rprx-vision#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "158.160.198.162",
+      "port": 443,
+      "latency_ms": 261.4,
+      "median_latency_ms": 261.4,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     }
   ]
 }
