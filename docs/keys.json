@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-25 08:04 UTC",
-  "updated_at_msk": "2026-06-25 11:04 МСК",
-  "announce": "Последнее сканирование: 2026-06-25 11:04 МСК",
+  "updated_at": "2026-06-25 11:08 UTC",
+  "updated_at_msk": "2026-06-25 14:08 МСК",
+  "announce": "Последнее сканирование: 2026-06-25 14:08 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 2456,
+    "tracked_keys": 2424,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 9
+      "total": 7
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 9
+      "total": 7
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -39,31 +39,31 @@
     "igareck_white_checked": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
-      "total": 4
+      "total": 2
     },
     "combined": {
-      "total": 9,
-      "working": 6,
-      "eligible": 7
+      "total": 7,
+      "working": 2,
+      "eligible": 3
     }
   },
   "transport_counts": {
-    "tcp": 5,
+    "tcp": 1,
     "ws": 2
   },
   "totals": {
-    "unique": 9,
-    "eligible": 7,
-    "working": 6,
-    "top100": 6,
-    "top50": 6,
-    "top15": 6,
-    "unsupported": 2,
+    "unique": 7,
+    "eligible": 3,
+    "working": 2,
+    "top100": 2,
+    "top50": 2,
+    "top15": 2,
+    "unsupported": 4,
     "failed": 1,
     "stable_candidates": 1
   },
   "unsupported_reasons": {
-    "xhttp": 2
+    "xhttp": 4
   },
   "failed_reasons": {
     "tcp": 1
@@ -71,84 +71,28 @@
   "top100": [
     {
       "rank": 1,
-      "key": "vless://ae0959f1-f25a-43d0-9c88-be1672641fc3@37.139.34.124:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "37.139.34.124",
-      "port": 443,
-      "latency_ms": 185.1,
-      "median_latency_ms": 162.2,
-      "availability_pct": 100.0,
-      "success_streak": 18,
-      "observations": 18,
-      "stable_qualified": true,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 2,
-      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=%2Fca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
-      "host": "91.193.58.77",
-      "port": 443,
-      "latency_ms": 1.8,
-      "median_latency_ms": 2.0,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Canada",
-      "flag": "🇨🇦"
-    },
-    {
-      "rank": 3,
-      "key": "vless://55ff1fff-2ecd-44e9-940d-7420c862b7d2@138.124.19.48:28737?type=tcp&headerType=none&security=reality&encryption=none&sni=www.vk.com&fp=firefox&pbk=Q8yB9j_8uP7SgGdVZdQQBzcnB7IROViEbnGtedncSVo&sid=790693&spx=%2FL11802LebVvHowb#%F0%9F%87%B5%F0%9F%87%B1%20Poland",
-      "host": "138.124.19.48",
-      "port": 28737,
-      "latency_ms": 163.7,
-      "median_latency_ms": 162.2,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Poland",
-      "flag": "🇵🇱"
-    },
-    {
-      "rank": 4,
-      "key": "vless://69a2af58-d74a-44ca-864a-e09b493f4274@104.167.197.97:443?type=tcp&security=reality&pbk=7kOgSBnHMeClMoLD0PdTQGflVNiYl47pT94TBsTXh1Y&fp=firefox&sni=www.nvidia.com&sid=8166&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20United%20States",
-      "host": "104.167.197.97",
-      "port": 443,
-      "latency_ms": 66.4,
-      "median_latency_ms": 66.4,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "United States",
-      "flag": "🇺🇸"
-    },
-    {
-      "rank": 5,
-      "key": "vless://b91a0a1a-6570-4b0a-9d47-8c11f7b21aae@51.250.109.95:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%AB%F0%9F%87%B7%20France",
-      "host": "51.250.109.95",
-      "port": 443,
-      "latency_ms": 220.3,
-      "median_latency_ms": 220.3,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "France",
-      "flag": "🇫🇷"
-    },
-    {
-      "rank": 6,
-      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=%2Fca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&fp=firefox&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
+      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=/ca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
       "host": "91.193.58.77",
       "port": 443,
       "latency_ms": 1.8,
       "median_latency_ms": 1.8,
       "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
+      "success_streak": 14,
+      "observations": 14,
+      "stable_qualified": true,
+      "country": "Canada",
+      "flag": "🇨🇦"
+    },
+    {
+      "rank": 2,
+      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?encryption=none&fp=chrome&host=unnes.ac.id.yxls.eu.cc&path=/ca-cl&security=tls&sni=unnes.ac.id.yxls.eu.cc&type=ws#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
+      "host": "91.193.58.77",
+      "port": 443,
+      "latency_ms": 1.8,
+      "median_latency_ms": 1.8,
+      "availability_pct": 100.0,
+      "success_streak": 3,
+      "observations": 3,
       "stable_qualified": false,
       "country": "Canada",
       "flag": "🇨🇦"
@@ -157,84 +101,28 @@
   "top50": [
     {
       "rank": 1,
-      "key": "vless://ae0959f1-f25a-43d0-9c88-be1672641fc3@37.139.34.124:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "37.139.34.124",
-      "port": 443,
-      "latency_ms": 185.1,
-      "median_latency_ms": 162.2,
-      "availability_pct": 100.0,
-      "success_streak": 18,
-      "observations": 18,
-      "stable_qualified": true,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 2,
-      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=%2Fca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
-      "host": "91.193.58.77",
-      "port": 443,
-      "latency_ms": 1.8,
-      "median_latency_ms": 2.0,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Canada",
-      "flag": "🇨🇦"
-    },
-    {
-      "rank": 3,
-      "key": "vless://55ff1fff-2ecd-44e9-940d-7420c862b7d2@138.124.19.48:28737?type=tcp&headerType=none&security=reality&encryption=none&sni=www.vk.com&fp=firefox&pbk=Q8yB9j_8uP7SgGdVZdQQBzcnB7IROViEbnGtedncSVo&sid=790693&spx=%2FL11802LebVvHowb#%F0%9F%87%B5%F0%9F%87%B1%20Poland",
-      "host": "138.124.19.48",
-      "port": 28737,
-      "latency_ms": 163.7,
-      "median_latency_ms": 162.2,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Poland",
-      "flag": "🇵🇱"
-    },
-    {
-      "rank": 4,
-      "key": "vless://69a2af58-d74a-44ca-864a-e09b493f4274@104.167.197.97:443?type=tcp&security=reality&pbk=7kOgSBnHMeClMoLD0PdTQGflVNiYl47pT94TBsTXh1Y&fp=firefox&sni=www.nvidia.com&sid=8166&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20United%20States",
-      "host": "104.167.197.97",
-      "port": 443,
-      "latency_ms": 66.4,
-      "median_latency_ms": 66.4,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "United States",
-      "flag": "🇺🇸"
-    },
-    {
-      "rank": 5,
-      "key": "vless://b91a0a1a-6570-4b0a-9d47-8c11f7b21aae@51.250.109.95:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%AB%F0%9F%87%B7%20France",
-      "host": "51.250.109.95",
-      "port": 443,
-      "latency_ms": 220.3,
-      "median_latency_ms": 220.3,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "France",
-      "flag": "🇫🇷"
-    },
-    {
-      "rank": 6,
-      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=%2Fca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&fp=firefox&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
+      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=/ca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
       "host": "91.193.58.77",
       "port": 443,
       "latency_ms": 1.8,
       "median_latency_ms": 1.8,
       "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
+      "success_streak": 14,
+      "observations": 14,
+      "stable_qualified": true,
+      "country": "Canada",
+      "flag": "🇨🇦"
+    },
+    {
+      "rank": 2,
+      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?encryption=none&fp=chrome&host=unnes.ac.id.yxls.eu.cc&path=/ca-cl&security=tls&sni=unnes.ac.id.yxls.eu.cc&type=ws#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
+      "host": "91.193.58.77",
+      "port": 443,
+      "latency_ms": 1.8,
+      "median_latency_ms": 1.8,
+      "availability_pct": 100.0,
+      "success_streak": 3,
+      "observations": 3,
       "stable_qualified": false,
       "country": "Canada",
       "flag": "🇨🇦"
@@ -243,84 +131,28 @@
   "top15": [
     {
       "rank": 1,
-      "key": "vless://ae0959f1-f25a-43d0-9c88-be1672641fc3@37.139.34.124:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "37.139.34.124",
-      "port": 443,
-      "latency_ms": 185.1,
-      "median_latency_ms": 162.2,
-      "availability_pct": 100.0,
-      "success_streak": 18,
-      "observations": 18,
-      "stable_qualified": true,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 2,
-      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=%2Fca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
-      "host": "91.193.58.77",
-      "port": 443,
-      "latency_ms": 1.8,
-      "median_latency_ms": 2.0,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Canada",
-      "flag": "🇨🇦"
-    },
-    {
-      "rank": 3,
-      "key": "vless://55ff1fff-2ecd-44e9-940d-7420c862b7d2@138.124.19.48:28737?type=tcp&headerType=none&security=reality&encryption=none&sni=www.vk.com&fp=firefox&pbk=Q8yB9j_8uP7SgGdVZdQQBzcnB7IROViEbnGtedncSVo&sid=790693&spx=%2FL11802LebVvHowb#%F0%9F%87%B5%F0%9F%87%B1%20Poland",
-      "host": "138.124.19.48",
-      "port": 28737,
-      "latency_ms": 163.7,
-      "median_latency_ms": 162.2,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Poland",
-      "flag": "🇵🇱"
-    },
-    {
-      "rank": 4,
-      "key": "vless://69a2af58-d74a-44ca-864a-e09b493f4274@104.167.197.97:443?type=tcp&security=reality&pbk=7kOgSBnHMeClMoLD0PdTQGflVNiYl47pT94TBsTXh1Y&fp=firefox&sni=www.nvidia.com&sid=8166&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20United%20States",
-      "host": "104.167.197.97",
-      "port": 443,
-      "latency_ms": 66.4,
-      "median_latency_ms": 66.4,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "United States",
-      "flag": "🇺🇸"
-    },
-    {
-      "rank": 5,
-      "key": "vless://b91a0a1a-6570-4b0a-9d47-8c11f7b21aae@51.250.109.95:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%AB%F0%9F%87%B7%20France",
-      "host": "51.250.109.95",
-      "port": 443,
-      "latency_ms": 220.3,
-      "median_latency_ms": 220.3,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "France",
-      "flag": "🇫🇷"
-    },
-    {
-      "rank": 6,
-      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=%2Fca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&fp=firefox&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
+      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?path=/ca-cl&security=tls&encryption=none&insecure=0&host=unnes.ac.id.yxls.eu.cc&type=ws&allowInsecure=0&sni=unnes.ac.id.yxls.eu.cc#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
       "host": "91.193.58.77",
       "port": 443,
       "latency_ms": 1.8,
       "median_latency_ms": 1.8,
       "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
+      "success_streak": 14,
+      "observations": 14,
+      "stable_qualified": true,
+      "country": "Canada",
+      "flag": "🇨🇦"
+    },
+    {
+      "rank": 2,
+      "key": "vless://0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c@91.193.58.77:443?encryption=none&fp=chrome&host=unnes.ac.id.yxls.eu.cc&path=/ca-cl&security=tls&sni=unnes.ac.id.yxls.eu.cc&type=ws#%F0%9F%87%A8%F0%9F%87%A6%20Canada",
+      "host": "91.193.58.77",
+      "port": 443,
+      "latency_ms": 1.8,
+      "median_latency_ms": 1.8,
+      "availability_pct": 100.0,
+      "success_streak": 3,
+      "observations": 3,
       "stable_qualified": false,
       "country": "Canada",
       "flag": "🇨🇦"
