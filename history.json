@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "window_size": 96,
-  "updated_at": "2026-07-07T01:26:57Z",
+  "updated_at": "2026-07-07T05:51:11Z",
   "items": {
     "vless://9c0ae518-85ff-42d5-8fff-c53ef9590cfd@87.228.101.90:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=logist.bezgranitsservice.pro&fp=firefox&pbk=HaIwg6KoAcpf2zeU7kojGDafvNSoMl1fDYdCbs9auH0&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-06-14T15:28:33Z",
@@ -88,8 +88,8 @@
     },
     "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=rezerv11.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-06-16T21:20:09Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -192,6 +192,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 222.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 288.5
         }
       ]
     },
@@ -339,10 +344,10 @@
     },
     "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@rezerv12.yunus.guru:443?flow=xtls-rprx-vision&fp=firefox&headertype=none&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&security=reality&sid=34256b39b4ebb864&sni=rezerv7.yunus.guru&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-06-18T06:30:19Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
       "last_success_at": "2026-07-07T01:26:57Z",
-      "last_failure_at": null,
-      "last_status": "ok",
+      "last_failure_at": "2026-07-07T05:51:11Z",
+      "last_status": "tcp",
       "history": [
         {
           "ts": "2026-06-18T06:30:19Z",
@@ -418,6 +423,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 172.8
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": false,
+          "reason": "tcp"
         }
       ]
     },
@@ -1333,50 +1343,6 @@
         }
       ]
     },
-    "vless://02691193-6439-459d-b7e5-f64f6887aa32@82.202.141.198:51234?encryption=none&type=grpc&security=reality&mode=gun&serviceName=public-ru&fp=firefox&sni=max.ru&pbk=QOmBHIllrJ3GBWZ9Ik__p6FiuZeUAdJ3nyc4OJvMczI#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-06-20T18:47:00Z",
-      "last_seen_at": "2026-06-23T01:49:14Z",
-      "last_success_at": "2026-06-23T01:49:14Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-06-20T18:47:00Z",
-          "ok": true,
-          "latency_ms": 1176.4
-        },
-        {
-          "ts": "2026-06-20T20:08:45Z",
-          "ok": true,
-          "latency_ms": 132.2
-        },
-        {
-          "ts": "2026-06-21T22:36:35Z",
-          "ok": true,
-          "latency_ms": 168.2
-        },
-        {
-          "ts": "2026-06-21T23:57:51Z",
-          "ok": true,
-          "latency_ms": 129.5
-        },
-        {
-          "ts": "2026-06-22T05:31:45Z",
-          "ok": true,
-          "latency_ms": 198.9
-        },
-        {
-          "ts": "2026-06-22T16:17:59Z",
-          "ok": true,
-          "latency_ms": 121.3
-        },
-        {
-          "ts": "2026-06-23T01:49:14Z",
-          "ok": true,
-          "latency_ms": 151.1
-        }
-      ]
-    },
     "vless://8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1@217.144.184.251:2053?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=firefox&sni=cdn.jsdelivr.net&pbk=ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA&sid=d9a7c1e2b3f4481a#%F0%9F%87%A7%F0%9F%87%B7%20Brazil": {
       "first_seen_at": "2026-06-21T01:40:17Z",
       "last_seen_at": "2026-07-02T11:56:41Z",
@@ -1940,35 +1906,6 @@
         }
       ]
     },
-    "vless://92e41c23-4b39-464a-bbff-63ef84f317da@84.201.180.91:443?type=tcp&headerType=none&security=reality&encryption=none&sni=api-maps.yandex.ru&fp=firefox&pbk=n995xG00VmlZ2j_SIka7jUo8_jKQO8gIQU5FQaU-0AA&sid=743cdafc&flow=xtls-rprx-vision#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-06-21T22:36:35Z",
-      "last_seen_at": "2026-06-23T01:49:14Z",
-      "last_success_at": "2026-06-23T01:49:14Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-06-21T22:36:35Z",
-          "ok": true,
-          "latency_ms": 154.0
-        },
-        {
-          "ts": "2026-06-21T23:57:51Z",
-          "ok": true,
-          "latency_ms": 126.0
-        },
-        {
-          "ts": "2026-06-22T23:45:51Z",
-          "ok": true,
-          "latency_ms": 193.9
-        },
-        {
-          "ts": "2026-06-23T01:49:14Z",
-          "ok": true,
-          "latency_ms": 139.3
-        }
-      ]
-    },
     "vless://4c0e1fb5-08a6-4809-8723-9721f1b1990b@178.212.13.157:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=rutube.ru&pbk=JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY&sid=6c6082a2223c1d03#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-06-21T22:36:35Z",
       "last_seen_at": "2026-06-24T05:50:43Z",
@@ -2035,8 +1972,8 @@
     },
     "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.161.175:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=rezerv7.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-06-21T22:36:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -2064,13 +2001,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 172.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 1241.0
         }
       ]
     },
     "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=edge&sni=rezerv11.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-06-21T22:36:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -2098,6 +2040,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 222.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 288.5
         }
       ]
     },
@@ -3456,30 +3403,6 @@
         }
       ]
     },
-    "vless://92e41c23-4b39-464a-bbff-63ef84f317da@82.202.157.193:443?type=tcp&security=reality&sni=api-maps.yandex.ru&fp=firefox&flow=xtls-rprx-vision&pbk=A51UvCAHsWrGkjaZQoE0PfHt-owiBxSMRIc8XfxdYkg&sid=fbc7b5b2#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-06-22T16:17:59Z",
-      "last_seen_at": "2026-06-23T01:49:14Z",
-      "last_success_at": "2026-06-23T01:49:14Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-06-22T16:17:59Z",
-          "ok": true,
-          "latency_ms": 132.3
-        },
-        {
-          "ts": "2026-06-22T23:45:51Z",
-          "ok": true,
-          "latency_ms": 189.8
-        },
-        {
-          "ts": "2026-06-23T01:49:14Z",
-          "ok": true,
-          "latency_ms": 148.5
-        }
-      ]
-    },
     "vless://a48c736e-d3de-47b8-a6eb-ef1d6fd34c63@disk.api-yandex.net:2777?type=tcp&security=reality&sni=ads.x5.ru&fp=chrome&pbk=HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao&sid=0f4dacf08722a29f&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-06-22T16:17:59Z",
       "last_seen_at": "2026-06-23T13:31:03Z",
@@ -4791,25 +4714,6 @@
         }
       ]
     },
-    "vless://92e41c23-4b39-464a-bbff-63ef84f317da@92.53.74.158:443?type=tcp&security=reality&sni=api-maps.yandex.ru&fp=firefox&flow=xtls-rprx-vision&pbk=U__j2tLl5Kl7R7zICEWGQLTxV9SZk_Lj0k_338xDWGQ&sid=8fb53b24#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-06-22T23:45:51Z",
-      "last_seen_at": "2026-06-23T01:49:14Z",
-      "last_success_at": "2026-06-23T01:49:14Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-06-22T23:45:51Z",
-          "ok": true,
-          "latency_ms": 179.6
-        },
-        {
-          "ts": "2026-06-23T01:49:14Z",
-          "ok": true,
-          "latency_ms": 129.5
-        }
-      ]
-    },
     "vless://b0f08ae1-7cf9-4612-ad61-72681e0b92da@83.219.250.194:443?fp=firefox&pbk=kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI&security=reality&serviceName=data-sync&sid=d5c7f84e37e0c12d&sni=google.com&type=grpc#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
       "first_seen_at": "2026-06-22T23:45:51Z",
       "last_seen_at": "2026-06-24T01:32:22Z",
@@ -5780,8 +5684,8 @@
     },
     "vless://dba50bb9-2456-4128-8632-f7ba1e6a7ab5@78.41.111.87:443?encryption=none&security=tls&sni=s10211.cdn.ngenix.net&fp=chrome&alpn=http/1.1&insecure=0&allowInsecure=0&type=ws&host=s10211.cdn.ngenix.net&path=/api/user#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-06-23T01:49:14Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": "2026-06-27T20:20:51Z",
       "last_status": "ok",
       "history": [
@@ -5854,20 +5758,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.0
-        }
-      ]
-    },
-    "vless://92e41c23-4b39-464a-bbff-63ef84f317da@92.53.74.158:443?type=tcp&security=reality&sni=api-maps.yandex.ru&fp=chrome&flow=xtls-rprx-vision&pbk=U__j2tLl5Kl7R7zICEWGQLTxV9SZk_Lj0k_338xDWGQ&sid=8fb53b24#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-06-23T01:49:14Z",
-      "last_seen_at": "2026-06-23T01:49:14Z",
-      "last_success_at": "2026-06-23T01:49:14Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
+        },
         {
-          "ts": "2026-06-23T01:49:14Z",
+          "ts": "2026-07-07T05:51:11Z",
           "ok": true,
-          "latency_ms": 129.5
+          "latency_ms": 160.1
         }
       ]
     },
@@ -5902,20 +5797,6 @@
           "ts": "2026-06-24T09:51:15Z",
           "ok": true,
           "latency_ms": 169.2
-        }
-      ]
-    },
-    "vless://92e41c23-4b39-464a-bbff-63ef84f317da@84.201.180.91:443?flow=xtls-rprx-vision&fp=edge&headertype=none&pbk=n995xG00VmlZ2j_SIka7jUo8_jKQO8gIQU5FQaU-0AA&security=reality&sid=743cdafc&sni=api-maps.yandex.ru&type=tcp#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-06-23T01:49:14Z",
-      "last_seen_at": "2026-06-23T01:49:14Z",
-      "last_success_at": "2026-06-23T01:49:14Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-06-23T01:49:14Z",
-          "ok": true,
-          "latency_ms": 139.3
         }
       ]
     },
@@ -5964,20 +5845,6 @@
           "ts": "2026-06-24T05:50:43Z",
           "ok": true,
           "latency_ms": 185.7
-        }
-      ]
-    },
-    "vless://09a012c8-67e9-4d92-9aa2-ecb025a786b3@5.188.115.226:9443?fp=firefox&mode=gun&pbk=QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8&security=reality&serviceName=ns&sid=00000000&sni=id.pervye.ru&type=grpc#%F0%9F%87%B9%F0%9F%87%B7%20Turkey": {
-      "first_seen_at": "2026-06-23T01:49:14Z",
-      "last_seen_at": "2026-06-23T01:49:14Z",
-      "last_success_at": "2026-06-23T01:49:14Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-06-23T01:49:14Z",
-          "ok": true,
-          "latency_ms": 146.8
         }
       ]
     },
@@ -6032,20 +5899,6 @@
           "ts": "2026-06-24T01:32:22Z",
           "ok": true,
           "latency_ms": 124.4
-        }
-      ]
-    },
-    "vless://33de2596-d95d-412b-a8c2-410be7060ca3@109.73.194.240:443?flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=sellflow.org&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-06-23T01:49:14Z",
-      "last_seen_at": "2026-06-23T01:49:14Z",
-      "last_success_at": "2026-06-23T01:49:14Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-06-23T01:49:14Z",
-          "ok": true,
-          "latency_ms": 158.8
         }
       ]
     },
@@ -6235,20 +6088,6 @@
           "ts": "2026-06-24T01:32:22Z",
           "ok": true,
           "latency_ms": 120.2
-        }
-      ]
-    },
-    "vless://33de2596-d95d-412b-a8c2-410be7060ca3@5.42.108.253:443?flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=sellflow.org&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-06-23T01:49:14Z",
-      "last_seen_at": "2026-06-23T01:49:14Z",
-      "last_success_at": "2026-06-23T01:49:14Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-06-23T01:49:14Z",
-          "ok": true,
-          "latency_ms": 170.4
         }
       ]
     },
@@ -14366,8 +14205,8 @@
     },
     "vless://dba50bb9-2456-4128-8632-f7ba1e6a7ab5@78.41.111.87:443?encryption=none&type=ws&security=tls&path=/api/user&host=s10211.cdn.ngenix.net&fp=qq&sni=s10211.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-06-24T23:49:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": "2026-06-27T01:23:34Z",
       "last_status": "ok",
       "history": [
@@ -14460,6 +14299,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.0
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 160.1
         }
       ]
     },
@@ -15151,8 +14995,8 @@
     },
     "vless://dba50bb9-2456-4128-8632-f7ba1e6a7ab5@78.41.111.87:443?encryption=none&security=tls&sni=s10211.cdn.ngenix.net&fp=qq&alpn=http/1.1&insecure=0&allowInsecure=0&type=ws&host=s10211.cdn.ngenix.net&path=/api/user#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-06-25T16:09:38Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": "2026-06-27T01:23:34Z",
       "last_status": "ok",
       "history": [
@@ -15210,6 +15054,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.0
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 160.1
         }
       ]
     },
@@ -28302,8 +28151,8 @@
     },
     "vless://05a01432-0302-439f-a88d-8442cd27b7d5@gt-ch-01.live:8443?type=tcp&security=reality&fp=firefox&sni=storage.yandex.net&flow=xtls-rprx-vision&pbk=8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc&sid=445ab326fc7c90ac#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-06-30T17:29:33Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -28516,6 +28365,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 200.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 215.2
         }
       ]
     },
@@ -33401,8 +33255,8 @@
     },
     "vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@141.193.213.20:443?encryption=none&fp=chrome&host=vangoghhh.info&path=%2Frdfgtws&security=tls&sni=JoinProxyVPN11.vangoghhh.info&type=ws#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-02T09:32:54Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -33680,6 +33534,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 12.6
         }
       ]
     },
@@ -37994,8 +37853,8 @@
     },
     "vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@8.6.112.0:443?type=ws&security=tls&fp=firefox&sni=amooaliii.net&path=%2Fjdhfyws&host=amooaliii.net#%F0%9F%87%AB%F0%9F%87%B7%20France": {
       "first_seen_at": "2026-07-03T12:29:49Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -38218,6 +38077,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.5
         }
       ]
     },
@@ -41314,8 +41178,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.209.158:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-04T05:28:58Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -41453,6 +41317,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 4.0
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 12.5
         }
       ]
     },
@@ -41917,8 +41786,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@66.81.247.91:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-04T05:28:58Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -42036,6 +41905,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 1.8
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 15.8
         }
       ]
     },
@@ -43214,8 +43088,8 @@
     },
     "vless://3483aa7a-8a7d-4561-8f77-4fbf7a0b1033@5.188.115.226:9443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=ns&fp=firefox&sni=id.pervye.ru&pbk=QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-04T11:57:11Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -43328,6 +43202,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 122.7
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 150.8
         }
       ]
     },
@@ -47099,8 +46978,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.209.212:443?encryption=none&security=tls&sni=vpn47.cc.cd&type=ws&host=vpn47.cc.cd&path=%2F#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-04T23:14:46Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -47163,6 +47042,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 12.7
         }
       ]
     },
@@ -47187,8 +47071,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.209.42:443?encryption=none&security=tls&sni=vpn47.cc.cd&type=ws&host=vpn47.cc.cd&path=%2F#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-04T23:14:46Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -47266,13 +47150,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.5
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.6
         }
       ]
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.211.52:443?encryption=none&security=tls&sni=vpn47.cc.cd&type=ws&host=vpn47.cc.cd&path=%2F#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-04T23:14:46Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -47335,6 +47224,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 1.8
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 17.3
         }
       ]
     },
@@ -47467,8 +47361,8 @@
     },
     "vless://1aeba778-61b6-423c-a2e4-651c52030671@46.8.209.71:7443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=UpdateService&fp=firefox&sni=api-maps.yandex.ru&pbk=Lx1YBbujnXe-LDlQ8akv8omp8HAgx1R9u2vphygBbH0&sid=79ec03329055110b#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -47546,6 +47440,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 129.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 160.2
         }
       ]
     },
@@ -47730,8 +47629,8 @@
     },
     "vless://2b947013-7551-4a8e-bc4f-470e9e987e88@82.202.141.58:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.amd.com&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=e1f8a3b6#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-06T01:26:35Z",
-      "last_success_at": "2026-07-06T01:26:35Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": "2026-07-05T04:32:17Z",
       "last_status": "ok",
       "history": [
@@ -47744,6 +47643,11 @@
           "ts": "2026-07-06T01:26:35Z",
           "ok": true,
           "latency_ms": 186.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 209.7
         }
       ]
     },
@@ -48375,8 +48279,8 @@
     },
     "vless://8c69b798-0a68-42cf-ae27-ff4fc618e5ee@45.10.246.207:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=sun6-20.userapi.com&pbk=uemqA7VkHB7Xw_gc88AfbBijEJgiWaVdCiIyMae8CSI#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -48409,6 +48313,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 159.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 190.2
         }
       ]
     },
@@ -48508,8 +48417,8 @@
     },
     "vless://967b2fad-bb2a-46d1-8efb-3bfda81f7f92@188.68.218.101:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=cloud.mail.ru&pbk=A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -48522,6 +48431,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 107.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.2
         }
       ]
     },
@@ -49181,8 +49095,8 @@
     },
     "vless://1d16c6e0-1bbe-435b-b661-90043fee999c@45.40.149.123:443?encryption=none&security=tls&sni=notls.lukongtou.eu.org&insecure=0&allowInsecure=0&type=ws&host=notls.lukongtou.eu.org&path=Telegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-06T01:26:35Z",
-      "last_success_at": "2026-07-06T01:26:35Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49195,13 +49109,18 @@
           "ts": "2026-07-06T01:26:35Z",
           "ok": true,
           "latency_ms": 2.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 18.0
         }
       ]
     },
     "vless://1d16c6e0-1bbe-435b-b661-90043fee999c@45.40.153.123:443?encryption=none&security=tls&sni=notls.lukongtou.eu.org&insecure=0&allowInsecure=0&type=ws&host=notls.lukongtou.eu.org&path=Telegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-05T04:32:17Z",
-      "last_success_at": "2026-07-05T04:32:17Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49209,13 +49128,18 @@
           "ts": "2026-07-05T04:32:17Z",
           "ok": true,
           "latency_ms": 1.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 12.4
         }
       ]
     },
     "vless://1d16c6e0-1bbe-435b-b661-90043fee999c@92.53.191.123:443?encryption=none&security=tls&sni=notls.lukongtou.eu.org&insecure=0&allowInsecure=0&type=ws&host=notls.lukongtou.eu.org&path=Telegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-06T01:26:35Z",
-      "last_success_at": "2026-07-06T01:26:35Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49228,13 +49152,18 @@
           "ts": "2026-07-06T01:26:35Z",
           "ok": true,
           "latency_ms": 2.2
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 11.8
         }
       ]
     },
     "vless://af475b0e-0c07-40fe-b4db-3dea2c0a481d@91.193.58.17:2083?&security=tls&fp=chrome&sni=edgetunnel-cmliu.lyqnihao.dpdns.org&type=ws&headerType=none&host=edgetunnel-cmliu.lyqnihao.dpdns.org&path=%2Ffp%3Dchromefp%3Dchrome#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-06T01:26:35Z",
-      "last_success_at": "2026-07-06T01:26:35Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49247,13 +49176,18 @@
           "ts": "2026-07-06T01:26:35Z",
           "ok": true,
           "latency_ms": 1.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 10.0
         }
       ]
     },
     "vless://af475b0e-0c07-40fe-b4db-3dea2c0a481d@91.193.58.17:2083?encryption=none&type=ws&host=edgetunnel-cmliu.lyqnihao.dpdns.org&path=%2Ffp%3Dchrome&security=tls&fp=chrome&sni=edgetunnel-cmliu.lyqnihao.dpdns.org#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-06T01:26:35Z",
-      "last_success_at": "2026-07-06T01:26:35Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49266,13 +49200,18 @@
           "ts": "2026-07-06T01:26:35Z",
           "ok": true,
           "latency_ms": 1.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 10.0
         }
       ]
     },
     "vless://af475b0e-0c07-40fe-b4db-3dea2c0a481d@91.193.58.17:2083?encryption=none&type=ws&host=edgetunnel-cmliu.lyqnihao.dpdns.org&path=%2Ffp&security=tls&sni=edgetunnel-cmliu.lyqnihao.dpdns.org#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-05T04:32:17Z",
-      "last_success_at": "2026-07-05T04:32:17Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49280,13 +49219,18 @@
           "ts": "2026-07-05T04:32:17Z",
           "ok": true,
           "latency_ms": 2.8
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 10.0
         }
       ]
     },
     "vless://af475b0e-0c07-40fe-b4db-3dea2c0a481d@91.193.58.17:2083?sni=edgetunnel-cmliu.lyqnihao.dpdns.org&type=ws&host=edgetunnel-cmliu.lyqnihao.dpdns.org&path=/fp=chromefp=chrome&security=tls#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-06T01:26:35Z",
-      "last_success_at": "2026-07-06T01:26:35Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49299,13 +49243,18 @@
           "ts": "2026-07-06T01:26:35Z",
           "ok": true,
           "latency_ms": 1.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 10.0
         }
       ]
     },
     "vless://1d16c6e0-1bbe-435b-b661-90043fee999c@160.153.0.123:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=notls.lukongtou.eu.org&path=Telegram-WangCai2&security=tls&sni=notls.lukongtou.eu.org&type=ws#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-06T01:26:35Z",
-      "last_success_at": "2026-07-06T01:26:35Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49318,13 +49267,18 @@
           "ts": "2026-07-06T01:26:35Z",
           "ok": true,
           "latency_ms": 2.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 9.9
         }
       ]
     },
     "vless://1d16c6e0-1bbe-435b-b661-90043fee999c@166.62.109.123:443?encryption=none&security=tls&sni=notls.lukongtou.eu.org&insecure=0&allowInsecure=0&type=ws&host=notls.lukongtou.eu.org&path=Telegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-06T01:26:35Z",
-      "last_success_at": "2026-07-06T01:26:35Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49337,6 +49291,11 @@
           "ts": "2026-07-06T01:26:35Z",
           "ok": true,
           "latency_ms": 2.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 15.0
         }
       ]
     },
@@ -49361,8 +49320,8 @@
     },
     "vless://1d16c6e0-1bbe-435b-b661-90043fee999c@77.74.228.123:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=notls.lukongtou.eu.org&path=Telegram-WangCai2&security=tls&sni=notls.lukongtou.eu.org&type=ws#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T04:32:17Z",
-      "last_seen_at": "2026-07-05T04:32:17Z",
-      "last_success_at": "2026-07-05T04:32:17Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49370,6 +49329,11 @@
           "ts": "2026-07-05T04:32:17Z",
           "ok": true,
           "latency_ms": 1.7
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 13.6
         }
       ]
     },
@@ -49585,8 +49549,8 @@
     },
     "vless://1386e60d-53c2-4938-9af4-bddc5f536e03@46.8.209.69:443?type=grpc&security=reality&encryption=none&sni=5post-gate.x5.ru&fp=firefox&pbk=Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw&sid=9329f8b5985b2a7d&headerType=none&serviceName=UpdateService&mode=gun#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-05T07:49:25Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -49614,6 +49578,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 157.4
         }
       ]
     },
@@ -50347,8 +50316,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@141.193.213.190:443?path=/&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T07:49:25Z",
-      "last_seen_at": "2026-07-06T11:03:43Z",
-      "last_success_at": "2026-07-06T11:03:43Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -50401,6 +50370,11 @@
           "ts": "2026-07-06T11:03:43Z",
           "ok": true,
           "latency_ms": 3.7
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 11.8
         }
       ]
     },
@@ -50435,8 +50409,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.208.61:443?type=ws&security=tls&fp=firefox&sni=vpn47.cc.cd&path=/&host=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T07:49:25Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -50514,6 +50488,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 3.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.1
         }
       ]
     },
@@ -52312,8 +52291,8 @@
     },
     "vless://1386e60d-53c2-4938-9af4-bddc5f536e03@46.8.209.69:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=UpdateService&fp=qq&sni=5post-gate.x5.ru&pbk=Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw&sid=9329f8b5985b2a7d#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-05T15:38:44Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -52341,6 +52320,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 157.4
         }
       ]
     },
@@ -53095,8 +53079,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.209.212:443?type=ws&security=tls&fp=firefox&sni=vpn47.cc.cd&path=%2F&host=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T15:38:44Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -53154,13 +53138,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 12.7
         }
       ]
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.211.52:443?type=ws&security=tls&fp=firefox&sni=vpn47.cc.cd&path=%2F&host=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T15:38:44Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -53208,6 +53197,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 1.8
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 17.3
         }
       ]
     },
@@ -54301,8 +54295,8 @@
     },
     "vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@8.6.112.0:443?encryption=none&host=amooaliii.net&path=%2Fjdhfyws&security=tls&sni=amooaliii.net&type=ws#%F0%9F%87%AB%F0%9F%87%B7%20France": {
       "first_seen_at": "2026-07-05T20:40:56Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -54375,6 +54369,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.5
         }
       ]
     },
@@ -56446,8 +56445,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.209.42:443?type=ws&security=tls&fp=firefox&sni=vpn47.cc.cd&path=%2F&host=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-05T20:40:56Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -56490,6 +56489,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.5
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.6
         }
       ]
     },
@@ -56600,8 +56604,8 @@
     },
     "vless://b22d87f9-3098-429f-a9fe-56463e0dc741@217.144.184.246:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=edge&sni=fast_s24.slopllex.app#%F0%9F%87%AB%F0%9F%87%AE%20Finland": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -56619,13 +56623,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 132.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 165.0
         }
       ]
     },
     "vless://b22d87f9-3098-429f-a9fe-56463e0dc741@fast_s24.slopllex.app:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=edge&sni=fast_s24.slopllex.app&fm={#%F0%9F%87%AB%F0%9F%87%AE%20Finland": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-06T11:03:43Z",
-      "last_success_at": "2026-07-06T11:03:43Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -56643,6 +56652,11 @@
           "ts": "2026-07-06T11:03:43Z",
           "ok": true,
           "latency_ms": 184.0
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 158.3
         }
       ]
     },
@@ -56742,8 +56756,8 @@
     },
     "vless://8e62a80b-83ee-4eb8-9852-e8f8c7a6c4fa@109.107.189.144:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=firefox&sni=fast_s8.screw.page&fm=%7B%22tcp%22%3Anull%2C%22udp%22%3Anull%7D#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -56796,13 +56810,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 133.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 161.4
         }
       ]
     },
     "vless://8e62a80b-83ee-4eb8-9852-e8f8c7a6c4fa@fast_s8.screw.page:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=fast_s8.screw.page&fm={#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -56855,6 +56874,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 134.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 162.4
         }
       ]
     },
@@ -57152,8 +57176,8 @@
     },
     "vless://3483aa7a-8a7d-4561-8f77-4fbf7a0b1033@45.10.246.207:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=sun6-20.userapi.com&pbk=uemqA7VkHB7Xw_gc88AfbBijEJgiWaVdCiIyMae8CSI#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -57171,13 +57195,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 159.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 190.2
         }
       ]
     },
     "vless://bd99da97-265e-425b-82cc-4ec009fe9ce2@br.muzon.to:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc&sid=9b0c1d2e&sni=www.amd.com&spx=/#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-06T01:26:35Z",
-      "last_success_at": "2026-07-06T01:26:35Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -57185,6 +57214,11 @@
           "ts": "2026-07-06T01:26:35Z",
           "ok": true,
           "latency_ms": 134.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 159.7
         }
       ]
     },
@@ -57209,8 +57243,8 @@
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.105:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -57263,6 +57297,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 165.3
         }
       ]
     },
@@ -57339,8 +57378,8 @@
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.14:443?type=tcp&security=reality&sni=eh.vk.ru&fp=chrome&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&sid=&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-06T06:10:34Z",
-      "last_success_at": "2026-07-06T06:10:34Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -57353,13 +57392,18 @@
           "ts": "2026-07-06T06:10:34Z",
           "ok": true,
           "latency_ms": 184.7
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 159.4
         }
       ]
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.24:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -57412,6 +57456,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 125.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 173.5
         }
       ]
     },
@@ -57436,8 +57485,8 @@
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.24:443?type=tcp&security=reality&sni=eh.vk.ru&fp=chrome&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&sid=&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-06T23:46:00Z",
-      "last_success_at": "2026-07-06T23:46:00Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -57485,13 +57534,18 @@
           "ts": "2026-07-06T23:46:00Z",
           "ok": true,
           "latency_ms": 181.8
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 173.5
         }
       ]
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.30:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -57544,6 +57598,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 126.2
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 157.3
         }
       ]
     },
@@ -57711,8 +57770,8 @@
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@ru-213.monkeyisland.xyz:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=eh.vk.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -57765,13 +57824,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 153.5
         }
       ]
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@ru-213.monkeyisland.xyz:443?type=tcp&security=reality&fp=firefox&sni=eh.vk.ru&flow=xtls-rprx-vision&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -57824,6 +57888,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 153.5
         }
       ]
     },
@@ -57979,8 +58048,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.209.158:443?path=/&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-06T01:26:35Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58003,6 +58072,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 4.0
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 12.5
         }
       ]
     },
@@ -58321,8 +58395,8 @@
     },
     "vless://2d1773bb-251e-4298-9105-4aa6f25e592c@46.182.24.124:443?security=reality&encryption=none&pbk=Kto_-HjLzajq1_Ffa69tSwfn-dIg1ow9elgaUBhkqyo&fp=chrome&type=grpc&sni=5post-gate.x5.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T06:10:34Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58365,6 +58439,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 108.7
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 139.7
         }
       ]
     },
@@ -58384,8 +58463,8 @@
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.105:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T06:10:34Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58433,13 +58512,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 165.3
         }
       ]
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.105:443?type=tcp&security=reality&encryption=none&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T06:10:34Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58487,13 +58571,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 165.3
         }
       ]
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.14:443?type=tcp&security=reality&encryption=none&sni=eh.vk.ru&fp=qq&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T06:10:34Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58541,13 +58630,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 159.4
         }
       ]
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.30:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T06:10:34Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58595,6 +58689,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 126.2
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 157.3
         }
       ]
     },
@@ -58682,8 +58781,8 @@
     },
     "vless://b22d87f9-3098-429f-a9fe-56463e0dc741@217.144.184.246:443?sni=fast_s24.slopllex.app&flow=xtls-rprx-vision-udp443&fp=edge&security=tls#%F0%9F%87%AB%F0%9F%87%AE%20Finland": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58696,13 +58795,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 132.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 165.0
         }
       ]
     },
     "vless://1ddf33c9-917f-4d3a-8a3e-a8f499a22d69@5.188.115.226:13443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=cdn.byteark.com&pbk=N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk&sid=e42075de64c24511&spx=%2F#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58745,6 +58849,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 128.2
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 159.6
         }
       ]
     },
@@ -58834,8 +58943,8 @@
     },
     "vless://00cb997f-aebb-4c0b-93de-616962738aa0@news.zoom.us:8443?type=ws&security=tls&fp=chrome&sni=apexcloud.ggff.net&path=/apexcloud.ggff.net&host=apexcloud.ggff.net#%F0%9F%87%B8%F0%9F%87%AC%20Singapore": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58878,13 +58987,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.0
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 13.0
         }
       ]
     },
     "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.161.175:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=edge&sni=rezerv7.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58897,13 +59011,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 172.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 1241.0
         }
       ]
     },
     "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=rezerv11.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-06T23:46:00Z",
-      "last_success_at": "2026-07-06T23:46:00Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -58941,6 +59060,11 @@
           "ts": "2026-07-06T23:46:00Z",
           "ok": true,
           "latency_ms": 237.0
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 288.5
         }
       ]
     },
@@ -58960,8 +59084,8 @@
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.14:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59004,6 +59128,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 159.4
         }
       ]
     },
@@ -59102,8 +59231,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@141.193.213.190:443?encryption=none&host=vpn47.cc.cd&path=%2F&security=tls&sni=vpn47.cc.cd&type=ws#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59146,6 +59275,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 11.8
         }
       ]
     },
@@ -59195,8 +59329,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.209.212:443?encryption=none&security=tls&sni=vpn47.cc.cd&fp=chrome&type=ws&host=vpn47.cc.cd&path=/&packetEncoding=xudp#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59209,6 +59343,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 12.7
         }
       ]
     },
@@ -59233,8 +59372,8 @@
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.210.63:443?encryption=none&security=tls&sni=vpn47.cc.cd&fp=chrome&type=ws&host=vpn47.cc.cd&path=/&packetEncoding=xudp#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59247,13 +59386,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.2
         }
       ]
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.211.22:443?encryption=none&security=tls&sni=vpn47.cc.cd&fp=chrome&type=ws&host=vpn47.cc.cd&path=/&packetEncoding=xudp#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59266,13 +59410,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.2
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 15.1
         }
       ]
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@91.193.58.201:443?encryption=none&security=tls&sni=vpn47.cc.cd&fp=chrome&type=ws&host=vpn47.cc.cd&path=/&packetEncoding=xudp#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59285,13 +59434,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.0
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 12.6
         }
       ]
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.211.136:443?encryption=none&security=tls&sni=vpn47.cc.cd&fp=chrome&type=ws&host=vpn47.cc.cd&path=/&packetEncoding=xudp#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59304,13 +59458,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 1.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.3
         }
       ]
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.211.52:443?encryption=none&security=tls&sni=vpn47.cc.cd&fp=chrome&type=ws&host=vpn47.cc.cd&path=/&packetEncoding=xudp#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-06T11:03:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59323,6 +59482,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 1.8
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 17.3
         }
       ]
     },
@@ -59459,8 +59623,8 @@
     },
     "vless://1386e60d-53c2-4938-9af4-bddc5f536e03@46.8.209.69:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=UpdateService&fp=chrome&sni=5post-gate.x5.ru&pbk=Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw&sid=9329f8b5985b2a7d#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-06T14:36:43Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59498,6 +59662,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 157.4
         }
       ]
     },
@@ -59965,8 +60134,8 @@
     },
     "vless://1144c488-b3e9-470b-977c-a12fb75b1113@m247-br-01.live:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=storage.yandex.net&fp=chrome&pbk=_0HnraldEtXmJMu7t3nEm8VmQXkMWF7dX1Dmz5KceSw&sid=b4f3a05896b60039&type=tcp&headerType=none#%F0%9F%87%A7%F0%9F%87%B7%20Brazil": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -59974,6 +60143,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 1139.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 143.9
         }
       ]
     },
@@ -60035,8 +60209,8 @@
     },
     "vless://15173b3d-22bf-5ac2-85ac-2bddaae12574@78.159.250.22:8443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=firefox&sni=yandex.ru&pbk=k0bArveUYPbO0W53IQDSSJYKllFFQUnHmtA_WjJjvCc&sid=54d21365d229cc8b&spx=/#%F0%9F%87%AB%F0%9F%87%AE%20Finland": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60044,13 +60218,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 125.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 160.6
         }
       ]
     },
     "vless://2dbbc5af-aadb-48fa-8730-52d4d9247184@92.53.74.129:443?flow=xtls-rprx-vision&fp=firefox&pbk=WjuwZbmCjN8TmT4wZL6zTevQr3mnOATafLpQi1ofzCs&security=reality&sid=de7c7bd7&sni=api-maps.yandex.ru&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20France": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60058,13 +60237,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 110.5
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 144.2
         }
       ]
     },
     "vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@8.6.112.0:443?security=tls&type=ws&path=/jdhfyws&host=amooaliii.net&packetEncoding=xudp&sni=amooaliii.net&fp=chrome&encryption=none#%F0%9F%87%AB%F0%9F%87%B7%20France": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60072,6 +60256,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.5
         }
       ]
     },
@@ -60091,8 +60280,8 @@
     },
     "vless://049bda3c-3fee-4c96-89ec-567b6a5da1e4@195.208.65.150:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60100,13 +60289,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
     "vless://049bda3c-3fee-4c96-89ec-567b6a5da1e4@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60114,6 +60308,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
@@ -60133,8 +60332,8 @@
     },
     "vless://132288b7-9b93-4e82-ad93-2b6d48530dbd@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60142,13 +60341,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
     "vless://1aeba778-61b6-423c-a2e4-651c52030671@46.8.209.71:7443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=UpdateService&fp=chrome&sni=api-maps.yandex.ru&pbk=Lx1YBbujnXe-LDlQ8akv8omp8HAgx1R9u2vphygBbH0&sid=79ec03329055110b#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60156,13 +60360,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 129.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 160.2
         }
       ]
     },
     "vless://20c9b62d-76d7-4fd1-b535-af86a2adefd6@195.208.65.150:443?type=ws&security=tls&encryption=none&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&sni=s46270.cdn.ngenix.net&fp=chrome&alpn=http%2F1.1&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60170,13 +60379,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
     "vless://20c9b62d-76d7-4fd1-b535-af86a2adefd6@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60184,13 +60398,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
     "vless://20c9b62d-76d7-4fd1-b535-af86a2adefd6@195.208.65.192:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60198,13 +60417,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 122.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
         }
       ]
     },
     "vless://20c9b62d-76d7-4fd1-b535-af86a2adefd6@195.208.65.192:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60212,13 +60436,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 122.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
         }
       ]
     },
     "vless://20c9b62d-76d7-4fd1-b535-af86a2adefd6@195.209.87.181:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60226,13 +60455,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 124.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 158.3
         }
       ]
     },
     "vless://2a53af46-dd5f-486d-9c7e-3fb16d8946e8@185.229.9.235:49003?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=Zd4UabMvO_1QQny7BzwBZa7T3eeY1GXC7MKZprZ-pGY&sid=27e53bbcab7593d7#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60240,13 +60474,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 118.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 154.0
         }
       ]
     },
     "vless://2a53af46-dd5f-486d-9c7e-3fb16d8946e8@185.229.9.235:49003?flow=xtls-rprx-vision&fp=firefox&pbk=Zd4UabMvO_1QQny7BzwBZa7T3eeY1GXC7MKZprZ-pGY&security=reality&sid=27e53bbcab7593d7&sni=ads.x5.ru&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60254,6 +60493,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 118.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 154.0
         }
       ]
     },
@@ -60273,8 +60517,8 @@
     },
     "vless://38262401-0869-4691-90a9-800f6538fc4e@195.208.65.150:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60282,13 +60526,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
     "vless://41da9cd0-b02c-427a-b74e-7e402c610ae4@de.riotvpn.eu:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=avatars.mds.yandex.net&fp=qq&pbk=8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho&sid=b76dcf9e1183fe1b#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60296,13 +60545,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 90.2
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 116.9
         }
       ]
     },
     "vless://54cca37f-e555-420e-acb9-71859fcc4fcd@195.208.65.150:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60310,6 +60564,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
@@ -60329,8 +60588,8 @@
     },
     "vless://6e7d40bb-880b-413c-88c4-97c39b724f80@195.208.65.192:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60338,13 +60597,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 122.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
         }
       ]
     },
     "vless://7f9b6f26-ce23-48fe-b0eb-f3748eba2ade@195.208.65.150:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60352,6 +60616,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
@@ -60385,8 +60654,8 @@
     },
     "vless://b3a0aef6-aa41-451d-99ed-b91cd353c326@195.208.65.150:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60394,6 +60663,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
@@ -60441,8 +60715,8 @@
     },
     "vless://e79d4c97-0a08-4aca-bcd8-cb8075844b37@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60450,6 +60724,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
         }
       ]
     },
@@ -60469,8 +60748,8 @@
     },
     "vless://f52075d1-aab2-4f93-ab39-0dc52cad1ad1@195.208.65.192:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60478,13 +60757,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 122.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
         }
       ]
     },
     "vless://f52075d1-aab2-4f93-ab39-0dc52cad1ad1@195.208.65.192:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60492,13 +60776,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 122.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
         }
       ]
     },
     "vless://41da9cd0-b02c-427a-b74e-7e402c610ae4@de.riotvpn.eu:8443?encryption=none&type=grpc&serviceName=grpc-yandex&mode=multi&security=reality&sni=ads.x5.ru&fp=chrome&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=844352756c1fabba#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60506,13 +60795,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 89.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 116.6
         }
       ]
     },
     "vless://41da9cd0-b02c-427a-b74e-7e402c610ae4@de.riotvpn.eu:8443?encryption=none&type=grpc&serviceName=grpc-yandex&mode=multi&security=reality&sni=avatars.mds.yandex.net&fp=qq&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=e67fb918ed6b9ffb#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60520,6 +60814,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 89.6
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 116.6
         }
       ]
     },
@@ -60553,8 +60852,8 @@
     },
     "vless://bef0efb5-8128-4dd7-80ce-f6a2629b338c@185.229.9.207:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=yandex.ru&pbk=uqKo06QN98uCn95hbm3HhrMJTkS0tm3e6DZ7IDe1_gY&sid=d7b684f29aaea33a#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60562,6 +60861,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 162.7
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 159.8
         }
       ]
     },
@@ -60581,8 +60885,8 @@
     },
     "vless://bef0efb5-8128-4dd7-80ce-f6a2629b338c@46.8.18.166:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=www.vk.com&pbk=ZlXBEYDy1NPe1mLvq7j8CCB9fBIaIvc8X3UZsbVxNT8&sid=ae03e6ef452252e0&spx=%2F#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60590,13 +60894,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 138.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 150.3
         }
       ]
     },
     "vless://bef0efb5-8128-4dd7-80ce-f6a2629b338c@46.8.18.166:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=yandex.ru&pbk=djV0ofrWaRYqyKIgjuXuDGZt3QmkfDwyBk-ro_nv1zs&sid=b175ae75e2a15bf0&spx=%2F#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60604,6 +60913,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 138.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 150.3
         }
       ]
     },
@@ -60651,8 +60965,8 @@
     },
     "vless://05a01432-0302-439f-a88d-8442cd27b7d5@45.197.134.73:8443?flow=xtls-rprx-vision&fp=firefox&host=gt-ch-01.live&pbk=8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc&security=reality&sid=445ab326fc7c90ac&sni=storage.yandex.net&type=tcp#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60660,13 +60974,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 213.7
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 233.3
         }
       ]
     },
     "vless://05a01432-0302-439f-a88d-8442cd27b7d5@45.197.134.73:8443?flow=xtls-rprx-vision&fp=firefox&pbk=8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc&security=reality&sid=445ab326fc7c90ac&sni=storage.yandex.net&type=tcp#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60674,13 +60993,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 213.7
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 233.3
         }
       ]
     },
     "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.161.175:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=rezerv7.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864&spx=/#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60688,13 +61012,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 172.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 1241.0
         }
       ]
     },
     "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?flow=xtls-rprx-vision&fp=firefox&host=rezerv11.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&security=reality&sid=34256b39b4ebb864&sni=rezerv11.yunus.guru&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60702,6 +61031,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 222.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 288.5
         }
       ]
     },
@@ -60721,8 +61055,8 @@
     },
     "vless://8c69b798-0a68-42cf-ae27-ff4fc618e5ee@45.10.246.207:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=sun6-20.userapi.com&pbk=uemqA7VkHB7Xw_gc88AfbBijEJgiWaVdCiIyMae8CSI#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60730,6 +61064,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 159.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 190.2
         }
       ]
     },
@@ -60763,8 +61102,8 @@
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.105:443?flow=xtls-rprx-vision&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=eh.vk.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60772,13 +61111,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 165.3
         }
       ]
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.14:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=eh.vk.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60786,6 +61130,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 159.4
         }
       ]
     },
@@ -60805,8 +61154,8 @@
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.24:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60814,13 +61163,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 125.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 173.5
         }
       ]
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.30:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=eh.vk.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60828,13 +61182,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 126.2
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 157.3
         }
       ]
     },
     "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.30:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&spx=/#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60842,13 +61201,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 126.2
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 157.3
         }
       ]
     },
     "vless://a5d0bebb-3a92-075a-2df3-4c7d36b04af0@213.219.212.105:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60856,13 +61220,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 127.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 165.3
         }
       ]
     },
     "vless://a5d0bebb-3a92-075a-2df3-4c7d36b04af0@213.219.212.14:443?type=tcp&security=reality&encryption=none&sni=eh.vk.ru&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60870,6 +61239,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 123.3
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 159.4
         }
       ]
     },
@@ -60917,22 +61291,27 @@
     },
     "vless://43eb972f-f2fa-47dd-9916-85322c6e2c47@78.159.250.230:443?type=grpc&security=tls&fp=edge&sni=95.85.246.16.speed-storage.ru&mode=gun&serviceName=/sequre/grpc/&authority=95.85.246.16.speed-storage.ru#%F0%9F%87%A7%F0%9F%87%B7%20Brazil": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": null,
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": "2026-07-07T01:26:57Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-07-07T01:26:57Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 345.8
         }
       ]
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@141.193.213.190:443?type=ws&security=tls&fp=firefox&sni=vpn47.cc.cd&path=/&host=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60940,13 +61319,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.4
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 11.8
         }
       ]
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@154.83.2.24:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&path=/&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60954,13 +61338,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 2.0
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 12.1
         }
       ]
     },
     "vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.208.61:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&type=ws&allowInsecure=0&sni=vpn47.cc.cd#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60968,6 +61357,11 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 3.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.1
         }
       ]
     },
@@ -60987,8 +61381,8 @@
     },
     "vless://41da9cd0-b02c-427a-b74e-7e402c610ae4@ru.riotvpn.eu:8443?encryption=none&type=grpc&serviceName=grpc-yandex&mode=multi&security=reality&sni=ads.x5.ru&fp=chrome&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=844352756c1fabba#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -60996,13 +61390,18 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 125.1
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 156.4
         }
       ]
     },
     "vless://41da9cd0-b02c-427a-b74e-7e402c610ae4@ru.riotvpn.eu:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=avatars.mds.yandex.net&fp=qq&pbk=8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho&sid=2f49bccf11150ef2#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-07T01:26:57Z",
-      "last_seen_at": "2026-07-07T01:26:57Z",
-      "last_success_at": "2026-07-07T01:26:57Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -61010,6 +61409,627 @@
           "ts": "2026-07-07T01:26:57Z",
           "ok": true,
           "latency_ms": 122.9
+        },
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 158.4
+        }
+      ]
+    },
+    "vless://60f702cf-3f16-470f-9833-98f425ef22b8@81.94.148.75:8443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=ads.x5.ru&fp=chrome&sni=ads.x5.ru&pbk=DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM&sid=08#%F0%9F%87%AB%F0%9F%87%AE%20Finland": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 200.1
+        }
+      ]
+    },
+    "vless://890a945f-5c28-4d53-bdcc-c892799f46b0@92.53.74.158:443?flow=xtls-rprx-vision&fp=firefox&pbk=U__j2tLl5Kl7R7zICEWGQLTxV9SZk_Lj0k_338xDWGQ&security=reality&sid=8fb53b24&sni=api-maps.yandex.ru&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20France": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 149.3
+        }
+      ]
+    },
+    "vless://132288b7-9b93-4e82-ad93-2b6d48530dbd@195.208.65.150:443?type=ws&security=tls&encryption=none&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&sni=s46270.cdn.ngenix.net&fp=chrome&alpn=http%2F1.1&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
+        }
+      ]
+    },
+    "vless://132288b7-9b93-4e82-ad93-2b6d48530dbd@195.208.65.192:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
+        }
+      ]
+    },
+    "vless://20c9b62d-76d7-4fd1-b535-af86a2adefd6@195.209.87.181:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 158.3
+        }
+      ]
+    },
+    "vless://38262401-0869-4691-90a9-800f6538fc4e@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
+        }
+      ]
+    },
+    "vless://4c2b24e3-357f-4d26-b7d8-d670586cf21d@5.188.114.73:18443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=ns&fp=firefox&sni=ads.x5.ru&pbk=olUTV28dWkomVkfH50avy8iELvc2gohx2fJF6bokqGI#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-07-07T05:51:11Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://4c2b24e3-357f-4d26-b7d8-d670586cf21d@5.188.114.73:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=ns&fp=firefox&sni=id.pervye.ru&pbk=_QNDgsnfJt9qUimf4fJFmtpDGgLCbx2oV02WLfTojj4#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-07-07T05:51:11Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://4e48aece-7d80-42c2-8008-a6da8b6b245d@195.208.65.150:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
+        }
+      ]
+    },
+    "vless://4e48aece-7d80-42c2-8008-a6da8b6b245d@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
+        }
+      ]
+    },
+    "vless://4e48aece-7d80-42c2-8008-a6da8b6b245d@195.208.65.192:443?type=ws&security=tls&encryption=none&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&sni=s46270.cdn.ngenix.net&fp=chrome&alpn=http%2F1.1&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
+        }
+      ]
+    },
+    "vless://54cca37f-e555-420e-acb9-71859fcc4fcd@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
+        }
+      ]
+    },
+    "vless://6e7d40bb-880b-413c-88c4-97c39b724f80@195.208.65.192:443?type=ws&security=tls&encryption=none&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&sni=s46270.cdn.ngenix.net&fp=chrome&alpn=http%2F1.1&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
+        }
+      ]
+    },
+    "vless://7f9b6f26-ce23-48fe-b0eb-f3748eba2ade@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
+        }
+      ]
+    },
+    "vless://b3a0aef6-aa41-451d-99ed-b91cd353c326@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
+        }
+      ]
+    },
+    "vless://b3a0aef6-aa41-451d-99ed-b91cd353c326@195.208.65.192:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
+        }
+      ]
+    },
+    "vless://b3a0aef6-aa41-451d-99ed-b91cd353c326@195.208.65.192:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
+        }
+      ]
+    },
+    "vless://d6c11441-312e-48f2-a9ed-d56ddf5f3fa2@195.208.65.192:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
+        }
+      ]
+    },
+    "vless://d9699ec4-e9d3-4ee4-bd85-1d4479a7d105@195.208.65.150:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
+        }
+      ]
+    },
+    "vless://dae40829-7eb3-458d-a3a6-5e65dbf055e1@195.208.65.192:443?type=ws&security=tls&encryption=none&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&sni=s46270.cdn.ngenix.net&fp=chrome&alpn=http%2F1.1&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
+        }
+      ]
+    },
+    "vless://e79d4c97-0a08-4aca-bcd8-cb8075844b37@195.208.65.192:443?type=ws&security=tls&fp=chrome&sni=s46270.cdn.ngenix.net&path=/v1/data/sync/&host=s46270.cdn.ngenix.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.4
+        }
+      ]
+    },
+    "vless://f52075d1-aab2-4f93-ab39-0dc52cad1ad1@195.208.65.150:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 148.8
+        }
+      ]
+    },
+    "vless://41da9cd0-b02c-427a-b74e-7e402c610ae4@de.riotvpn.eu:8443?type=grpc&security=reality&fp=chrome&sni=ads.x5.ru&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=844352756c1fabba&serviceName=grpc-yandex#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 116.6
+        }
+      ]
+    },
+    "vless://bd99da97-265e-425b-82cc-4ec009fe9ce2@82.202.141.58:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=0a4b7c3d&sni=www.amd.com#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 209.7
+        }
+      ]
+    },
+    "vless://cee8c30c-fb13-4a89-abb4-5a32cf716c97@news.zoom.us:443?path=/api-api&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=api.mozestan.dpdns.org&fp=chrome&type=ws&allowInsecure=0&sni=api.mozestan.dpdns.org#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.2
+        }
+      ]
+    },
+    "vless://cee8c30c-fb13-4a89-abb4-5a32cf716c97@news.zoom.us:443?type=ws&security=tls&fp=chrome&sni=api.mozestan.dpdns.org&path=/api-api&host=api.mozestan.dpdns.org#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.2
+        }
+      ]
+    },
+    "vless://bef0efb5-8128-4dd7-80ce-f6a2629b338c@185.229.9.207:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.vk.com&pbk=Rde4-AW3R30RbpIkfiRcPdFalUsLAUdgerk2IYjwkBA&sid=d8b81daaad76dc9c&spx=%2F#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 159.8
+        }
+      ]
+    },
+    "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.196.38:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=edge&sni=rezerv9.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 155.7
+        }
+      ]
+    },
+    "vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@rezerv12.yunus.guru:443?security=reality&type=tcp&packetEncoding=xudp&sni=rezerv7.yunus.guru&fp=chrome&flow=xtls-rprx-vision&sid=34256b39b4ebb864&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&encryption=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-07-07T05:51:11Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://2d1773bb-251e-4298-9105-4aa6f25e592c@46.182.24.124:443?mode=gun&security=reality&encryption=none&authority=&pbk=Kto_-HjLzajq1_Ffa69tSwfn-dIg1ow9elgaUBhkqyo&fp=firefox&type=grpc&serviceName=&sni=5post-gate.x5.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 139.7
+        }
+      ]
+    },
+    "vless://967b2fad-bb2a-46d1-8efb-3bfda81f7f92@188.68.218.101:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=cloud.mail.ru&pbk=A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 147.2
+        }
+      ]
+    },
+    "vless://8a6f9d0b-dc16-431b-8914-cf8fde1eae7e@213.219.212.24:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&spx=/#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 173.5
+        }
+      ]
+    },
+    "vless://a5d0bebb-3a92-075a-2df3-4c7d36b04af0@213.219.212.24:443?type=tcp&security=reality&encryption=none&sni=eh.vk.ru&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 173.5
+        }
+      ]
+    },
+    "vless://a5d0bebb-3a92-075a-2df3-4c7d36b04af0@213.219.212.30:443?type=tcp&security=reality&encryption=none&sni=eh.vk.ru&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 157.3
+        }
+      ]
+    },
+    "vless://af475b0e-0c07-40fe-b4db-3dea2c0a481d@91.193.58.17:2083?encryption=none&security=tls&sni=edgetunnel-cmliu.lyqnihao.dpdns.org&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=edgetunnel-cmliu.lyqnihao.dpdns.org&path=%2F#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 10.0
+        }
+      ]
+    },
+    "vless://af475b0e-0c07-40fe-b4db-3dea2c0a481d@91.193.58.17:2083?sni=edgetunnel-cmliu.lyqnihao.dpdns.org&type=ws&host=edgetunnel-cmliu.lyqnihao.dpdns.org&path=%2Ffp%3Dchrome&security=tls&allowInsecure=0&insecure=0#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 10.0
+        }
+      ]
+    },
+    "vless://dd2952d5-2bc6-40c8-8a82-6dc00fe5105c@cloudflare-ech.com:8880?&security=false&fp=chrome&type=ws&headerType=none&host=nameless-shape-271e.321-5f5.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 9.7
+        }
+      ]
+    },
+    "vless://e7186358-4330-f129-f14e-34ca00000002@www.wto.org:443?path=%2Fsync&security=tls&encryption=none&insecure=0&host=orange-rain-6e34.cimarac875.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=orange-rain-6e34.cimarac875.workers.dev#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 10.0
+        }
+      ]
+    },
+    "vless://e7ca2c1c-9b47-4ef0-9d5e-2be26a86ffc1@cloudflare-ech.com:8880?&security=false&fp=chrome&type=ws&headerType=none&host=nameless-disk-194d.485.workers.dev&path=%2Fpyip%3DProxyIP.JP.CMLiussss.net#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 9.7
+        }
+      ]
+    },
+    "vless://2f142ede-d555-4ceb-b005-7df31b484be3@anydesk.com:8880?&security=false&fp=chrome&type=ws&headerType=none&host=bitter-pine-001c.450-e0e.workers.dev&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 14.8
+        }
+      ]
+    },
+    "vless://1d16c6e0-1bbe-435b-b661-90043fee999c@166.62.110.123:443?encryption=none&security=tls&sni=notls.lukongtou.eu.org&insecure=0&allowInsecure=0&type=ws&host=notls.lukongtou.eu.org&path=Telegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%A8%F0%9F%87%A6%20Canada": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 15.3
+        }
+      ]
+    },
+    "vless://41da9cd0-b02c-427a-b74e-7e402c610ae4@ru.riotvpn.eu:8443?encryption=none&type=grpc&serviceName=grpc-yandex&mode=multi&security=reality&sni=avatars.mds.yandex.net&fp=qq&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=e67fb918ed6b9ffb#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 156.4
+        }
+      ]
+    },
+    "vless://41da9cd0-b02c-427a-b74e-7e402c610ae4@ru.riotvpn.eu:8443?type=grpc&security=reality&fp=chrome&sni=ads.x5.ru&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=844352756c1fabba&serviceName=grpc-yandex#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 156.4
+        }
+      ]
+    },
+    "vless://43eb972f-f2fa-47dd-9916-85322c6e2c47@78.159.250.230:443?encryption=none&type=grpc&security=tls&mode=gun&serviceName=/sequre/grpc/&authority=95.85.246.16.speed-storage.ru&fp=edge&sni=95.85.246.16.speed-storage.ru&alpn=h2#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
+      "first_seen_at": "2026-07-07T05:51:11Z",
+      "last_seen_at": "2026-07-07T05:51:11Z",
+      "last_success_at": "2026-07-07T05:51:11Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-07T05:51:11Z",
+          "ok": true,
+          "latency_ms": 345.8
         }
       ]
     }
