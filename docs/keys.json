@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09 14:16 UTC",
-  "updated_at_msk": "2026-07-09 17:16 МСК",
-  "announce": "Последнее сканирование: 2026-07-09 17:16 МСК",
+  "updated_at": "2026-07-09 16:45 UTC",
+  "updated_at_msk": "2026-07-09 19:45 МСК",
+  "announce": "Последнее сканирование: 2026-07-09 19:45 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 2105,
+    "tracked_keys": 2106,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 3
+      "total": 10
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 3
+      "total": 10
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -39,38 +39,41 @@
     "igareck_white_checked": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
-      "total": 0
+      "total": 5
     },
     "combined": {
-      "total": 3,
-      "working": 3,
-      "eligible": 3
+      "total": 10,
+      "working": 5,
+      "eligible": 5
     }
   },
   "transport_counts": {
-    "ws": 3
+    "tcp": 5
   },
   "totals": {
-    "unique": 3,
-    "eligible": 3,
-    "working": 3,
-    "top100": 3,
-    "top50": 3,
-    "top15": 3,
-    "unsupported": 0,
+    "unique": 10,
+    "eligible": 5,
+    "working": 5,
+    "top100": 5,
+    "top50": 5,
+    "top15": 5,
+    "unsupported": 5,
     "failed": 0,
     "stable_candidates": 0
   },
-  "unsupported_reasons": {},
+  "unsupported_reasons": {
+    "security_none": 4,
+    "xhttp": 1
+  },
   "failed_reasons": {},
   "top100": [
     {
       "rank": 1,
-      "key": "vless://57c77d07-bec3-4bf7-9b72-70ece40450f6@185.22.234.32:7443?encryption=none&fp=qq&path=/ws&security=tls&sni=mms-2.hysteria.ltd&type=ws#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "185.22.234.32",
-      "port": 7443,
-      "latency_ms": 144.2,
-      "median_latency_ms": 144.2,
+      "key": "vless://d3d932d2-ff06-4005-8ce7-b49b73f13967@95.163.208.184:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=ads.x5.ru&pbk=bAbF5K_pk8MRvVIXJfH65xYiksNPNFYqLHLwaTEHojQ#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "95.163.208.184",
+      "port": 443,
+      "latency_ms": 139.6,
+      "median_latency_ms": 139.6,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
@@ -80,41 +83,69 @@
     },
     {
       "rank": 2,
-      "key": "vless://57c77d07-bec3-4bf7-9b72-70ece40450f6@194.55.239.181:9443?encryption=none&fp=qq&path=/ws&security=tls&sni=sw-2-al.hysteria.ltd&type=ws#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland",
-      "host": "194.55.239.181",
-      "port": 9443,
-      "latency_ms": 146.9,
-      "median_latency_ms": 146.9,
+      "key": "vless://8fa126b3-56a1-4f24-9987-ef700dfcf5e2@217.16.31.86:1695?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=api-maps.yandex.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "217.16.31.86",
+      "port": 1695,
+      "latency_ms": 212.5,
+      "median_latency_ms": 212.5,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Switzerland",
-      "flag": "🇨🇭"
+      "country": "Germany",
+      "flag": "🇩🇪"
     },
     {
       "rank": 3,
-      "key": "vless://57c77d07-bec3-4bf7-9b72-70ece40450f6@194.55.239.181:7443?encryption=none&fp=qq&path=/ws&security=tls&sni=sw-1-al.hysteria.ltd&type=ws#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland",
-      "host": "194.55.239.181",
-      "port": 7443,
-      "latency_ms": 150.7,
-      "median_latency_ms": 150.7,
+      "key": "vless://db7cae85-3c1a-4e4f-b317-7cdeaf419c5a@217.16.31.226:1829?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=max.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A6%F0%9F%87%B1%20Albania",
+      "host": "217.16.31.226",
+      "port": 1829,
+      "latency_ms": 334.9,
+      "median_latency_ms": 334.9,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Switzerland",
-      "flag": "🇨🇭"
+      "country": "Albania",
+      "flag": "🇦🇱"
+    },
+    {
+      "rank": 4,
+      "key": "vless://db7cae85-3c1a-4e4f-b317-7cdeaf419c5a@217.16.31.86:1695?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=api-maps.yandex.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "217.16.31.86",
+      "port": 1695,
+      "latency_ms": 212.5,
+      "median_latency_ms": 212.5,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Germany",
+      "flag": "🇩🇪"
+    },
+    {
+      "rank": 5,
+      "key": "vless://db7cae85-3c1a-4e4f-b317-7cdeaf419c5a@217.16.31.86:1695?flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "217.16.31.86",
+      "port": 1695,
+      "latency_ms": 212.5,
+      "median_latency_ms": 212.5,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Germany",
+      "flag": "🇩🇪"
     }
   ],
   "top50": [
     {
       "rank": 1,
-      "key": "vless://57c77d07-bec3-4bf7-9b72-70ece40450f6@185.22.234.32:7443?encryption=none&fp=qq&path=/ws&security=tls&sni=mms-2.hysteria.ltd&type=ws#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "185.22.234.32",
-      "port": 7443,
-      "latency_ms": 144.2,
-      "median_latency_ms": 144.2,
+      "key": "vless://d3d932d2-ff06-4005-8ce7-b49b73f13967@95.163.208.184:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=ads.x5.ru&pbk=bAbF5K_pk8MRvVIXJfH65xYiksNPNFYqLHLwaTEHojQ#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "95.163.208.184",
+      "port": 443,
+      "latency_ms": 139.6,
+      "median_latency_ms": 139.6,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
@@ -124,41 +155,69 @@
     },
     {
       "rank": 2,
-      "key": "vless://57c77d07-bec3-4bf7-9b72-70ece40450f6@194.55.239.181:9443?encryption=none&fp=qq&path=/ws&security=tls&sni=sw-2-al.hysteria.ltd&type=ws#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland",
-      "host": "194.55.239.181",
-      "port": 9443,
-      "latency_ms": 146.9,
-      "median_latency_ms": 146.9,
+      "key": "vless://8fa126b3-56a1-4f24-9987-ef700dfcf5e2@217.16.31.86:1695?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=api-maps.yandex.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "217.16.31.86",
+      "port": 1695,
+      "latency_ms": 212.5,
+      "median_latency_ms": 212.5,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Switzerland",
-      "flag": "🇨🇭"
+      "country": "Germany",
+      "flag": "🇩🇪"
     },
     {
       "rank": 3,
-      "key": "vless://57c77d07-bec3-4bf7-9b72-70ece40450f6@194.55.239.181:7443?encryption=none&fp=qq&path=/ws&security=tls&sni=sw-1-al.hysteria.ltd&type=ws#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland",
-      "host": "194.55.239.181",
-      "port": 7443,
-      "latency_ms": 150.7,
-      "median_latency_ms": 150.7,
+      "key": "vless://db7cae85-3c1a-4e4f-b317-7cdeaf419c5a@217.16.31.226:1829?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=max.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A6%F0%9F%87%B1%20Albania",
+      "host": "217.16.31.226",
+      "port": 1829,
+      "latency_ms": 334.9,
+      "median_latency_ms": 334.9,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Switzerland",
-      "flag": "🇨🇭"
+      "country": "Albania",
+      "flag": "🇦🇱"
+    },
+    {
+      "rank": 4,
+      "key": "vless://db7cae85-3c1a-4e4f-b317-7cdeaf419c5a@217.16.31.86:1695?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=api-maps.yandex.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "217.16.31.86",
+      "port": 1695,
+      "latency_ms": 212.5,
+      "median_latency_ms": 212.5,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Germany",
+      "flag": "🇩🇪"
+    },
+    {
+      "rank": 5,
+      "key": "vless://db7cae85-3c1a-4e4f-b317-7cdeaf419c5a@217.16.31.86:1695?flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "217.16.31.86",
+      "port": 1695,
+      "latency_ms": 212.5,
+      "median_latency_ms": 212.5,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Germany",
+      "flag": "🇩🇪"
     }
   ],
   "top15": [
     {
       "rank": 1,
-      "key": "vless://57c77d07-bec3-4bf7-9b72-70ece40450f6@185.22.234.32:7443?encryption=none&fp=qq&path=/ws&security=tls&sni=mms-2.hysteria.ltd&type=ws#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "185.22.234.32",
-      "port": 7443,
-      "latency_ms": 144.2,
-      "median_latency_ms": 144.2,
+      "key": "vless://d3d932d2-ff06-4005-8ce7-b49b73f13967@95.163.208.184:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=ads.x5.ru&pbk=bAbF5K_pk8MRvVIXJfH65xYiksNPNFYqLHLwaTEHojQ#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "95.163.208.184",
+      "port": 443,
+      "latency_ms": 139.6,
+      "median_latency_ms": 139.6,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
@@ -168,31 +227,59 @@
     },
     {
       "rank": 2,
-      "key": "vless://57c77d07-bec3-4bf7-9b72-70ece40450f6@194.55.239.181:9443?encryption=none&fp=qq&path=/ws&security=tls&sni=sw-2-al.hysteria.ltd&type=ws#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland",
-      "host": "194.55.239.181",
-      "port": 9443,
-      "latency_ms": 146.9,
-      "median_latency_ms": 146.9,
+      "key": "vless://8fa126b3-56a1-4f24-9987-ef700dfcf5e2@217.16.31.86:1695?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=api-maps.yandex.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "217.16.31.86",
+      "port": 1695,
+      "latency_ms": 212.5,
+      "median_latency_ms": 212.5,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Switzerland",
-      "flag": "🇨🇭"
+      "country": "Germany",
+      "flag": "🇩🇪"
     },
     {
       "rank": 3,
-      "key": "vless://57c77d07-bec3-4bf7-9b72-70ece40450f6@194.55.239.181:7443?encryption=none&fp=qq&path=/ws&security=tls&sni=sw-1-al.hysteria.ltd&type=ws#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland",
-      "host": "194.55.239.181",
-      "port": 7443,
-      "latency_ms": 150.7,
-      "median_latency_ms": 150.7,
+      "key": "vless://db7cae85-3c1a-4e4f-b317-7cdeaf419c5a@217.16.31.226:1829?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=max.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A6%F0%9F%87%B1%20Albania",
+      "host": "217.16.31.226",
+      "port": 1829,
+      "latency_ms": 334.9,
+      "median_latency_ms": 334.9,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Switzerland",
-      "flag": "🇨🇭"
+      "country": "Albania",
+      "flag": "🇦🇱"
+    },
+    {
+      "rank": 4,
+      "key": "vless://db7cae85-3c1a-4e4f-b317-7cdeaf419c5a@217.16.31.86:1695?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=api-maps.yandex.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "217.16.31.86",
+      "port": 1695,
+      "latency_ms": 212.5,
+      "median_latency_ms": 212.5,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Germany",
+      "flag": "🇩🇪"
+    },
+    {
+      "rank": 5,
+      "key": "vless://db7cae85-3c1a-4e4f-b317-7cdeaf419c5a@217.16.31.86:1695?flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=dbe3HCS7E7QfvfN59Us7rV8Kasm_5CCUgKiGm8k8vRg&sid=c3607d#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
+      "host": "217.16.31.86",
+      "port": 1695,
+      "latency_ms": 212.5,
+      "median_latency_ms": 212.5,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Germany",
+      "flag": "🇩🇪"
     }
   ]
 }
