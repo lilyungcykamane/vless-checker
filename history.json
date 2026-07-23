@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "window_size": 96,
-  "updated_at": "2026-07-23T16:14:30Z",
+  "updated_at": "2026-07-23T17:48:49Z",
   "items": {
     "vless://2b947013-7551-4a8e-bc4f-470e9e987e88@82.202.141.58:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.amd.com&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=e1f8a3b6#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-05T04:32:17Z",
@@ -172537,8 +172537,8 @@
     },
     "vless://b79afb28-c7df-4f5c-a4c4-d2654627acef@185.229.9.176:8443?encryption=none&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-23T04:38:00Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -172561,13 +172561,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 184.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 137.6
         }
       ]
     },
     "vless://b79afb28-c7df-4f5c-a4c4-d2654627acef@185.229.9.176:8443?encryption=none&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-23T04:38:00Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -172590,6 +172595,11 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 184.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 137.6
         }
       ]
     },
@@ -174004,15 +174014,20 @@
     },
     "vless://f6517e0e-8666-11f1-9ca5-1e6febe3e1df@89.208.229.243:2053?encryption=none&mode=gun&pbk=WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M&security=reality&serviceName=grpc-direct&sid=7824dfd19eab1acc&sni=hh.ru&type=grpc&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-23T12:02:57Z",
-      "last_seen_at": "2026-07-23T12:02:57Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
       "last_success_at": "2026-07-23T12:02:57Z",
-      "last_failure_at": null,
-      "last_status": "ok",
+      "last_failure_at": "2026-07-23T17:48:49Z",
+      "last_status": "tcp",
       "history": [
         {
           "ts": "2026-07-23T12:02:57Z",
           "ok": true,
           "latency_ms": 136.9
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": false,
+          "reason": "tcp"
         }
       ]
     },
@@ -174262,8 +174277,8 @@
     },
     "vless://873f1046-0210-4b2e-a0ec-dc1826886071@95.163.250.241:8442?encryption=none&flow=xtls-rprx-vision&pbk=TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg&security=reality&sid=a7f9106ba66e4796&sni=max.ru&type=raw&fp=chrome#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
       "first_seen_at": "2026-07-23T14:33:09Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174276,13 +174291,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 190.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 146.1
         }
       ]
     },
     "vless://873f1046-0210-4b2e-a0ec-dc1826886071@95.163.250.241:8442?encryption=none&flow=xtls-rprx-vision&pbk=TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg&security=reality&sid=a7f9106ba66e4796&sni=max.ru&type=raw&fp=firefox#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
       "first_seen_at": "2026-07-23T14:33:09Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174295,13 +174315,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 190.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 146.1
         }
       ]
     },
     "vless://873f1046-0210-4b2e-a0ec-dc1826886071@95.163.250.241:8442?encryption=none&flow=xtls-rprx-vision&pbk=TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg&security=reality&sid=a7f9106ba66e4796&sni=max.ru&type=raw&fp=ios#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
       "first_seen_at": "2026-07-23T14:33:09Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174314,13 +174339,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 190.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 146.1
         }
       ]
     },
     "vless://873f1046-0210-4b2e-a0ec-dc1826886071@95.163.250.241:8442?encryption=none&flow=xtls-rprx-vision&pbk=TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg&security=reality&sid=a7f9106ba66e4796&sni=max.ru&type=raw&fp=safari#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
       "first_seen_at": "2026-07-23T14:33:09Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174333,6 +174363,11 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 190.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 146.1
         }
       ]
     },
@@ -174390,8 +174425,8 @@
     },
     "vless://f6517e0e-8666-11f1-9ca5-1e6febe3e1df@5.188.140.194:2053?encryption=none&mode=gun&pbk=WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M&security=reality&serviceName=grpc-direct&sid=5b9dc5fe4ad87cc2&sni=hh.ru&type=grpc&fp=safari#%F0%9F%87%B1%F0%9F%87%BB%20Latvia": {
       "first_seen_at": "2026-07-23T14:33:09Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174404,13 +174439,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 173.6
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 143.8
         }
       ]
     },
     "vless://f6517e0e-8666-11f1-9ca5-1e6febe3e1df@5.188.140.194:2053?encryption=none&mode=gun&pbk=WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M&security=reality&serviceName=grpc-direct&sid=5b9dc5fe4ad87cc2&sni=hh.ru&type=grpc&fp=firefox#%F0%9F%87%B1%F0%9F%87%BB%20Latvia": {
       "first_seen_at": "2026-07-23T14:33:09Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174423,6 +174463,11 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 173.6
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 143.8
         }
       ]
     },
@@ -174475,8 +174520,8 @@
     },
     "vless://f6517e0e-8666-11f1-9ca5-1e6febe3e1df@5.188.141.144:2053?encryption=none&mode=gun&pbk=WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M&security=reality&serviceName=grpc-direct&sid=7824dfd19eab1acc&sni=hh.ru&type=grpc&fp=firefox#Cosmos": {
       "first_seen_at": "2026-07-23T14:33:09Z",
-      "last_seen_at": "2026-07-23T14:33:09Z",
-      "last_success_at": "2026-07-23T14:33:09Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174484,6 +174529,11 @@
           "ts": "2026-07-23T14:33:09Z",
           "ok": true,
           "latency_ms": 183.3
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 142.7
         }
       ]
     },
@@ -174762,8 +174812,8 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@194.93.0.28:443?security=reality&type=grpc&sni=media2.tcpdoor.net&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&serviceName=grpc&sid=3303c7a5&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174771,13 +174821,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 180.5
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 142.1
         }
       ]
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@194.93.0.28:443?security=reality&type=grpc&sni=media2.tcpdoor.net&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&serviceName=grpc&sid=3303c7a5&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174785,6 +174840,11 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 180.5
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 142.1
         }
       ]
     },
@@ -174846,8 +174906,8 @@
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.200:16923?encryption=none&type=grpc&serviceName=ch-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=edge#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174855,13 +174915,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 168.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 131.7
         }
       ]
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.200:16923?encryption=none&type=grpc&serviceName=ch-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174869,13 +174934,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 168.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 131.7
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.200:16923?encryption=none&type=grpc&serviceName=ch-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=chrome#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174883,13 +174953,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 168.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 131.7
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.200:16923?encryption=none&type=grpc&serviceName=ch-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=firefox#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174897,13 +174972,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 168.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 131.7
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.200:16923?encryption=none&type=grpc&serviceName=ch-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174911,6 +174991,11 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 168.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 131.7
         }
       ]
     },
@@ -174944,8 +175029,8 @@
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.196:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174953,13 +175038,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 174.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 141.4
         }
       ]
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.196:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174967,13 +175057,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 174.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 141.4
         }
       ]
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.198:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174981,13 +175076,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 139.3
         }
       ]
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.198:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174995,13 +175095,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 139.3
         }
       ]
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.198:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175009,6 +175114,11 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 139.3
         }
       ]
     },
@@ -175056,8 +175166,8 @@
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.200:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175065,13 +175175,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 169.5
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 135.2
         }
       ]
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.200:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175079,13 +175194,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 169.5
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 135.2
         }
       ]
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.200:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175093,13 +175213,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 169.5
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 135.2
         }
       ]
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.203:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175107,13 +175232,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.6
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 128.2
         }
       ]
     },
     "vless://781be37f-2ed2-40b3-a013-f416e0450fd0@164.138.100.203:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175121,13 +175251,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.6
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 128.2
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.196:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175135,13 +175270,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 174.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 141.4
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.196:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175149,13 +175289,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 174.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 141.4
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.196:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175163,13 +175308,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 174.7
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 141.4
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.198:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175177,13 +175327,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 139.3
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.198:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175191,13 +175346,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 139.3
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.198:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175205,6 +175365,11 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.0
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 139.3
         }
       ]
     },
@@ -175252,8 +175417,8 @@
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.200:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175261,13 +175426,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 169.5
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 135.2
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.200:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175275,13 +175445,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 169.5
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 135.2
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.203:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175289,13 +175464,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.6
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 128.2
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.203:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175303,13 +175483,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.6
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 128.2
         }
       ]
     },
     "vless://adc38bb3-9ec9-4b70-9172-90b97b30abcc@164.138.100.203:443?encryption=none&type=grpc&serviceName=ru-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175317,6 +175502,11 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 170.6
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 128.2
         }
       ]
     },
@@ -175350,8 +175540,8 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@45.151.62.156:443?security=reality&type=grpc&sni=dogs.abvphelp.cc&pbk=aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0&serviceName=grpc&sid=6fa13cdb&fp=firefox#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175359,13 +175549,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 185.8
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 151.6
         }
       ]
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@45.151.62.156:443?security=reality&type=grpc&sni=dogs.abvphelp.cc&pbk=aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0&serviceName=grpc&sid=6fa13cdb&fp=ios#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175373,13 +175568,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 185.8
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 151.6
         }
       ]
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@45.151.62.156:443?security=reality&type=grpc&sni=dogs.abvphelp.cc&pbk=aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0&serviceName=grpc&sid=6fa13cdb&fp=safari#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -175387,6 +175587,11 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 185.8
+        },
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 151.6
         }
       ]
     },
@@ -175401,6 +175606,272 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 184.0
+        }
+      ]
+    },
+    "vless://c1d62d53-2fcd-4951-ab96-c81486f59775@czre1.w-mebel.pro:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=R7NfFaabgh-0a2KR0Bfmn3a-O6mDT550OgXUDygDKBs&sni=w-mebel.pro&sid=c603efb3ddaf633d&fp=firefox#%F0%9F%87%A8%F0%9F%87%BF%20Czech%20Republic": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 138.0
+        }
+      ]
+    },
+    "vless://c1d62d53-2fcd-4951-ab96-c81486f59775@czre1.w-mebel.pro:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=R7NfFaabgh-0a2KR0Bfmn3a-O6mDT550OgXUDygDKBs&sni=w-mebel.pro&sid=c603efb3ddaf633d&fp=ios#%F0%9F%87%A8%F0%9F%87%BF%20Czech%20Republic": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 138.0
+        }
+      ]
+    },
+    "vless://873f1046-0210-4b2e-a0ec-dc1826886071@95sub.ghost-lan.com:8442?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg&sid=a7f9106ba66e4796&sni=max.ru&fp=chrome#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 137.3
+        }
+      ]
+    },
+    "vless://873f1046-0210-4b2e-a0ec-dc1826886071@95sub.ghost-lan.com:8442?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg&sid=a7f9106ba66e4796&sni=max.ru&fp=edge#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 137.3
+        }
+      ]
+    },
+    "vless://873f1046-0210-4b2e-a0ec-dc1826886071@95sub.ghost-lan.com:8442?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg&sid=a7f9106ba66e4796&sni=max.ru&fp=firefox#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 137.3
+        }
+      ]
+    },
+    "vless://873f1046-0210-4b2e-a0ec-dc1826886071@95sub.ghost-lan.com:8442?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg&sid=a7f9106ba66e4796&sni=max.ru&fp=ios#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 137.3
+        }
+      ]
+    },
+    "vless://873f1046-0210-4b2e-a0ec-dc1826886071@95sub.ghost-lan.com:8442?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg&sid=a7f9106ba66e4796&sni=max.ru&fp=safari#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 137.3
+        }
+      ]
+    },
+    "vless://1d3c24d4-9c79-40b9-891e-eafb6f860a56@176.109.92.133:443?encryption=none&mode=gun&pbk=t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0&security=reality&serviceName=grpc&sid=dfdee30a27b11f0f&sni=max.ru&type=grpc&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-07-23T17:48:49Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://1d3c24d4-9c79-40b9-891e-eafb6f860a56@176.109.92.133:443?encryption=none&mode=gun&pbk=t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0&security=reality&serviceName=grpc&sid=dfdee30a27b11f0f&sni=max.ru&type=grpc&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-07-23T17:48:49Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://c01c2da7-6977-4b53-a493-cda17fa61b4f@158.160.246.193:443?encryption=none&pbk=9lryIkDCyHLzVsVJiGE4LFMuOHdzYDSTNJOFqGlpcl8&security=reality&sid=2901df419dc4e3ff&sni=static-mon.yandex.net&type=grpc&fp=chrome#%F0%9F%87%AE%F0%9F%87%B9%20Italy": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-07-23T17:48:49Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://c01c2da7-6977-4b53-a493-cda17fa61b4f@158.160.246.193:443?encryption=none&pbk=9lryIkDCyHLzVsVJiGE4LFMuOHdzYDSTNJOFqGlpcl8&security=reality&sid=2901df419dc4e3ff&sni=static-mon.yandex.net&type=grpc&fp=firefox#%F0%9F%87%AE%F0%9F%87%B9%20Italy": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-07-23T17:48:49Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://2f2c12e2-049a-492f-abc0-0775e3cdd5ce@185.22.235.204:443?encryption=none&mode=gun&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&security=reality&serviceName=grpc&sid=5c766813929a1fdd&sni=5post-gate.x5.ru&type=grpc&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 135.7
+        }
+      ]
+    },
+    "vless://2f2c12e2-049a-492f-abc0-0775e3cdd5ce@185.22.235.204:443?encryption=none&mode=gun&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&security=reality&serviceName=grpc&sid=5c766813929a1fdd&sni=5post-gate.x5.ru&type=grpc&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 135.7
+        }
+      ]
+    },
+    "vless://f6517e0e-8666-11f1-9ca5-1e6febe3e1df@89.208.229.243:2053?encryption=none&mode=gun&pbk=WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M&security=reality&serviceName=grpc-direct&sid=7824dfd19eab1acc&sni=hh.ru&type=grpc&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-07-23T17:48:49Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://6f98a077-004e-4b86-8b78-8d09308d3868@yt.noooo.win:8443?type=tcp&security=tls&path=%2F&sni=ai-6a607097.noooo.win&flow=xtls-rprx-vision&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 133.5
+        }
+      ]
+    },
+    "vless://6f98a077-004e-4b86-8b78-8d09308d3868@yt.noooo.win:8443?type=tcp&security=tls&path=%2F&sni=ai-6a607097.noooo.win&flow=xtls-rprx-vision&fp=randomized#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 133.5
+        }
+      ]
+    },
+    "vless://f6517e0e-8666-11f1-9ca5-1e6febe3e1df@89.208.229.243:2053?encryption=none&mode=gun&pbk=WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M&security=reality&serviceName=grpc-direct&sid=7824dfd19eab1acc&sni=hh.ru&type=grpc&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": null,
+      "last_failure_at": "2026-07-23T17:48:49Z",
+      "last_status": "tcp",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": false,
+          "reason": "tcp"
+        }
+      ]
+    },
+    "vless://f6517e0e-8666-11f1-9ca5-1e6febe3e1df@5.188.141.144:2053?encryption=none&mode=gun&pbk=WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M&security=reality&serviceName=grpc-direct&sid=7824dfd19eab1acc&sni=hh.ru&type=grpc&fp=qq#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 142.7
+        }
+      ]
+    },
+    "vless://f6517e0e-8666-11f1-9ca5-1e6febe3e1df@5.188.141.144:2053?encryption=none&mode=gun&pbk=WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M&security=reality&serviceName=grpc-direct&sid=7824dfd19eab1acc&sni=hh.ru&type=grpc&fp=safari#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
+      "first_seen_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T17:48:49Z",
+      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T17:48:49Z",
+          "ok": true,
+          "latency_ms": 142.7
         }
       ]
     }
