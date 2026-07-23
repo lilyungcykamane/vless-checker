@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "window_size": 96,
-  "updated_at": "2026-07-23T17:48:49Z",
+  "updated_at": "2026-07-23T19:46:31Z",
   "items": {
     "vless://2b947013-7551-4a8e-bc4f-470e9e987e88@82.202.141.58:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=www.amd.com&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=e1f8a3b6#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-05T04:32:17Z",
@@ -1108,20 +1108,6 @@
           "ts": "2026-07-11T04:29:25Z",
           "ok": true,
           "latency_ms": 124.4
-        }
-      ]
-    },
-    "vless://68880407-6f46-4431-89da-19b51705caf9@84.201.138.139:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=sso.passport.yandex.ru&pbk=qizploKeIlu3K73dXjAtdc0TqZ70wnIPCP_BzqWbKmY&sid=17e9a4f3#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-07-09T18:29:56Z",
-      "last_seen_at": "2026-07-09T18:29:56Z",
-      "last_success_at": "2026-07-09T18:29:56Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-09T18:29:56Z",
-          "ok": true,
-          "latency_ms": 192.3
         }
       ]
     },
@@ -174798,8 +174784,8 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@194.93.0.28:443?security=reality&type=grpc&sni=media2.tcpdoor.net&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&serviceName=grpc&sid=3303c7a5&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T16:14:30Z",
-      "last_success_at": "2026-07-23T16:14:30Z",
+      "last_seen_at": "2026-07-23T19:46:31Z",
+      "last_success_at": "2026-07-23T19:46:31Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174807,13 +174793,18 @@
           "ts": "2026-07-23T16:14:30Z",
           "ok": true,
           "latency_ms": 180.5
+        },
+        {
+          "ts": "2026-07-23T19:46:31Z",
+          "ok": true,
+          "latency_ms": 242.8
         }
       ]
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@194.93.0.28:443?security=reality&type=grpc&sni=media2.tcpdoor.net&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&serviceName=grpc&sid=3303c7a5&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T17:48:49Z",
-      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T19:46:31Z",
+      "last_success_at": "2026-07-23T19:46:31Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174826,13 +174817,18 @@
           "ts": "2026-07-23T17:48:49Z",
           "ok": true,
           "latency_ms": 142.1
+        },
+        {
+          "ts": "2026-07-23T19:46:31Z",
+          "ok": true,
+          "latency_ms": 242.8
         }
       ]
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@194.93.0.28:443?security=reality&type=grpc&sni=media2.tcpdoor.net&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&serviceName=grpc&sid=3303c7a5&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-23T16:14:30Z",
-      "last_seen_at": "2026-07-23T17:48:49Z",
-      "last_success_at": "2026-07-23T17:48:49Z",
+      "last_seen_at": "2026-07-23T19:46:31Z",
+      "last_success_at": "2026-07-23T19:46:31Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -174845,6 +174841,11 @@
           "ts": "2026-07-23T17:48:49Z",
           "ok": true,
           "latency_ms": 142.1
+        },
+        {
+          "ts": "2026-07-23T19:46:31Z",
+          "ok": true,
+          "latency_ms": 242.8
         }
       ]
     },
@@ -175872,6 +175873,76 @@
           "ts": "2026-07-23T17:48:49Z",
           "ok": true,
           "latency_ms": 142.7
+        }
+      ]
+    },
+    "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@194.93.0.28:443?security=reality&type=grpc&sni=media2.tcpdoor.net&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&serviceName=grpc&sid=3303c7a5&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-23T19:46:31Z",
+      "last_seen_at": "2026-07-23T19:46:31Z",
+      "last_success_at": "2026-07-23T19:46:31Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T19:46:31Z",
+          "ok": true,
+          "latency_ms": 242.8
+        }
+      ]
+    },
+    "vless://2dc9fa69-37d3-4d46-82ce-d71c567c8c9a@cloud.ikorka.sbs:443?type=tcp&security=reality&encryption=none&sni=sun6-20.userapi.com&alpn=http%2F1.1&pbk=I56FBt8L2Zcm4xXJC1sOA8WlBxSIjA2IC0IK_DXlEiQ&sid=15affa0af66dfc79&flow=xtls-rprx-vision&headerType=none&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-23T19:46:31Z",
+      "last_seen_at": "2026-07-23T19:46:31Z",
+      "last_success_at": "2026-07-23T19:46:31Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T19:46:31Z",
+          "ok": true,
+          "latency_ms": 185.2
+        }
+      ]
+    },
+    "vless://2dc9fa69-37d3-4d46-82ce-d71c567c8c9a@cloud.ikorka.sbs:443?type=tcp&security=reality&encryption=none&sni=sun6-20.userapi.com&alpn=http%2F1.1&pbk=I56FBt8L2Zcm4xXJC1sOA8WlBxSIjA2IC0IK_DXlEiQ&sid=15affa0af66dfc79&flow=xtls-rprx-vision&headerType=none&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-23T19:46:31Z",
+      "last_seen_at": "2026-07-23T19:46:31Z",
+      "last_success_at": "2026-07-23T19:46:31Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T19:46:31Z",
+          "ok": true,
+          "latency_ms": 185.2
+        }
+      ]
+    },
+    "vless://2dc9fa69-37d3-4d46-82ce-d71c567c8c9a@cloud.ikorka.sbs:443?type=tcp&security=reality&encryption=none&sni=sun6-20.userapi.com&alpn=http%2F1.1&pbk=I56FBt8L2Zcm4xXJC1sOA8WlBxSIjA2IC0IK_DXlEiQ&sid=15affa0af66dfc79&flow=xtls-rprx-vision&headerType=none&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-23T19:46:31Z",
+      "last_seen_at": "2026-07-23T19:46:31Z",
+      "last_success_at": "2026-07-23T19:46:31Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T19:46:31Z",
+          "ok": true,
+          "latency_ms": 185.2
+        }
+      ]
+    },
+    "vless://2dc9fa69-37d3-4d46-82ce-d71c567c8c9a@cloud.ikorka.sbs:443?type=tcp&security=reality&encryption=none&sni=sun6-20.userapi.com&alpn=http%2F1.1&pbk=I56FBt8L2Zcm4xXJC1sOA8WlBxSIjA2IC0IK_DXlEiQ&sid=15affa0af66dfc79&flow=xtls-rprx-vision&headerType=none&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-07-23T19:46:31Z",
+      "last_seen_at": "2026-07-23T19:46:31Z",
+      "last_success_at": "2026-07-23T19:46:31Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-07-23T19:46:31Z",
+          "ok": true,
+          "latency_ms": 185.2
         }
       ]
     }
