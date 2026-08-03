@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "window_size": 96,
-  "updated_at": "2026-08-03T10:59:28Z",
+  "updated_at": "2026-08-03T13:48:26Z",
   "items": {
     "vless://1386e60d-53c2-4938-9af4-bddc5f536e03@46.8.209.69:443?type=grpc&security=reality&encryption=none&sni=5post-gate.x5.ru&fp=firefox&pbk=Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw&sid=9329f8b5985b2a7d&headerType=none&serviceName=UpdateService&mode=gun#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-05T07:49:25Z",
@@ -1686,49 +1686,6 @@
         }
       ]
     },
-    "vless://3e7f67de-648e-4871-b51a-a225214d41ee@45.143.203.21:443?encryption=none&type=raw&security=reality&sni=j.6sc.co&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-07-19T11:00:13Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": "2026-07-19T11:00:13Z",
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-19T11:00:13Z",
-          "ok": false,
-          "reason": "tcp"
-        },
-        {
-          "ts": "2026-07-20T10:30:36Z",
-          "ok": true,
-          "latency_ms": 225.4
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 225.9
-        }
-      ]
-    },
-    "vless://3e7f67de-648e-4871-b51a-a225214d41ee@45.143.203.21:443?encryption=none&type=raw&security=reality&sni=j.6sc.co&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-07-19T11:00:13Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": "2026-07-19T11:00:13Z",
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-19T11:00:13Z",
-          "ok": false,
-          "reason": "tcp"
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 225.9
-        }
-      ]
-    },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@45.151.62.149:443?encryption=none&security=reality&sni=www.aviasales.com&pbk=aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0&sid=6fa13cdb&type=grpc&authority=&serviceName=grpc&mode=gun&fp=firefox#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland": {
       "first_seen_at": "2026-07-19T12:06:47Z",
       "last_seen_at": "2026-07-20T19:07:34Z",
@@ -1745,49 +1702,6 @@
           "ts": "2026-07-20T19:07:34Z",
           "ok": true,
           "latency_ms": 190.3
-        }
-      ]
-    },
-    "vless://2c634977-584e-4e1f-b501-1b70c77a6743@194.55.239.174:443?encryption=none&security=tls&sni=furrycdn.net&type=ws&host=furrycdn.net&path=%2Fapi%2Fv1%2Fvideo-stream&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-07-19T12:06:47Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-19T12:06:47Z",
-          "ok": true,
-          "latency_ms": 1178.6
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 183.6
-        }
-      ]
-    },
-    "vless://2c634977-584e-4e1f-b501-1b70c77a6743@194.55.239.174:443?encryption=none&security=tls&sni=furrycdn.net&type=ws&host=furrycdn.net&path=%2Fapi%2Fv1%2Fvideo-stream&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-07-19T12:06:47Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-19T12:06:47Z",
-          "ok": true,
-          "latency_ms": 1178.6
-        },
-        {
-          "ts": "2026-07-19T23:12:19Z",
-          "ok": true,
-          "latency_ms": 186.1
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 183.6
         }
       ]
     },
@@ -1979,69 +1893,6 @@
           "ts": "2026-07-21T20:06:37Z",
           "ok": true,
           "latency_ms": 159.3
-        }
-      ]
-    },
-    "vless://c436d7dc-170d-40bf-b2b8-6cf468db5e65@92.223.109.89:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU&sid=cc7dc5fb&sni=ads.x5.ru&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-07-19T17:17:40Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": "2026-07-19T19:55:10Z",
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-19T17:17:40Z",
-          "ok": false,
-          "reason": "tcp"
-        },
-        {
-          "ts": "2026-07-19T19:55:10Z",
-          "ok": false,
-          "reason": "tcp"
-        },
-        {
-          "ts": "2026-07-19T21:08:14Z",
-          "ok": true,
-          "latency_ms": 194.0
-        },
-        {
-          "ts": "2026-07-19T22:09:29Z",
-          "ok": true,
-          "latency_ms": 162.0
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 214.3
-        }
-      ]
-    },
-    "vless://c436d7dc-170d-40bf-b2b8-6cf468db5e65@92.223.109.89:443?encryption=none&flow=xtls-rprx-vision&pbk=wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU&security=reality&sid=cc7dc5fb&sni=tunnel.vk-apps.com&type=tcp&fp=android#%F0%9F%87%BA%F0%9F%87%B8%20United%20States": {
-      "first_seen_at": "2026-07-19T17:17:40Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": "2026-07-19T19:55:10Z",
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-19T17:17:40Z",
-          "ok": false,
-          "reason": "tcp"
-        },
-        {
-          "ts": "2026-07-19T19:55:10Z",
-          "ok": false,
-          "reason": "tcp"
-        },
-        {
-          "ts": "2026-07-19T21:08:14Z",
-          "ok": true,
-          "latency_ms": 194.0
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 214.3
         }
       ]
     },
@@ -2335,25 +2186,6 @@
         }
       ]
     },
-    "vless://15e0833c-08ad-47f3-bf80-60c2a47a6774@red-fhmq5ehr3ievlnabv8l2.concept7.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=api-maps.yandex.ru&pbk=KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg&sid=4e07408562be&spx=%2F&type=tcp&headerType=none&fp=qq#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania": {
-      "first_seen_at": "2026-07-19T19:55:10Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-19T19:55:10Z",
-          "ok": true,
-          "latency_ms": 134.9
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 728.1
-        }
-      ]
-    },
     "vless://c436d7dc-170d-40bf-b2b8-6cf468db5e65@92.223.109.89:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU&sid=cc7dc5fb&sni=ads.x5.ru&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-19T19:55:10Z",
       "last_seen_at": "2026-07-20T17:10:00Z",
@@ -2501,30 +2333,6 @@
           "ts": "2026-07-21T03:47:13Z",
           "ok": true,
           "latency_ms": 190.5
-        }
-      ]
-    },
-    "vless://c436d7dc-170d-40bf-b2b8-6cf468db5e65@92.223.109.89:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&sni=5post-gate.x5.ru&pbk=wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU&sid=cc7dc5fb&fp=edge#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
-      "first_seen_at": "2026-07-19T23:12:19Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-19T23:12:19Z",
-          "ok": true,
-          "latency_ms": 213.8
-        },
-        {
-          "ts": "2026-07-20T10:30:36Z",
-          "ok": true,
-          "latency_ms": 213.3
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 214.3
         }
       ]
     },
@@ -3167,44 +2975,6 @@
         }
       ]
     },
-    "vless://ecad47b0-249e-0005-adff-e3c8f02b1897@66.90.90.147:8443?encryption=none&flow=xtls-rprx-vision&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&security=reality&sid=43dcff53849b81e6&sni=auto.quattro-tech.ru&type=tcp&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-07-20T10:30:36Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T10:30:36Z",
-          "ok": true,
-          "latency_ms": 178.0
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 178.6
-        }
-      ]
-    },
-    "vless://69991c78-0cc6-46e7-a5bc-f37b90d8273c@31.129.55.210:443?encryption=none&type=grpc&serviceName=hu-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#Cosmos": {
-      "first_seen_at": "2026-07-20T10:30:36Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": null,
-      "last_failure_at": "2026-07-20T12:55:35Z",
-      "last_status": "tcp",
-      "history": [
-        {
-          "ts": "2026-07-20T10:30:36Z",
-          "ok": false,
-          "reason": "tcp"
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": false,
-          "reason": "tcp"
-        }
-      ]
-    },
     "vless://ba0f90b6-3c3c-4701-b2b6-afe57da05527@185.221.199.129:8443?encryption=none&pbk=WF3RXrggPm9ILy5KS7-N9rfBi7d1rgZAkK4X2Owstlk&security=reality&serviceName=grpc&sni=5post-gate.x5.ru&type=grpc&fp=edge#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania": {
       "first_seen_at": "2026-07-20T10:30:36Z",
       "last_seen_at": "2026-07-20T21:49:07Z",
@@ -3244,63 +3014,6 @@
         }
       ]
     },
-    "vless://ba0f90b6-3c3c-4701-b2b6-afe57da05527@185.221.199.129:8443?encryption=none&pbk=WF3RXrggPm9ILy5KS7-N9rfBi7d1rgZAkK4X2Owstlk&security=reality&serviceName=grpc&sni=5post-gate.x5.ru&type=grpc&fp=firefox#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania": {
-      "first_seen_at": "2026-07-20T10:30:36Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T10:30:36Z",
-      "last_failure_at": "2026-07-20T12:55:35Z",
-      "last_status": "tcp",
-      "history": [
-        {
-          "ts": "2026-07-20T10:30:36Z",
-          "ok": true,
-          "latency_ms": 176.4
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": false,
-          "reason": "tcp"
-        }
-      ]
-    },
-    "vless://69991c78-0cc6-46e7-a5bc-f37b90d8273c@164.138.100.198:443?encryption=none&type=grpc&serviceName=nl-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-07-20T10:30:36Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T10:30:36Z",
-          "ok": true,
-          "latency_ms": 171.2
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 165.5
-        }
-      ]
-    },
-    "vless://69991c78-0cc6-46e7-a5bc-f37b90d8273c@164.138.100.198:443?encryption=none&type=grpc&serviceName=nl-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-07-20T10:30:36Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T10:30:36Z",
-          "ok": true,
-          "latency_ms": 171.2
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 165.5
-        }
-      ]
-    },
     "vless://d768d4ba-0b73-4509-87ea-afb074d2f766@194.26.229.162:443?encryption=none&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=tr.sellflow.org&type=tcp&fp=edge#%F0%9F%87%B9%F0%9F%87%B7%20Turkey": {
       "first_seen_at": "2026-07-20T10:30:36Z",
       "last_seen_at": "2026-07-20T21:49:07Z",
@@ -3337,25 +3050,6 @@
           "ts": "2026-07-20T21:49:07Z",
           "ok": true,
           "latency_ms": 187.2
-        }
-      ]
-    },
-    "vless://d768d4ba-0b73-4509-87ea-afb074d2f766@194.26.229.162:443?encryption=none&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=tr.sellflow.org&type=tcp&fp=firefox#%F0%9F%87%B9%F0%9F%87%B7%20Turkey": {
-      "first_seen_at": "2026-07-20T10:30:36Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T10:30:36Z",
-          "ok": true,
-          "latency_ms": 190.9
-        },
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 196.1
         }
       ]
     },
@@ -3623,20 +3317,6 @@
         }
       ]
     },
-    "vless://27c1d725-629c-4e65-9271-d6f5df82c7e9@play-1.serveroff.net:9443?encryption=none&type=tcp&security=reality&sni=fr-1.converter.darkpn.com&flow=xtls-rprx-vision&pbk=6RL8C_2Hi2awKka98Kkx62STPrDXSb25C5u66GIhXRI&sid=b703abc44e905632&spx=%2F&fp=edge#Cosmos": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 1191.7
-        }
-      ]
-    },
     "vless://ba0f90b6-3c3c-4701-b2b6-afe57da05527@185.221.199.129:10443?encryption=none&pbk=WF3RXrggPm9ILy5KS7-N9rfBi7d1rgZAkK4X2Owstlk&security=reality&serviceName=grpc&sni=5post-gate.x5.ru&type=grpc&fp=chrome#%F0%9F%87%A8%F0%9F%87%BF%20Czech%20Republic": {
       "first_seen_at": "2026-07-20T12:55:35Z",
       "last_seen_at": "2026-07-20T21:49:07Z",
@@ -3668,48 +3348,6 @@
           "ts": "2026-07-20T21:49:07Z",
           "ok": true,
           "latency_ms": 172.4
-        }
-      ]
-    },
-    "vless://ba0f90b6-3c3c-4701-b2b6-afe57da05527@185.221.199.129:10443?encryption=none&pbk=WF3RXrggPm9ILy5KS7-N9rfBi7d1rgZAkK4X2Owstlk&security=reality&serviceName=grpc&sni=5post-gate.x5.ru&type=grpc&fp=firefox#%F0%9F%87%A8%F0%9F%87%BF%20Czech%20Republic": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": null,
-      "last_failure_at": "2026-07-20T12:55:35Z",
-      "last_status": "tcp",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": false,
-          "reason": "tcp"
-        }
-      ]
-    },
-    "vless://4523a45d-27a6-4ab4-b018-5e67e44c08ef@meadow.wildgarden.digital:443?encryption=none&security=reality&type=grpc&sni=meadow.wildgarden.digital&pbk=wSrFMqZ_OUqGzZI5QcfoclznVAhCiix1kABb6Y-OpAw&sid=eccb032323d261e6&serviceName=grpc-bridge&mode=gun&fp=qq#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 1193.4
-        }
-      ]
-    },
-    "vless://4523a45d-27a6-4ab4-b018-5e67e44c08ef@meadow.wildgarden.digital:443?encryption=none&security=reality&type=grpc&sni=meadow.wildgarden.digital&pbk=wSrFMqZ_OUqGzZI5QcfoclznVAhCiix1kABb6Y-OpAw&sid=eccb032323d261e6&serviceName=grpc-bridge&mode=gun&fp=random#%F0%9F%87%AA%F0%9F%87%AA%20Estonia": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 1193.4
         }
       ]
     },
@@ -3749,34 +3387,6 @@
           "ts": "2026-07-21T20:06:37Z",
           "ok": true,
           "latency_ms": 159.3
-        }
-      ]
-    },
-    "vless://69991c78-0cc6-46e7-a5bc-f37b90d8273c@164.138.100.196:443?encryption=none&type=grpc&serviceName=de-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 164.7
-        }
-      ]
-    },
-    "vless://69991c78-0cc6-46e7-a5bc-f37b90d8273c@164.138.100.196:443?encryption=none&type=grpc&serviceName=de-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 164.7
         }
       ]
     },
@@ -3841,76 +3451,6 @@
           "ts": "2026-07-21T20:06:37Z",
           "ok": true,
           "latency_ms": 159.3
-        }
-      ]
-    },
-    "vless://40beaeee-b92f-41f3-a3e9-552081a9c543@185.229.9.31:49010?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&sni=ads.x5.ru&pbk=t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0&sid=dfdee30a27b11f0f&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 181.8
-        }
-      ]
-    },
-    "vless://40beaeee-b92f-41f3-a3e9-552081a9c543@185.229.9.31:49010?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&sni=ads.x5.ru&pbk=t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0&sid=dfdee30a27b11f0f&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 181.8
-        }
-      ]
-    },
-    "vless://ecad47b0-249e-0005-adff-e3c8f02b1897@66.90.90.147:8443?encryption=none&flow=xtls-rprx-vision&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&security=reality&sid=43dcff53849b81e6&sni=auto.quattro-tech.ru&type=tcp&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 178.6
-        }
-      ]
-    },
-    "vless://ecad47b0-249e-0005-adff-e3c8f02b1897@66.90.90.147:8443?encryption=none&flow=xtls-rprx-vision&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&security=reality&sid=43dcff53849b81e6&sni=auto.quattro-tech.ru&type=tcp&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 178.6
-        }
-      ]
-    },
-    "vless://69991c78-0cc6-46e7-a5bc-f37b90d8273c@31.129.55.210:443?encryption=none&type=grpc&serviceName=hu-br-yandex&security=reality&sni=api-maps.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=firefox#Cosmos": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": null,
-      "last_failure_at": "2026-07-20T12:55:35Z",
-      "last_status": "tcp",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": false,
-          "reason": "tcp"
         }
       ]
     },
@@ -4030,118 +3570,6 @@
         }
       ]
     },
-    "vless://69991c78-0cc6-46e7-a5bc-f37b90d8273c@164.138.100.201:443?encryption=none&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&security=reality&serviceName=pl-br-yandex&sid=10ffb85da1c2d986&sni=api-maps.yandex.ru&type=grpc&fp=edge#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 178.1
-        }
-      ]
-    },
-    "vless://69991c78-0cc6-46e7-a5bc-f37b90d8273c@164.138.100.201:443?encryption=none&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&security=reality&serviceName=pl-br-yandex&sid=10ffb85da1c2d986&sni=api-maps.yandex.ru&type=grpc&fp=qq#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 178.1
-        }
-      ]
-    },
-    "vless://69991c78-0cc6-46e7-a5bc-f37b90d8273c@164.138.100.201:443?encryption=none&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&security=reality&serviceName=pl-br-yandex&sid=10ffb85da1c2d986&sni=api-maps.yandex.ru&type=grpc&fp=firefox#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 178.1
-        }
-      ]
-    },
-    "vless://219f9fec-8983-4f6f-af8c-31bd0c6dbf19@45.155.52.231:443?encryption=none&pbk=6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ&security=reality&sid=0b&sni=ru2.skydrgn-online.online&type=tcp&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 180.4
-        }
-      ]
-    },
-    "vless://219f9fec-8983-4f6f-af8c-31bd0c6dbf19@45.155.52.231:443?encryption=none&pbk=6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ&security=reality&sid=0b&sni=ru2.skydrgn-online.online&type=tcp&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 180.4
-        }
-      ]
-    },
-    "vless://d768d4ba-0b73-4509-87ea-afb074d2f766@194.26.229.162:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&sni=tr.sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=chrome#%F0%9F%87%B9%F0%9F%87%B7%20Turkey": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 196.1
-        }
-      ]
-    },
-    "vless://d768d4ba-0b73-4509-87ea-afb074d2f766@194.26.229.162:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&sni=tr.sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=edge#%F0%9F%87%B9%F0%9F%87%B7%20Turkey": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 196.1
-        }
-      ]
-    },
-    "vless://d768d4ba-0b73-4509-87ea-afb074d2f766@194.26.229.162:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&sni=tr.sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=firefox#%F0%9F%87%B9%F0%9F%87%B7%20Turkey": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 196.1
-        }
-      ]
-    },
     "vless://42799271-f36c-454f-a2a3-3820059a2cd5@194.55.239.250:443?encryption=none&pbk=3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q&security=reality&serviceName=grpc&sid=0a7aa1be&sni=yastatic.ru&type=grpc&fp=chrome#%F0%9F%87%A8%F0%9F%87%BF%20Czech%20Republic": {
       "first_seen_at": "2026-07-20T12:55:35Z",
       "last_seen_at": "2026-07-20T15:21:16Z",
@@ -4158,20 +3586,6 @@
           "ts": "2026-07-20T15:21:16Z",
           "ok": true,
           "latency_ms": 179.9
-        }
-      ]
-    },
-    "vless://42799271-f36c-454f-a2a3-3820059a2cd5@194.55.239.250:443?encryption=none&pbk=3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q&security=reality&serviceName=grpc&sid=0a7aa1be&sni=yastatic.ru&type=grpc&fp=firefox#%F0%9F%87%A8%F0%9F%87%BF%20Czech%20Republic": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 185.4
         }
       ]
     },
@@ -4220,76 +3634,6 @@
           "ts": "2026-07-21T11:20:36Z",
           "ok": true,
           "latency_ms": 160.0
-        }
-      ]
-    },
-    "vless://80887467-cd5d-0065-8607-1b9c4e4ddf87@185.253.23.123:443?encryption=none&flow=xtls-rprx-vision&pbk=Aj6Lfc0JKKROX46eHAQHlzrNpOTY9CKp7BcVj9cw8Ag&security=reality&sid=75f8575e5396a2fe&sni=cluster3.salesmarketmsk.ru&type=tcp&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 182.2
-        }
-      ]
-    },
-    "vless://a96373c2-6c78-44dc-ac4b-33fd3d32c68b@ru.rush-server.com:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=findmypackets.com&sid=93ae75024604f796&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 164.9
-        }
-      ]
-    },
-    "vless://a96373c2-6c78-44dc-ac4b-33fd3d32c68b@ru.rush-server.com:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=findmypackets.com&sid=93ae75024604f796&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 164.9
-        }
-      ]
-    },
-    "vless://ceeba701-bb9f-4f2c-8142-677d27a2acb1@37.139.43.57:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&sni=eh.vk.com&pbk=3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo&sid=7f2e9c4b1a8d6a53&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 177.9
-        }
-      ]
-    },
-    "vless://ceeba701-bb9f-4f2c-8142-677d27a2acb1@37.139.43.57:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&sni=eh.vk.com&pbk=3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo&sid=7f2e9c4b1a8d6a53&fp=ios#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 177.9
         }
       ]
     },
@@ -4377,20 +3721,6 @@
           "ts": "2026-07-20T15:21:16Z",
           "ok": false,
           "reason": "tcp"
-        }
-      ]
-    },
-    "vless://80887467-cd5d-0065-8607-1b9c4e4ddf87@185.253.23.123:443?encryption=none&flow=xtls-rprx-vision&pbk=Aj6Lfc0JKKROX46eHAQHlzrNpOTY9CKp7BcVj9cw8Ag&security=reality&sid=75f8575e5396a2fe&sni=cluster3.salesmarketmsk.ru&type=tcp&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
-      "first_seen_at": "2026-07-20T12:55:35Z",
-      "last_seen_at": "2026-07-20T12:55:35Z",
-      "last_success_at": "2026-07-20T12:55:35Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-07-20T12:55:35Z",
-          "ok": true,
-          "latency_ms": 182.2
         }
       ]
     },
@@ -53748,10 +53078,10 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?security=reality&type=grpc&sni=media2.tcpdoor.net&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&serviceName=grpc&sid=3303c7a5&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-25T10:45:17Z",
-      "last_seen_at": "2026-08-03T07:46:49Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-03T07:46:49Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-07-25T10:45:17Z",
@@ -54067,6 +53397,11 @@
           "ts": "2026-08-03T07:46:49Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
@@ -72158,8 +71493,8 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?encryption=none&fp=firefox&mode=gun&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&security=reality&serviceName=grpc&sid=3303c7a5&sni=media2.tcpdoor.net&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-26T06:48:50Z",
-      "last_seen_at": "2026-08-03T00:13:27Z",
-      "last_success_at": "2026-08-03T00:13:27Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-01T18:42:21Z",
       "last_status": "ok",
       "history": [
@@ -72357,6 +71692,11 @@
           "ts": "2026-08-03T00:13:27Z",
           "ok": true,
           "latency_ms": 1244.3
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
@@ -85853,8 +85193,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@ruded3.onlinestreamself.com:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&sni=apple.com&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-26T19:56:10Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -86042,6 +85382,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 121.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.6
         }
       ]
     },
@@ -87993,8 +87338,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.206.29:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T00:13:38Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -88172,6 +87517,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
         }
       ]
     },
@@ -89543,8 +88893,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.204.143:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T04:04:01Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -89722,6 +89072,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 125.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 194.7
         }
       ]
     },
@@ -89959,8 +89314,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.251.191:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T04:04:01Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -90123,6 +89478,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 133.1
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.5
         }
       ]
     },
@@ -95883,8 +95243,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@ruded2.onlinestreamself.com:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&sni=apple.com&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T16:34:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -96067,13 +95427,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.8
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.9
         }
       ]
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@ruded3.onlinestreamself.com:443?security=reality&flow=xtls-rprx-vision&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com&type=tcp&headerType=none&host=apple.com&path=%2F&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T16:34:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -96191,6 +95556,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 121.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.6
         }
       ]
     },
@@ -98321,8 +97691,8 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?security=reality&type=grpc&fp=safari&sni=media2.tcpdoor.net&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&serviceName=grpc&sid=3303c7a5#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-27T21:30:19Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-01T18:42:21Z",
       "last_status": "ok",
       "history": [
@@ -98450,6 +97820,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 131.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
@@ -99441,8 +98816,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.205.65:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T22:42:45Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -99540,13 +98915,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 132.2
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 181.7
         }
       ]
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.206.129:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T22:42:45Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -99709,6 +99089,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 180.6
         }
       ]
     },
@@ -99916,8 +99301,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@ruded3.onlinestreamself.com:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T22:42:45Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -100045,6 +99430,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 121.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.6
         }
       ]
     },
@@ -101092,8 +100482,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.204.159:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T23:46:30Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -101241,13 +100631,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 132.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.4
         }
       ]
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.206.129:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T23:46:30Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -101400,6 +100795,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 180.6
         }
       ]
     },
@@ -101529,8 +100929,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.206.41:443?type=raw&security=reality&encryption=none&sni=apple.com&fp=qq&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T23:46:30Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -101693,13 +101093,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 125.5
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 184.9
         }
       ]
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.251.191:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T23:46:30Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -101847,6 +101252,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 133.1
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.5
         }
       ]
     },
@@ -101881,8 +101291,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@ruded3.onlinestreamself.com:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-27T23:46:30Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -102035,6 +101445,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 121.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.6
         }
       ]
     },
@@ -104408,8 +103823,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.204.143:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-28T07:25:15Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -104552,6 +103967,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 125.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 194.7
         }
       ]
     },
@@ -105447,8 +104867,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.206.29:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-28T10:15:04Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -105581,13 +105001,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
         }
       ]
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.206.41:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-28T10:15:04Z",
-      "last_seen_at": "2026-08-02T14:00:54Z",
-      "last_success_at": "2026-08-02T14:00:54Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -105650,6 +105075,11 @@
           "ts": "2026-08-02T14:00:54Z",
           "ok": true,
           "latency_ms": 145.7
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 184.9
         }
       ]
     },
@@ -112186,10 +111616,10 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?encryption=none&security=reality&sni=media2.tcpdoor.net&fp=random&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&sid=3303c7a5&type=grpc&authority=&serviceName=grpc&mode=gun#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-28T19:53:37Z",
-      "last_seen_at": "2026-08-03T07:46:49Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-03T07:46:49Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-07-28T19:53:37Z",
@@ -112330,6 +111760,11 @@
           "ts": "2026-08-03T07:46:49Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
@@ -118585,8 +118020,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.251.191:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&sni=apple.com&serverName=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T10:18:07Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -118709,6 +118144,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 133.1
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.5
         }
       ]
     },
@@ -118788,8 +118228,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.251.23:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com&serverName=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T10:18:07Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -118917,13 +118357,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 124.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.3
         }
       ]
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@ruded2.onlinestreamself.com:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=apple.com&fp=qq&echfq=none&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&allowinsecure=0&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T10:18:07Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -119051,6 +118496,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.8
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.9
         }
       ]
     },
@@ -120565,8 +120015,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.204.159:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T12:33:40Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -120679,6 +120129,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 132.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.4
         }
       ]
     },
@@ -120708,8 +120163,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@ruded1.onlinestreamself.com:443?security=reality&encryption=none&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T12:33:40Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -120822,13 +120277,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.4
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.9
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@ruded2.onlinestreamself.com:443?security=reality&encryption=none&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T12:33:40Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -120941,13 +120401,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.8
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.9
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@ruded2.onlinestreamself.com:443?security=reality&encryption=none&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&headerType=&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T12:33:40Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -121055,13 +120520,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.8
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.9
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@ruded3.onlinestreamself.com:443?security=reality&encryption=none&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T12:33:40Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -121169,13 +120639,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 121.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.6
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@ruded3.onlinestreamself.com:443?security=reality&encryption=none&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&headerType=&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T12:33:40Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -121283,6 +120758,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 121.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.6
         }
       ]
     },
@@ -125479,8 +124959,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.117:443?security=reality&encryption=none&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T22:40:52Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -125583,13 +125063,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.8
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.2
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@ruded1.onlinestreamself.com:443?security=reality&encryption=none&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T22:40:52Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -125682,6 +125167,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.4
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.9
         }
       ]
     },
@@ -127601,8 +127091,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.204.143:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T23:43:33Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -127690,6 +127180,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 125.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 194.7
         }
       ]
     },
@@ -127734,8 +127229,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.41:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T23:43:33Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -127818,6 +127313,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 125.5
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 184.9
         }
       ]
     },
@@ -127917,8 +127417,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.23:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T23:43:33Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -128016,6 +127516,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 124.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.3
         }
       ]
     },
@@ -128050,8 +127555,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.251.23:443?encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-29T23:43:33Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -128159,6 +127664,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 124.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.3
         }
       ]
     },
@@ -129495,8 +129005,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.204.43:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-30T01:02:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -129569,13 +129079,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 125.7
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 185.4
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.129:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-30T01:02:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -129643,13 +129158,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 180.6
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.41:443?encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-30T01:02:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -129717,6 +129237,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 125.5
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 184.9
         }
       ]
     },
@@ -130052,8 +129577,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.251.23:443?type=raw&security=reality&encryption=none&sni=apple.com&fp=safari&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-30T01:02:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -130161,6 +129686,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 124.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.3
         }
       ]
     },
@@ -134814,8 +134344,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.189:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=chrome&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&type=tcp&headerType=none&host=apple.com&path=%2F#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-30T14:32:37Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -134898,6 +134428,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 127.3
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 187.7
         }
       ]
     },
@@ -134947,8 +134482,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.9:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-30T14:32:37Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -134991,6 +134526,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 124.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 193.4
         }
       ]
     },
@@ -137397,8 +136937,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.29:443?encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-30T19:53:16Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -137456,6 +136996,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
         }
       ]
     },
@@ -138102,8 +137647,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.204.143:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-30T21:33:02Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -138171,6 +137716,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 125.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 194.7
         }
       ]
     },
@@ -139604,8 +139154,8 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?mode=gun&security=reality&encryption=none&authority=BIA_TELEGRAM@VPNine1&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&fp=chrome&type=grpc&serviceName=grpc&sni=media2.tcpdoor.net&sid=3303c7a5#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-07-31T01:16:02Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-01T18:42:21Z",
       "last_status": "ok",
       "history": [
@@ -139653,6 +139203,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 131.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
@@ -140107,8 +139662,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.250.36:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-31T01:16:02Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -140176,6 +139731,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 131.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.5
         }
       ]
     },
@@ -140988,8 +140548,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.204.159:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=ios&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-31T01:16:02Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -141067,6 +140627,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 132.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.4
         }
       ]
     },
@@ -144256,8 +143821,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@ruded2.onlinestreamself.com:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-07-31T12:31:29Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -144315,6 +143880,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.8
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 178.9
         }
       ]
     },
@@ -148856,8 +148426,8 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?type=grpc&security=reality&fp=ios&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&sid=3303c7a5&sni=media2.tcpdoor.net&mode=gun&serviceName=grpc&authority=BIA_TELEGRAM@VPNine1#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-01T04:40:56Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-01T18:42:21Z",
       "last_status": "ok",
       "history": [
@@ -148910,13 +148480,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 131.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?type=grpc&security=reality&fp=qq&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&sid=3303c7a5&sni=media2.tcpdoor.net&mode=gun&serviceName=grpc&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-01T04:40:56Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-01T18:42:21Z",
       "last_status": "ok",
       "history": [
@@ -148949,6 +148524,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 131.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
@@ -151672,8 +151252,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.41:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=qq&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T09:24:50Z",
-      "last_seen_at": "2026-08-02T10:50:28Z",
-      "last_success_at": "2026-08-02T10:50:28Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -151721,6 +151301,11 @@
           "ts": "2026-08-02T10:50:28Z",
           "ok": true,
           "latency_ms": 173.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 184.9
         }
       ]
     },
@@ -151926,8 +151511,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.189:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T09:24:50Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -151965,13 +151550,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 127.3
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 187.7
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.191:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=qq&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T09:24:50Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -152024,6 +151614,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 133.1
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.5
         }
       ]
     },
@@ -152122,8 +151717,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.9:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T09:24:50Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -152171,6 +151766,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 124.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 193.4
         }
       ]
     },
@@ -153149,8 +152749,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.204.159:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=edge&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T09:24:50Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -153208,6 +152808,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 132.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.4
         }
       ]
     },
@@ -153291,8 +152896,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.206.29:443?security=reality&flow=xtls-rprx-vision&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&fp=qq&sni=apple.com&type=tcp&headerType=none&host=apple.com&path=%2F#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T09:24:50Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -153345,6 +152950,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
         }
       ]
     },
@@ -153423,8 +153033,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.250.35:443?type=raw&security=reality&encryption=none&sni=apple.com&fp=qq&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&flow=xtls-rprx-vision&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T09:24:50Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -153482,13 +153092,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.7
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 186.3
         }
       ]
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.250.35:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T09:24:50Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -153546,6 +153161,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.7
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 186.3
         }
       ]
     },
@@ -153881,8 +153501,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.9:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&type=tcp&headerType=none&host=apple.com&path=%2F#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T09:24:50Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -153930,6 +153550,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 124.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 193.4
         }
       ]
     },
@@ -155388,8 +155013,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.29:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T13:56:35Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -155437,6 +155062,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
         }
       ]
     },
@@ -157150,8 +156780,8 @@
     },
     "vless://07b2251d-ece9-42c3-a72f-d4fa5cc5ed79@ruded1.onlinestreamself.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T16:38:09Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -157184,6 +156814,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.4
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.9
         }
       ]
     },
@@ -159425,8 +159060,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.204.43:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=firefox&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T21:09:52Z",
-      "last_seen_at": "2026-08-01T23:11:49Z",
-      "last_success_at": "2026-08-01T23:11:49Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -159444,6 +159079,11 @@
           "ts": "2026-08-01T23:11:49Z",
           "ok": true,
           "latency_ms": 180.5
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 185.4
         }
       ]
     },
@@ -160204,8 +159844,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.204.143:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=firefox&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T23:11:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -160218,13 +159858,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 125.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 194.7
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.204.159:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=firefox&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T23:11:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -160237,13 +159882,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 132.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.4
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.205.65:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=firefox&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T23:11:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -160256,13 +159906,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 132.2
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 181.7
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.117:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=firefox&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T23:11:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -160275,13 +159930,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.8
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.2
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.129:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=firefox&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T23:11:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -160294,6 +159954,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 180.6
         }
       ]
     },
@@ -160384,8 +160049,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.189:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=firefox&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T23:11:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -160398,6 +160063,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 127.3
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 187.7
         }
       ]
     },
@@ -160484,8 +160154,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@ruded1.onlinestreamself.com:443?security=reality&encryption=none&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&host=apple.com&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-01T23:11:49Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -160508,6 +160178,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.4
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.9
         }
       ]
     },
@@ -160919,8 +160594,8 @@
     },
     "vless://23786eb4-0bbb-43c6-940c-a3b2b5242cb6@185.229.9.176:8443?encryption=none&fp=firefox&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-02T00:13:19Z",
-      "last_seen_at": "2026-08-02T14:00:54Z",
-      "last_success_at": "2026-08-02T14:00:54Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -160943,6 +160618,11 @@
           "ts": "2026-08-02T14:00:54Z",
           "ok": true,
           "latency_ms": 149.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 183.8
         }
       ]
     },
@@ -161203,8 +160883,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.250.34:443?encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-02T00:13:19Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -161232,6 +160912,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 133.3
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 182.0
         }
       ]
     },
@@ -161383,8 +161068,8 @@
     },
     "vless://5bb5061e-ee43-4e72-b5af-9f7614272595@185.229.9.176:8443?encryption=none&fp=firefox&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-02T03:54:44Z",
-      "last_seen_at": "2026-08-03T07:46:49Z",
-      "last_success_at": "2026-08-03T07:46:49Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -161412,6 +161097,11 @@
           "ts": "2026-08-03T07:46:49Z",
           "ok": true,
           "latency_ms": 176.3
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 183.8
         }
       ]
     },
@@ -161769,8 +161459,8 @@
     },
     "vless://23786eb4-0bbb-43c6-940c-a3b2b5242cb6@185.229.9.176:8443?encryption=none&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-02T06:46:38Z",
-      "last_seen_at": "2026-08-03T10:59:28Z",
-      "last_success_at": "2026-08-03T10:59:28Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -161808,6 +161498,11 @@
           "ts": "2026-08-03T10:59:28Z",
           "ok": true,
           "latency_ms": 185.5
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 183.8
         }
       ]
     },
@@ -162591,8 +162286,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.204.159:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=apple.com&fp=ios&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-02T09:01:38Z",
-      "last_seen_at": "2026-08-02T10:50:28Z",
-      "last_success_at": "2026-08-02T10:50:28Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -162605,6 +162300,11 @@
           "ts": "2026-08-02T10:50:28Z",
           "ok": true,
           "latency_ms": 176.7
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.4
         }
       ]
     },
@@ -162848,8 +162548,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.250.35:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-02T09:01:38Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -162867,6 +162567,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 122.7
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 186.3
         }
       ]
     },
@@ -162986,8 +162691,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.23:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com&serverName=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-02T09:01:38Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -163005,6 +162710,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 124.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.3
         }
       ]
     },
@@ -163696,8 +163406,8 @@
     },
     "vless://5bb5061e-ee43-4e72-b5af-9f7614272595@185.229.9.176:8443?encryption=none&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-02T12:16:04Z",
-      "last_seen_at": "2026-08-03T10:59:28Z",
-      "last_success_at": "2026-08-03T10:59:28Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -163725,6 +163435,11 @@
           "ts": "2026-08-03T10:59:28Z",
           "ok": true,
           "latency_ms": 185.5
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 183.8
         }
       ]
     },
@@ -164083,8 +163798,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.139.251.191:443?flow=xtls-rprx-vision&fp=qq&headertype=none&host=apple.com&path=%2F&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-02T14:00:54Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -164097,6 +163812,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 133.1
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.5
         }
       ]
     },
@@ -164930,8 +164650,8 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?authority=BIA_TELEGRAM%40VPNine1&encryption=none&mode=gun&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&security=reality&serviceName=grpc&sid=3303c7a5&sni=media2.tcpdoor.net&type=grpc&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-02T15:27:56Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-02T15:27:56Z",
       "last_status": "ok",
       "history": [
@@ -164949,6 +164669,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 131.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
@@ -165050,8 +164775,8 @@
     },
     "vless://23786eb4-0bbb-43c6-940c-a3b2b5242cb6@185.229.9.176:8443?type=grpc&security=reality&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&sni=id.pervye.ru&mode=gun&serviceName=ns&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-02T16:37:28Z",
-      "last_seen_at": "2026-08-02T19:57:44Z",
-      "last_success_at": "2026-08-02T19:57:44Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -165069,6 +164794,11 @@
           "ts": "2026-08-02T19:57:44Z",
           "ok": true,
           "latency_ms": 182.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 183.8
         }
       ]
     },
@@ -165350,8 +165080,8 @@
     },
     "vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.66:2053?encryption=none&security=reality&sni=dns.adguard-dns.com&alpn=http%2F1.1&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&sid=f0131a4772b494d4&type=grpc&serviceName=grpc&packetEncoding=xudp&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-08-02T18:43:58Z",
-      "last_seen_at": "2026-08-03T10:59:28Z",
-      "last_success_at": "2026-08-03T10:59:28Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-03T07:46:49Z",
       "last_status": "ok",
       "history": [
@@ -165399,6 +165129,11 @@
           "ts": "2026-08-03T10:59:28Z",
           "ok": true,
           "latency_ms": 1226.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.2
         }
       ]
     },
@@ -166560,8 +166295,8 @@
     },
     "vless://23786eb4-0bbb-43c6-940c-a3b2b5242cb6@185.229.9.176:8443?encryption=none&fp=chrome&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-02T22:10:43Z",
-      "last_seen_at": "2026-08-03T07:46:49Z",
-      "last_success_at": "2026-08-03T07:46:49Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -166589,6 +166324,11 @@
           "ts": "2026-08-03T07:46:49Z",
           "ok": true,
           "latency_ms": 176.3
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 183.8
         }
       ]
     },
@@ -166647,8 +166387,8 @@
     },
     "vless://5bb5061e-ee43-4e72-b5af-9f7614272595@185.229.9.176:8443?encryption=none&fp=chrome&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-02T22:10:43Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -166671,13 +166411,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 123.7
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 183.8
         }
       ]
     },
     "vless://8560b150-6500-4e4c-9a4e-909bdbd2fcda@185.229.9.176:8443?encryption=none&fp=safari&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-02T22:10:43Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -166700,6 +166445,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 123.7
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 183.8
         }
       ]
     },
@@ -167625,8 +167375,8 @@
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?type=grpc&security=reality&fp=edge&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&sid=3303c7a5&sni=media2.tcpdoor.net&mode=gun&serviceName=grpc&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-03T00:13:27Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -167639,15 +167389,20 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 131.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
     "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?type=grpc&security=reality&fp=ios&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&sid=3303c7a5&sni=media2.tcpdoor.net&mode=gun&serviceName=grpc&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-03T00:13:27Z",
-      "last_seen_at": "2026-08-03T07:46:49Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-03T07:46:49Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-08-03T00:13:27Z",
@@ -167663,6 +167418,11 @@
           "ts": "2026-08-03T07:46:49Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.2
         }
       ]
     },
@@ -167782,10 +167542,10 @@
     },
     "vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.66:2053?encryption=none&security=reality&sni=dns.adguard-dns.com&alpn=http/1.1&fp=firefox&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&sid=f0131a4772b494d4&type=grpc&serviceName=grpc&packetEncoding=xudp#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-08-03T00:13:27Z",
-      "last_seen_at": "2026-08-03T07:46:49Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-03T07:46:49Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-08-03T00:13:27Z",
@@ -167801,6 +167561,11 @@
           "ts": "2026-08-03T07:46:49Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.2
         }
       ]
     },
@@ -168679,8 +168444,8 @@
     },
     "vless://07b2251d-ece9-42c3-a72f-d4fa5cc5ed79@94.126.204.159:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-03T03:56:26Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -168688,6 +168453,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 132.9
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.4
         }
       ]
     },
@@ -168749,8 +168519,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.29:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-03T03:56:26Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -168758,13 +168528,18 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
         }
       ]
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.126.206.29:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-03T03:56:26Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -168772,6 +168547,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
         }
       ]
     },
@@ -168791,8 +168571,8 @@
     },
     "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.250.36:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-03T03:56:26Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -168800,6 +168580,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 131.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.5
         }
       ]
     },
@@ -168833,8 +168618,8 @@
     },
     "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.206.29:443?security=reality&flow=xtls-rprx-vision&sni=apple.com&type=tcp&fp=ios&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
       "first_seen_at": "2026-08-03T03:56:26Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -168842,6 +168627,11 @@
           "ts": "2026-08-03T03:56:26Z",
           "ok": true,
           "latency_ms": 126.6
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
         }
       ]
     },
@@ -168959,10 +168749,10 @@
     },
     "vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.66:2053?encryption=none&fp=firefox&mode=gun&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&security=reality&serviceName=grpc&sid=f0131a4772b494d4&sni=dns.adguard-dns.com&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-08-03T03:56:26Z",
-      "last_seen_at": "2026-08-03T07:46:49Z",
-      "last_success_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-03T07:46:49Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-08-03T03:56:26Z",
@@ -168973,6 +168763,11 @@
           "ts": "2026-08-03T07:46:49Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.2
         }
       ]
     },
@@ -169152,13 +168947,18 @@
     },
     "vless://bf126b99-1497-46d4-9081-64d5a3331b10@185.91.52.36:443?alpn=http/1.1&encryption=none&fp=safari&path=/ws&security=tls&sni=amogus.razkur.dev&type=ws#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-03T03:56:26Z",
-      "last_seen_at": "2026-08-03T03:56:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
       "last_success_at": null,
-      "last_failure_at": "2026-08-03T03:56:26Z",
+      "last_failure_at": "2026-08-03T13:48:26Z",
       "last_status": "tcp",
       "history": [
         {
           "ts": "2026-08-03T03:56:26Z",
+          "ok": false,
+          "reason": "tcp"
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
           "ok": false,
           "reason": "tcp"
         }
@@ -169516,29 +169316,39 @@
     },
     "vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.66:2053?encryption=none&fp=chrome&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&security=reality&serviceName=grpc&sid=f0131a4772b494d4&sni=dns.adguard-dns.com&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-08-03T07:46:49Z",
-      "last_seen_at": "2026-08-03T07:46:49Z",
-      "last_success_at": null,
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-03T07:46:49Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-08-03T07:46:49Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.2
         }
       ]
     },
     "vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.66:2053?encryption=none&fp=qq&mode=gun&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&security=reality&serviceName=grpc&sid=f0131a4772b494d4&sni=dns.adguard-dns.com&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-08-03T07:46:49Z",
-      "last_seen_at": "2026-08-03T07:46:49Z",
-      "last_success_at": null,
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": "2026-08-03T07:46:49Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-08-03T07:46:49Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.2
         }
       ]
     },
@@ -169740,8 +169550,8 @@
     },
     "vless://23786eb4-0bbb-43c6-940c-a3b2b5242cb6@185.229.9.176:8443?encryption=none&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-03T10:59:28Z",
-      "last_seen_at": "2026-08-03T10:59:28Z",
-      "last_success_at": "2026-08-03T10:59:28Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -169749,6 +169559,11 @@
           "ts": "2026-08-03T10:59:28Z",
           "ok": true,
           "latency_ms": 185.5
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 183.8
         }
       ]
     },
@@ -170328,8 +170143,8 @@
     },
     "vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.66:2053?encryption=none&security=reality&sni=dns.adguard-dns.com&alpn=http%2F1.1&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&sid=f0131a4772b494d4&type=grpc&serviceName=grpc&packetEncoding=xudp&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-08-03T10:59:28Z",
-      "last_seen_at": "2026-08-03T10:59:28Z",
-      "last_success_at": "2026-08-03T10:59:28Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -170337,6 +170152,11 @@
           "ts": "2026-08-03T10:59:28Z",
           "ok": true,
           "latency_ms": 1226.0
+        },
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.2
         }
       ]
     },
@@ -170533,6 +170353,160 @@
           "ts": "2026-08-03T10:59:28Z",
           "ok": true,
           "latency_ms": 1226.0
+        }
+      ]
+    },
+    "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.23:443?security=reality&encryption=none&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&host=apple.com&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=apple.com#Cosmos": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.3
+        }
+      ]
+    },
+    "vless://0f27f192-57be-454b-bc3e-56adbe5b7f32@95.163.232.183:443?encryption=none&fp=qq&mode=gun&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&security=reality&serviceName=5post.gate.v1&sid=abcd&sni=5post-gate.x5.ru&type=grpc#%F0%9F%87%AB%F0%9F%87%AE%20Finland": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 192.6
+        }
+      ]
+    },
+    "vless://41019fff-d29c-4a64-a698-ad8f30929ec1@46.243.232.12:18433?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=hOFIfDbgv6KzSjqo7yeo2invnd0-qUD9SsaPBQkuRRQ&security=reality&sni=ya.ru&type=raw#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 232.0
+        }
+      ]
+    },
+    "vless://07b2251d-ece9-42c3-a72f-d4fa5cc5ed79@94.126.205.65:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 181.7
+        }
+      ]
+    },
+    "vless://07b2251d-ece9-42c3-a72f-d4fa5cc5ed79@94.126.206.29:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=qq&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&sni=apple.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
+        }
+      ]
+    },
+    "vless://07b2251d-ece9-42c3-a72f-d4fa5cc5ed79@94.139.251.191:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.5
+        }
+      ]
+    },
+    "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.250.36:443?flow=xtls-rprx-vision&fp=qq&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&security=reality&sni=apple.com&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 191.5
+        }
+      ]
+    },
+    "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.23:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 179.3
+        }
+      ]
+    },
+    "vless://35699c54-9188-4f43-972e-e8e42dbb104e@94.139.251.9:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE&security=reality&sni=apple.com&type=raw#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 193.4
+        }
+      ]
+    },
+    "vless://d6dc1358-1bb5-4a9d-92fd-3e255567e3fc@94.126.206.29:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=safari&pbk=6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 189.5
+        }
+      ]
+    },
+    "vless://347e34f2-3211-4e01-b475-409f46788d3f@85.209.135.66:2053?encryption=none&fp=edge&mode=gun&pbk=RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw&security=reality&serviceName=grpc&sid=f0131a4772b494d4&sni=dns.adguard-dns.com&type=grpc#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
+      "first_seen_at": "2026-08-03T13:48:26Z",
+      "last_seen_at": "2026-08-03T13:48:26Z",
+      "last_success_at": "2026-08-03T13:48:26Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-08-03T13:48:26Z",
+          "ok": true,
+          "latency_ms": 188.2
         }
       ]
     }
