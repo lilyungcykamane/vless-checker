@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21 09:53 UTC",
-  "updated_at_msk": "2026-08-21 12:53 МСК",
-  "announce": "Последнее сканирование: 2026-08-21 12:53 МСК",
+  "updated_at": "2026-08-21 10:48 UTC",
+  "updated_at_msk": "2026-08-21 13:48 МСК",
+  "announce": "Последнее сканирование: 2026-08-21 13:48 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 7877,
+    "tracked_keys": 7786,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 28
+      "total": 0
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 28
+      "total": 0
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -43,289 +43,26 @@
       "total": 0
     },
     "combined": {
-      "total": 28,
-      "working": 6,
-      "eligible": 11
+      "total": 0,
+      "working": 0,
+      "eligible": 0
     }
   },
-  "transport_counts": {
-    "tcp": 6,
-    "grpc": 5
-  },
+  "transport_counts": {},
   "totals": {
-    "unique": 28,
-    "eligible": 11,
-    "working": 6,
-    "top100": 6,
-    "top50": 6,
-    "top15": 6,
-    "unsupported": 17,
-    "failed": 5,
+    "unique": 0,
+    "eligible": 0,
+    "working": 0,
+    "top100": 0,
+    "top50": 0,
+    "top15": 0,
+    "unsupported": 0,
+    "failed": 0,
     "stable_candidates": 0
   },
-  "unsupported_reasons": {
-    "xhttp": 5,
-    "security_none": 12
-  },
-  "failed_reasons": {
-    "tcp": 5
-  },
-  "top100": [
-    {
-      "rank": 1,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 149.1,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 2,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 149.1,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 3,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 149.1,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 4,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 150.0,
-      "availability_pct": 100.0,
-      "success_streak": 3,
-      "observations": 3,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 5,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 124.2,
-      "availability_pct": 100.0,
-      "success_streak": 2,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 6,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 124.2,
-      "availability_pct": 100.0,
-      "success_streak": 2,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    }
-  ],
-  "top50": [
-    {
-      "rank": 1,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 149.1,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 2,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 149.1,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 3,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 149.1,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 4,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 150.0,
-      "availability_pct": 100.0,
-      "success_streak": 3,
-      "observations": 3,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 5,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 124.2,
-      "availability_pct": 100.0,
-      "success_streak": 2,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 6,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 124.2,
-      "availability_pct": 100.0,
-      "success_streak": 2,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    }
-  ],
-  "top15": [
-    {
-      "rank": 1,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 149.1,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 2,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 149.1,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 3,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 149.1,
-      "availability_pct": 100.0,
-      "success_streak": 4,
-      "observations": 4,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 4,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 150.0,
-      "availability_pct": 100.0,
-      "success_streak": 3,
-      "observations": 3,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 5,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 124.2,
-      "availability_pct": 100.0,
-      "success_streak": 2,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 6,
-      "key": "vless://9e94beb2-de41-40f6-bd26-37602fa74e22@189.74.106.35:443?encryption=none&flow=xtls-rprx-vision&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&security=reality&sid=122218f4c1f172e4&sni=api.yandex-cloud.org&type=tcp&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "189.74.106.35",
-      "port": 443,
-      "latency_ms": 160.2,
-      "median_latency_ms": 124.2,
-      "availability_pct": 100.0,
-      "success_streak": 2,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    }
-  ]
+  "unsupported_reasons": {},
+  "failed_reasons": {},
+  "top100": [],
+  "top50": [],
+  "top15": []
 }
