@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "window_size": 96,
-  "updated_at": "2026-09-02T11:44:49Z",
+  "updated_at": "2026-09-02T15:21:03Z",
   "items": {
     "vless://4829c2f5-f45a-4330-9b3c-d381b9efdbec@104.143.201.196:443?authority=id.pervye.ru&encryption=none&pbk=QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc&fp=android#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
       "first_seen_at": "2026-08-12T21:28:54Z",
@@ -6346,63 +6346,6 @@
         }
       ]
     },
-    "vless://2a650f3b-d95b-4bd6-aadf-16ccc0717155@176.109.108.196:9892?encryption=none&mode=gun&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&security=reality&serviceName=grpc-tunnel&sid=aabbccdd&sni=dl.google.com&type=grpc&fp=ios#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
-      "first_seen_at": "2026-08-19T09:49:58Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": "2026-08-19T09:49:58Z",
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T09:49:58Z",
-          "ok": false,
-          "reason": "tcp"
-        },
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 148.8
-        }
-      ]
-    },
-    "vless://6bdd905e-78d6-4ed2-8dcd-d006e5cc1c70@77.95.203.224:443?encryption=none&flow=xtls-rprx-vision&pbk=x_Xq88pDWx7xLRYLUiSF0KrH7nPyt_Fy0w-E70dTr3A&security=reality&sid=d4dbb62d53cd16ec&sni=foodnetwork.com&type=tcp&fp=android#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
-      "first_seen_at": "2026-08-19T12:01:18Z",
-      "last_seen_at": "2026-08-19T13:09:36Z",
-      "last_success_at": "2026-08-19T13:09:36Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T12:01:18Z",
-          "ok": true,
-          "latency_ms": 141.8
-        },
-        {
-          "ts": "2026-08-19T13:09:36Z",
-          "ok": true,
-          "latency_ms": 181.4
-        }
-      ]
-    },
-    "vless://6bdd905e-78d6-4ed2-8dcd-d006e5cc1c70@77.95.203.224:443?encryption=none&flow=xtls-rprx-vision&pbk=x_Xq88pDWx7xLRYLUiSF0KrH7nPyt_Fy0w-E70dTr3A&security=reality&sid=d4dbb62d53cd16ec&sni=foodnetwork.com&type=tcp&fp=chrome#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
-      "first_seen_at": "2026-08-19T12:01:18Z",
-      "last_seen_at": "2026-08-19T13:09:36Z",
-      "last_success_at": "2026-08-19T13:09:36Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T12:01:18Z",
-          "ok": true,
-          "latency_ms": 141.8
-        },
-        {
-          "ts": "2026-08-19T13:09:36Z",
-          "ok": true,
-          "latency_ms": 181.4
-        }
-      ]
-    },
     "vless://6bdd905e-78d6-4ed2-8dcd-d006e5cc1c70@77.95.203.224:443?encryption=none&flow=xtls-rprx-vision&pbk=x_Xq88pDWx7xLRYLUiSF0KrH7nPyt_Fy0w-E70dTr3A&security=reality&sid=d4dbb62d53cd16ec&sni=foodnetwork.com&type=tcp&fp=edge#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
       "first_seen_at": "2026-08-19T12:01:18Z",
       "last_seen_at": "2026-08-19T15:47:00Z",
@@ -6432,44 +6375,6 @@
         }
       ]
     },
-    "vless://6bdd905e-78d6-4ed2-8dcd-d006e5cc1c70@77.95.203.224:443?encryption=none&flow=xtls-rprx-vision&pbk=x_Xq88pDWx7xLRYLUiSF0KrH7nPyt_Fy0w-E70dTr3A&security=reality&sid=d4dbb62d53cd16ec&sni=foodnetwork.com&type=tcp&fp=firefox#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
-      "first_seen_at": "2026-08-19T12:01:18Z",
-      "last_seen_at": "2026-08-19T13:09:36Z",
-      "last_success_at": "2026-08-19T13:09:36Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T12:01:18Z",
-          "ok": true,
-          "latency_ms": 141.8
-        },
-        {
-          "ts": "2026-08-19T13:09:36Z",
-          "ok": true,
-          "latency_ms": 181.4
-        }
-      ]
-    },
-    "vless://6bdd905e-78d6-4ed2-8dcd-d006e5cc1c70@77.95.203.224:443?encryption=none&flow=xtls-rprx-vision&pbk=x_Xq88pDWx7xLRYLUiSF0KrH7nPyt_Fy0w-E70dTr3A&security=reality&sid=d4dbb62d53cd16ec&sni=foodnetwork.com&type=tcp&fp=safari#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom": {
-      "first_seen_at": "2026-08-19T12:01:18Z",
-      "last_seen_at": "2026-08-19T13:09:36Z",
-      "last_success_at": "2026-08-19T13:09:36Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T12:01:18Z",
-          "ok": true,
-          "latency_ms": 141.8
-        },
-        {
-          "ts": "2026-08-19T13:09:36Z",
-          "ok": true,
-          "latency_ms": 181.4
-        }
-      ]
-    },
     "vless://2a650f3b-d95b-4bd6-aadf-16ccc0717155@176.109.108.196:9892?encryption=none&mode=gun&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&security=reality&serviceName=grpc-tunnel&sni=dl.google.com&type=grpc&fp=chrome#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
       "first_seen_at": "2026-08-19T13:58:18Z",
       "last_seen_at": "2026-08-20T09:17:46Z",
@@ -6491,230 +6396,6 @@
           "ts": "2026-08-20T09:17:46Z",
           "ok": true,
           "latency_ms": 144.2
-        }
-      ]
-    },
-    "vless://2a650f3b-d95b-4bd6-aadf-16ccc0717155@176.109.108.196:9892?encryption=none&mode=gun&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&security=reality&serviceName=grpc-tunnel&sni=dl.google.com&type=grpc&fp=safari#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 148.8
-        }
-      ]
-    },
-    "vless://34ff7ad1-b9d6-42e3-b41d-ce4fefc6090c@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=android#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://34ff7ad1-b9d6-42e3-b41d-ce4fefc6090c@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://34ff7ad1-b9d6-42e3-b41d-ce4fefc6090c@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=firefox#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://34ff7ad1-b9d6-42e3-b41d-ce4fefc6090c@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=ios#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://34ff7ad1-b9d6-42e3-b41d-ce4fefc6090c@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=safari#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://bded43d3-fdad-44eb-a1fb-f3fe86d3550d@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://bded43d3-fdad-44eb-a1fb-f3fe86d3550d@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=edge#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://bded43d3-fdad-44eb-a1fb-f3fe86d3550d@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=firefox#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://bded43d3-fdad-44eb-a1fb-f3fe86d3550d@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=ios#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://bded43d3-fdad-44eb-a1fb-f3fe86d3550d@194.87.201.52:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=ya.ru&pbk=KmgjHeIC7Zng50V-dgIE5H7mBidRngTKPtYTxYbmUl0&sid=27478d7c4511b6&spx=%2F&type=tcp&headerType=none&fp=qq#%F0%9F%87%B8%F0%9F%87%AA%20Sweden": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 152.6
-        }
-      ]
-    },
-    "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@45.9.15.13:443?security=reality&type=grpc&sni=s3node1.tcpdoor.net&pbk=BrZ87i30JFd53Pdjsv1zAdaJrktV1J3Q03Eb6zFxInk&serviceName=grpc&sid=4c217ab9&fp=android#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 167.3
-        }
-      ]
-    },
-    "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@45.9.15.13:443?security=reality&type=grpc&sni=s3node1.tcpdoor.net&pbk=BrZ87i30JFd53Pdjsv1zAdaJrktV1J3Q03Eb6zFxInk&serviceName=grpc&sid=4c217ab9&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 167.3
-        }
-      ]
-    },
-    "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@45.9.15.13:443?security=reality&type=grpc&sni=s3node1.tcpdoor.net&pbk=BrZ87i30JFd53Pdjsv1zAdaJrktV1J3Q03Eb6zFxInk&serviceName=grpc&sid=4c217ab9&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 167.3
-        }
-      ]
-    },
-    "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@45.9.15.13:443?security=reality&type=grpc&sni=s3node1.tcpdoor.net&pbk=BrZ87i30JFd53Pdjsv1zAdaJrktV1J3Q03Eb6zFxInk&serviceName=grpc&sid=4c217ab9&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 167.3
-        }
-      ]
-    },
-    "vless://218fd696-e3a2-4c33-b397-a5f13a82969e@45.9.15.13:443?security=reality&type=grpc&sni=s3node1.tcpdoor.net&pbk=BrZ87i30JFd53Pdjsv1zAdaJrktV1J3Q03Eb6zFxInk&serviceName=grpc&sid=4c217ab9&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia": {
-      "first_seen_at": "2026-08-19T13:58:18Z",
-      "last_seen_at": "2026-08-19T13:58:18Z",
-      "last_success_at": "2026-08-19T13:58:18Z",
-      "last_failure_at": null,
-      "last_status": "ok",
-      "history": [
-        {
-          "ts": "2026-08-19T13:58:18Z",
-          "ok": true,
-          "latency_ms": 167.3
         }
       ]
     },
@@ -141745,6 +141426,496 @@
           "ts": "2026-09-02T11:44:49Z",
           "ok": true,
           "latency_ms": 148.3
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11448?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=android#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11448?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=edge#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11448?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=ios#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11448?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=qq#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11448?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=safari#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11446?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=android#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.1
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11446?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=edge#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.1
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11446?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=ios#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.1
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11446?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=qq#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.1
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@46.16.36.222:11446?encryption=none&type=grpc&security=reality&sni=mageia.ubuntuhosting.host&pbk=gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs&sid=b34f41089f1e&serviceName=gun&fp=safari#%F0%9F%87%B5%F0%9F%87%B1%20Poland": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 151.1
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@90.156.218.143:443?encryption=none&type=grpc&security=reality&sni=mint.ubuntuhosting.host&pbk=QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng&sid=3fa234ea9feaa048&serviceName=gun&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.7
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@90.156.218.143:443?encryption=none&type=grpc&security=reality&sni=mint.ubuntuhosting.host&pbk=QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng&sid=3fa234ea9feaa048&serviceName=gun&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.7
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@90.156.218.143:443?encryption=none&type=grpc&security=reality&sni=mint.ubuntuhosting.host&pbk=QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng&sid=3fa234ea9feaa048&serviceName=gun&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.7
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@90.156.218.143:443?encryption=none&type=grpc&security=reality&sni=mint.ubuntuhosting.host&pbk=QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng&sid=3fa234ea9feaa048&serviceName=gun&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.7
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@90.156.218.143:443?encryption=none&type=grpc&security=reality&sni=mint.ubuntuhosting.host&pbk=QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng&sid=3fa234ea9feaa048&serviceName=gun&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.7
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@147.45.163.134:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=3a2c&serviceName=gun&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 149.4
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@147.45.163.134:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=3a2c&serviceName=gun&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 149.4
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@147.45.163.134:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=3a2c&serviceName=gun&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 149.4
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@147.45.163.134:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=3a2c&serviceName=gun&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 149.4
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@147.45.163.134:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=3a2c&serviceName=gun&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 149.4
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@217.199.254.215:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.3
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@217.199.254.215:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.3
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@217.199.254.215:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.3
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@217.199.254.215:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.3
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@217.199.254.215:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.3
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@85.198.83.81:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=android#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@85.198.83.81:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@85.198.83.81:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@85.198.83.81:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@85.198.83.81:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 156.9
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@93.183.80.119:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 162.0
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@93.183.80.119:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 162.0
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@93.183.80.119:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 162.0
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@93.183.80.119:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 162.0
+        }
+      ]
+    },
+    "vless://d7430ae7-320c-4658-808b-3006d0627d82@93.183.80.119:443?encryption=none&type=grpc&security=reality&sni=endeavouros.ubuntuhosting.host&pbk=nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E&sid=707c8615b9&serviceName=gun&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
+      "first_seen_at": "2026-09-02T15:21:03Z",
+      "last_seen_at": "2026-09-02T15:21:03Z",
+      "last_success_at": "2026-09-02T15:21:03Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-02T15:21:03Z",
+          "ok": true,
+          "latency_ms": 162.0
         }
       ]
     }
