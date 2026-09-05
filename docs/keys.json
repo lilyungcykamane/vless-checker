@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05 04:57 UTC",
-  "updated_at_msk": "2026-09-05 07:57 МСК",
-  "announce": "Последнее сканирование: 2026-09-05 07:57 МСК",
+  "updated_at": "2026-09-05 09:06 UTC",
+  "updated_at_msk": "2026-09-05 12:06 МСК",
+  "announce": "Последнее сканирование: 2026-09-05 12:06 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 4765,
+    "tracked_keys": 4684,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 5
+      "total": 0
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 5
+      "total": 0
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -43,241 +43,26 @@
       "total": 0
     },
     "combined": {
-      "total": 5,
-      "working": 5,
-      "eligible": 5
+      "total": 0,
+      "working": 0,
+      "eligible": 0
     }
   },
-  "transport_counts": {
-    "grpc": 5
-  },
+  "transport_counts": {},
   "totals": {
-    "unique": 5,
-    "eligible": 5,
-    "working": 5,
-    "top100": 5,
-    "top50": 5,
-    "top15": 5,
+    "unique": 0,
+    "eligible": 0,
+    "working": 0,
+    "top100": 0,
+    "top50": 0,
+    "top15": 0,
     "unsupported": 0,
     "failed": 0,
     "stable_candidates": 0
   },
   "unsupported_reasons": {},
   "failed_reasons": {},
-  "top100": [
-    {
-      "rank": 1,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 2,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 3,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 4,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 5,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    }
-  ],
-  "top50": [
-    {
-      "rank": 1,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 2,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 3,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 4,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 5,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    }
-  ],
-  "top15": [
-    {
-      "rank": 1,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 2,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 3,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 4,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=qq#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    },
-    {
-      "rank": 5,
-      "key": "vless://39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6@176.12.71.1:443?encryption=none&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany",
-      "host": "176.12.71.1",
-      "port": 443,
-      "latency_ms": 118.6,
-      "median_latency_ms": 118.6,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Germany",
-      "flag": "🇩🇪"
-    }
-  ]
+  "top100": [],
+  "top50": [],
+  "top15": []
 }
