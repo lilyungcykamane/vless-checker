@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "window_size": 96,
-  "updated_at": "2026-09-14T07:08:22Z",
+  "updated_at": "2026-09-14T14:04:59Z",
   "items": {
     "vless://24708d62-a508-4c63-a860-7d4e04e440b1@46.243.234.72:2053?type=grpc&security=reality&pbk=IDjWshY2nmbQJzUme5TMymI-RI99Zku45lO9k1HKyTA&sid=20a080af5636a681&sni=5post-gate.x5.ru&mode=gun&serviceName=grpc-wl&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-08-29T21:45:15Z",
@@ -36887,10 +36887,10 @@
     },
     "vless://b1b3e430-ff52-44b8-b95d-27fa580fbc4f@ns.o11111o.club:443?encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-09-13T12:20:34Z",
-      "last_seen_at": "2026-09-13T16:38:48Z",
-      "last_success_at": "2026-09-13T12:20:34Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
       "last_failure_at": "2026-09-13T16:38:48Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-09-13T12:20:34Z",
@@ -36901,13 +36901,18 @@
           "ts": "2026-09-13T16:38:48Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 135.0
         }
       ]
     },
     "vless://b1b3e430-ff52-44b8-b95d-27fa580fbc4f@ns.o11111o.club:443?encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-09-13T12:20:34Z",
-      "last_seen_at": "2026-09-13T21:27:03Z",
-      "last_success_at": "2026-09-13T21:27:03Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
       "last_failure_at": "2026-09-13T16:38:48Z",
       "last_status": "ok",
       "history": [
@@ -36925,15 +36930,20 @@
           "ts": "2026-09-13T21:27:03Z",
           "ok": true,
           "latency_ms": 185.9
+        },
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 135.0
         }
       ]
     },
     "vless://b1b3e430-ff52-44b8-b95d-27fa580fbc4f@ns.o11111o.club:443?encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=ios#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-09-13T12:20:34Z",
-      "last_seen_at": "2026-09-13T16:38:48Z",
-      "last_success_at": "2026-09-13T12:20:34Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
       "last_failure_at": "2026-09-13T16:38:48Z",
-      "last_status": "tcp",
+      "last_status": "ok",
       "history": [
         {
           "ts": "2026-09-13T12:20:34Z",
@@ -36944,6 +36954,11 @@
           "ts": "2026-09-13T16:38:48Z",
           "ok": false,
           "reason": "tcp"
+        },
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 135.0
         }
       ]
     },
@@ -36968,8 +36983,8 @@
     },
     "vless://b1b3e430-ff52-44b8-b95d-27fa580fbc4f@ns.o11111o.club:443?encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=safari#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-09-13T12:20:34Z",
-      "last_seen_at": "2026-09-13T21:27:03Z",
-      "last_success_at": "2026-09-13T21:27:03Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -36982,6 +36997,11 @@
           "ts": "2026-09-13T21:27:03Z",
           "ok": true,
           "latency_ms": 185.9
+        },
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 135.0
         }
       ]
     },
@@ -37769,8 +37789,8 @@
     },
     "vless://b1b3e430-ff52-44b8-b95d-27fa580fbc4f@ns.o11111o.club:443?encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany": {
       "first_seen_at": "2026-09-13T12:20:34Z",
-      "last_seen_at": "2026-09-13T21:27:03Z",
-      "last_success_at": "2026-09-13T21:27:03Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
       "last_failure_at": null,
       "last_status": "ok",
       "history": [
@@ -37783,6 +37803,11 @@
           "ts": "2026-09-13T21:27:03Z",
           "ok": true,
           "latency_ms": 185.9
+        },
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 135.0
         }
       ]
     },
@@ -40897,6 +40922,216 @@
           "ts": "2026-09-14T07:08:22Z",
           "ok": false,
           "reason": "tcp"
+        }
+      ]
+    },
+    "vless://22723345-4e67-4ac9-a4e6-4435b9a533b7@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://22723345-4e67-4ac9-a4e6-4435b9a533b7@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://22723345-4e67-4ac9-a4e6-4435b9a533b7@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://22723345-4e67-4ac9-a4e6-4435b9a533b7@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://22723345-4e67-4ac9-a4e6-4435b9a533b7@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://3b17070b-6a05-42ae-b584-73b05781aad0@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://3b17070b-6a05-42ae-b584-73b05781aad0@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://3b17070b-6a05-42ae-b584-73b05781aad0@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://3b17070b-6a05-42ae-b584-73b05781aad0@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://3b17070b-6a05-42ae-b584-73b05781aad0@89.127.197.75:443?encryption=none&pbk=K-wTvAPoWqLXkMU1mOIwFxdOgZfiloib93AZKBIoUnQ&security=reality&serviceName=grpc&sid=6b&sni=www.samsung.com&type=grpc&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 123.6
+        }
+      ]
+    },
+    "vless://3e561346-4319-4c4a-9fc1-1c951c70e02c@89.127.209.89:443?encryption=none&pbk=hbOfuUJeZUi3UfNd9PEasFw9R0aRCt0F5NT5rdNDoTA&security=reality&serviceName=grpc&sid=00000000&sni=www.samsung.com&type=grpc&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 130.2
+        }
+      ]
+    },
+    "vless://3e561346-4319-4c4a-9fc1-1c951c70e02c@89.127.209.89:443?encryption=none&pbk=hbOfuUJeZUi3UfNd9PEasFw9R0aRCt0F5NT5rdNDoTA&security=reality&serviceName=grpc&sid=00000000&sni=www.samsung.com&type=grpc&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 130.2
+        }
+      ]
+    },
+    "vless://3e561346-4319-4c4a-9fc1-1c951c70e02c@89.127.209.89:443?encryption=none&pbk=hbOfuUJeZUi3UfNd9PEasFw9R0aRCt0F5NT5rdNDoTA&security=reality&serviceName=grpc&sid=00000000&sni=www.samsung.com&type=grpc&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 130.2
+        }
+      ]
+    },
+    "vless://3e561346-4319-4c4a-9fc1-1c951c70e02c@89.127.209.89:443?encryption=none&pbk=hbOfuUJeZUi3UfNd9PEasFw9R0aRCt0F5NT5rdNDoTA&security=reality&serviceName=grpc&sid=00000000&sni=www.samsung.com&type=grpc&fp=ios#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 130.2
+        }
+      ]
+    },
+    "vless://3e561346-4319-4c4a-9fc1-1c951c70e02c@89.127.209.89:443?encryption=none&pbk=hbOfuUJeZUi3UfNd9PEasFw9R0aRCt0F5NT5rdNDoTA&security=reality&serviceName=grpc&sid=00000000&sni=www.samsung.com&type=grpc&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands": {
+      "first_seen_at": "2026-09-14T14:04:59Z",
+      "last_seen_at": "2026-09-14T14:04:59Z",
+      "last_success_at": "2026-09-14T14:04:59Z",
+      "last_failure_at": null,
+      "last_status": "ok",
+      "history": [
+        {
+          "ts": "2026-09-14T14:04:59Z",
+          "ok": true,
+          "latency_ms": 130.2
         }
       ]
     }
