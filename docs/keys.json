@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-21 20:38 UTC",
-  "updated_at_msk": "2026-09-21 23:38 МСК",
-  "announce": "Последнее сканирование: 2026-09-21 23:38 МСК",
+  "updated_at": "2026-09-21 23:39 UTC",
+  "updated_at_msk": "2026-09-22 02:39 МСК",
+  "announce": "Последнее сканирование: 2026-09-22 02:39 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 1960,
+    "tracked_keys": 1957,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 6
+      "total": 0
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 6
+      "total": 0
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -43,31 +43,25 @@
       "total": 0
     },
     "combined": {
-      "total": 6,
+      "total": 0,
       "working": 0,
-      "eligible": 5
+      "eligible": 0
     }
   },
-  "transport_counts": {
-    "tcp": 5
-  },
+  "transport_counts": {},
   "totals": {
-    "unique": 6,
-    "eligible": 5,
+    "unique": 0,
+    "eligible": 0,
     "working": 0,
     "top100": 0,
     "top50": 0,
     "top15": 0,
-    "unsupported": 1,
-    "failed": 5,
+    "unsupported": 0,
+    "failed": 0,
     "stable_candidates": 0
   },
-  "unsupported_reasons": {
-    "security_none": 1
-  },
-  "failed_reasons": {
-    "tcp": 5
-  },
+  "unsupported_reasons": {},
+  "failed_reasons": {},
   "top100": [],
   "top50": [],
   "top15": []
