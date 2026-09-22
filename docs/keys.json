@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22 17:38 UTC",
-  "updated_at_msk": "2026-09-22 20:38 МСК",
-  "announce": "Последнее сканирование: 2026-09-22 20:38 МСК",
+  "updated_at": "2026-09-22 20:29 UTC",
+  "updated_at_msk": "2026-09-22 23:29 МСК",
+  "announce": "Последнее сканирование: 2026-09-22 23:29 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 1926,
+    "tracked_keys": 1919,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 50
+      "total": 15
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 50
+      "total": 15
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -43,244 +43,32 @@
       "total": 0
     },
     "combined": {
-      "total": 50,
-      "working": 5,
-      "eligible": 5
+      "total": 15,
+      "working": 0,
+      "eligible": 10
     }
   },
   "transport_counts": {
-    "grpc": 5
+    "tcp": 10
   },
   "totals": {
-    "unique": 50,
-    "eligible": 5,
-    "working": 5,
-    "top100": 5,
-    "top50": 5,
-    "top15": 5,
-    "unsupported": 45,
-    "failed": 0,
+    "unique": 15,
+    "eligible": 10,
+    "working": 0,
+    "top100": 0,
+    "top50": 0,
+    "top15": 0,
+    "unsupported": 5,
+    "failed": 10,
     "stable_candidates": 0
   },
   "unsupported_reasons": {
-    "insecure": 35,
-    "xhttp": 10
+    "xhttp": 5
   },
-  "failed_reasons": {},
-  "top100": [
-    {
-      "rank": 1,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 2,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 3,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 4,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 5,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    }
-  ],
-  "top50": [
-    {
-      "rank": 1,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 2,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 3,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 4,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 5,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    }
-  ],
-  "top15": [
-    {
-      "rank": 1,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 2,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 3,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 4,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    },
-    {
-      "rank": 5,
-      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
-      "host": "ih.lavivas.org",
-      "port": 8080,
-      "latency_ms": 131.7,
-      "median_latency_ms": 131.7,
-      "availability_pct": 50.0,
-      "success_streak": 1,
-      "observations": 2,
-      "stable_qualified": false,
-      "country": "The Netherlands",
-      "flag": "🇳🇱"
-    }
-  ]
+  "failed_reasons": {
+    "tcp": 10
+  },
+  "top100": [],
+  "top50": [],
+  "top15": []
 }
