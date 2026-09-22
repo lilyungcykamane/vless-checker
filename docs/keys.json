@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22 12:51 UTC",
-  "updated_at_msk": "2026-09-22 15:51 МСК",
-  "announce": "Последнее сканирование: 2026-09-22 15:51 МСК",
+  "updated_at": "2026-09-22 17:38 UTC",
+  "updated_at_msk": "2026-09-22 20:38 МСК",
+  "announce": "Последнее сканирование: 2026-09-22 20:38 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 1940,
+    "tracked_keys": 1926,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 20
+      "total": 50
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 20
+      "total": 50
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -40,248 +40,247 @@
     "igareck_white_checked": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
-      "total": 10
+      "total": 0
     },
     "combined": {
-      "total": 20,
+      "total": 50,
       "working": 5,
-      "eligible": 15
+      "eligible": 5
     }
   },
   "transport_counts": {
-    "tcp": 15
+    "grpc": 5
   },
   "totals": {
-    "unique": 20,
-    "eligible": 15,
+    "unique": 50,
+    "eligible": 5,
     "working": 5,
     "top100": 5,
     "top50": 5,
     "top15": 5,
-    "unsupported": 5,
-    "failed": 10,
+    "unsupported": 45,
+    "failed": 0,
     "stable_candidates": 0
   },
   "unsupported_reasons": {
-    "xhttp": 5
+    "insecure": 35,
+    "xhttp": 10
   },
-  "failed_reasons": {
-    "tcp": 10
-  },
+  "failed_reasons": {},
   "top100": [
     {
       "rank": 1,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=edge#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 2,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=firefox#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 3,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=ios#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 4,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=qq#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 5,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=safari#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     }
   ],
   "top50": [
     {
       "rank": 1,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=edge#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 2,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=firefox#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 3,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=ios#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 4,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=qq#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 5,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=safari#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     }
   ],
   "top15": [
     {
       "rank": 1,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=edge#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
       "availability_pct": 100.0,
       "success_streak": 1,
       "observations": 1,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 2,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=firefox#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 3,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=ios#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 4,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=qq#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     },
     {
       "rank": 5,
-      "key": "vless://a5a311a8-6b0b-4ddc-b354-79acb4e19d67@185.211.170.77:443?encryption=none&type=tcp&security=tls&sni=polka3.cryposikel.ru&flow=xtls-rprx-vision&headerType=none&allowInsecure=0&fp=safari#Cosmos",
-      "host": "185.211.170.77",
-      "port": 443,
-      "latency_ms": 166.3,
-      "median_latency_ms": 166.3,
-      "availability_pct": 100.0,
+      "key": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@ih.lavivas.org:8080?security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=grpc&allowInsecure=0&sni=ih.lavivas.org&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands",
+      "host": "ih.lavivas.org",
+      "port": 8080,
+      "latency_ms": 131.7,
+      "median_latency_ms": 131.7,
+      "availability_pct": 50.0,
       "success_streak": 1,
-      "observations": 1,
+      "observations": 2,
       "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
+      "country": "The Netherlands",
+      "flag": "🇳🇱"
     }
   ]
 }
