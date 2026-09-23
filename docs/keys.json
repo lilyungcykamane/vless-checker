@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23 06:42 UTC",
-  "updated_at_msk": "2026-09-23 09:42 МСК",
-  "announce": "Последнее сканирование: 2026-09-23 09:42 МСК",
+  "updated_at": "2026-09-23 12:15 UTC",
+  "updated_at_msk": "2026-09-23 15:15 МСК",
+  "announce": "Последнее сканирование: 2026-09-23 15:15 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 1875,
+    "tracked_keys": 1865,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 45
+      "total": 5
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 45
+      "total": 5
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -43,243 +43,28 @@
       "total": 0
     },
     "combined": {
-      "total": 45,
-      "working": 5,
-      "eligible": 5
+      "total": 5,
+      "working": 0,
+      "eligible": 0
     }
   },
-  "transport_counts": {
-    "tcp": 5
-  },
+  "transport_counts": {},
   "totals": {
-    "unique": 45,
-    "eligible": 5,
-    "working": 5,
-    "top100": 5,
-    "top50": 5,
-    "top15": 5,
-    "unsupported": 40,
+    "unique": 5,
+    "eligible": 0,
+    "working": 0,
+    "top100": 0,
+    "top50": 0,
+    "top15": 0,
+    "unsupported": 5,
     "failed": 0,
     "stable_candidates": 0
   },
   "unsupported_reasons": {
-    "xhttp": 40
+    "xhttp": 5
   },
   "failed_reasons": {},
-  "top100": [
-    {
-      "rank": 1,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=android#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 2,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=chrome#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 3,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=edge#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 4,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=ios#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 5,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=safari#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    }
-  ],
-  "top50": [
-    {
-      "rank": 1,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=android#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 2,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=chrome#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 3,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=edge#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 4,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=ios#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 5,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=safari#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    }
-  ],
-  "top15": [
-    {
-      "rank": 1,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=android#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 2,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=chrome#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 3,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=edge#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 4,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=ios#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    },
-    {
-      "rank": 5,
-      "key": "vless://fc47db0c-c6f2-4665-bdb2-8f717822ce9d@46.173.17.19:443?security=reality&encryption=none&pbk=Hhp-DQNkUYOkbWR64BHWc7gGYfeqU8yYAwX6sTsqf3A&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=9f8hqeju.datahubfiles.com&sid=4d5163ec7a1bf048&fp=safari#Cosmos",
-      "host": "46.173.17.19",
-      "port": 443,
-      "latency_ms": 190.7,
-      "median_latency_ms": 190.7,
-      "availability_pct": 100.0,
-      "success_streak": 1,
-      "observations": 1,
-      "stable_qualified": false,
-      "country": "Cosmos",
-      "flag": ""
-    }
-  ]
+  "top100": [],
+  "top50": [],
+  "top15": []
 }
