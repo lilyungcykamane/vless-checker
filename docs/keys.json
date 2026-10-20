@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-20 10:26 UTC",
-  "updated_at_msk": "2026-10-20 13:26 МСК",
-  "announce": "Последнее сканирование: 2026-10-20 13:26 МСК",
+  "updated_at": "2026-10-20 15:23 UTC",
+  "updated_at_msk": "2026-10-20 18:23 МСК",
+  "announce": "Последнее сканирование: 2026-10-20 18:23 МСК",
   "check_mode": "tcp",
   "downloads": {
     "full": "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
@@ -11,7 +11,7 @@
   },
   "ranking": {
     "mode": "stability",
-    "tracked_keys": 3168,
+    "tracked_keys": 3126,
     "history_window": 96,
     "min_observations": 8,
     "min_availability_pct": 85.0,
@@ -24,12 +24,12 @@
     "igareck_white_cidr_all": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-all.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-      "total": 10
+      "total": 41
     },
     "igareck_mobile_1": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-      "total": 10
+      "total": 36
     },
     "igareck_mobile_2": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
@@ -40,31 +40,248 @@
     "igareck_white_checked": {
       "url": "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-CIDR-RU-checked.txt",
       "raw_url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
-      "total": 5
+      "total": 21
     },
     "combined": {
-      "total": 10,
-      "working": 0,
-      "eligible": 0
+      "total": 46,
+      "working": 5,
+      "eligible": 15
     }
   },
-  "transport_counts": {},
+  "transport_counts": {
+    "tcp": 15
+  },
   "totals": {
-    "unique": 10,
-    "eligible": 0,
-    "working": 0,
-    "top100": 0,
-    "top50": 0,
-    "top15": 0,
-    "unsupported": 10,
-    "failed": 0,
+    "unique": 46,
+    "eligible": 15,
+    "working": 5,
+    "top100": 5,
+    "top50": 5,
+    "top15": 5,
+    "unsupported": 31,
+    "failed": 10,
     "stable_candidates": 0
   },
   "unsupported_reasons": {
-    "xhttp": 10
+    "xhttp": 31
   },
-  "failed_reasons": {},
-  "top100": [],
-  "top50": [],
-  "top15": []
+  "failed_reasons": {
+    "tcp": 10
+  },
+  "top100": [
+    {
+      "rank": 1,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=edge#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 2,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=firefox#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 3,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=ios#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 4,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=qq#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 5,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=safari#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    }
+  ],
+  "top50": [
+    {
+      "rank": 1,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=edge#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 2,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=firefox#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 3,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=ios#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 4,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=qq#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 5,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=safari#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    }
+  ],
+  "top15": [
+    {
+      "rank": 1,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=edge#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 2,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=firefox#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 3,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=ios#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 4,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=qq#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    },
+    {
+      "rank": 5,
+      "key": "vless://9ab9291e-fd72-4af9-b227-93419e90ff2e@193.233.48.89:443?security=reality&encryption=none&pbk=wEq2tZjBf-K4874ErnlupCaI24wDTB5elHB-ZXwjBio&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ru-in-lv-4vp.movietop24.site&sid=b629457828a7d4bf&fp=safari#%F0%9F%87%B1%F0%9F%87%BB%20Latvia",
+      "host": "193.233.48.89",
+      "port": 443,
+      "latency_ms": 175.6,
+      "median_latency_ms": 175.6,
+      "availability_pct": 100.0,
+      "success_streak": 1,
+      "observations": 1,
+      "stable_qualified": false,
+      "country": "Latvia",
+      "flag": "🇱🇻"
+    }
+  ]
 }
