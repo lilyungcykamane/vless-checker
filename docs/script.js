@@ -1,305 +1,154 @@
 const KEYS_URL = "keys.json";
-const FALLBACK_DOWNLOADS = {
-  top100: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top100.txt",
-  top50: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top50.txt",
-  top15: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top15.txt",
-  full: "https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt",
-};
-const VK_PLACEHOLDER_URL = "https://vk.com/id000";
-let currentDownloads = { ...FALLBACK_DOWNLOADS };
+const REPO = "lilyungcykamane/vless-checker";
+const FILES = { top100: "top100.txt", full: "good.txt" };
 
-function encodeKey(key) {
-  return key.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
-}
+const links = {};
 
 function setText(id, value) {
   const element = document.getElementById(id);
-  if (!element) {
-    return;
+  if (element) {
+    element.textContent = value;
   }
-  element.textContent = value;
+}
+
+function buildLinks(kind) {
+  const file = FILES[kind];
+  return {
+    jsdelivr: `https://cdn.jsdelivr.net/gh/${REPO}/${file}`,
+    github: `https://raw.githubusercontent.com/${REPO}/refs/heads/main/${file}`,
+  };
+}
+
+function formatNumber(value) {
+  return Number.isFinite(Number(value)) ? String(value) : "—";
+}
+
+function plural(count, one, few, many) {
+  const tail = Math.abs(count) % 100;
+  if (tail > 10 && tail < 20) {
+    return many;
+  }
+  const last = tail % 10;
+  if (last === 1) {
+    return one;
+  }
+  return last >= 2 && last <= 4 ? few : many;
 }
 
 function formatPercent(value) {
   const number = Number(value);
-  if (!Number.isFinite(number)) {
-    return "—";
-  }
-  return number.toFixed(number % 1 === 0 ? 0 : 1) + "%";
+  return Number.isFinite(number) ? `${number.toFixed(number % 1 ? 1 : 0)}%` : "—";
 }
 
 function formatLatency(value) {
   const number = Number(value);
-  if (!Number.isFinite(number)) {
-    return "—";
-  }
-  return number.toFixed(number % 1 === 0 ? 0 : 1) + " мс";
+  return Number.isFinite(number) ? `${Math.round(number)} мс` : "—";
 }
 
-function formatObservations(value) {
-  if (Array.isArray(value)) {
-    return String(value.length);
-  }
-  if (value === null || value === undefined || value === "") {
-    return "—";
-  }
-  if (typeof value === "object") {
-    return String(Object.keys(value).length);
-  }
-  return String(value);
+function renderStats(totals) {
+  const cards = [
+    ["Рабочих", totals.working],
+    ["В ТОП-100", totals.top100],
+    ["Проверено", totals.eligible],
+    ["Отбраковано", totals.failed],
+  ];
+
+  document.getElementById("stats").innerHTML = cards
+    .map(([label, value]) => `<div class="stat"><span>${label}</span><strong>${formatNumber(value)}</strong></div>`)
+    .join("");
 }
 
-function renderEntry(item) {
-  const availability = formatPercent(item.availability_pct);
-  const streak = Number(item.success_streak);
-  const streakLabel = Number.isFinite(streak) ? String(streak) : "—";
-  const medianLatency = formatLatency(item.median_latency_ms);
-  const currentLatency = formatLatency(item.latency_ms);
-  const observations = formatObservations(item.observations);
-
-  return (
-    '<article class="entry">' +
-      '<div class="entry-rank">#' + item.rank + '</div>' +
-      '<div class="entry-main">' +
-        '<div class="entry-topline">' +
-          '<span class="country">' + (item.flag || "🌍") + " " + item.country + "</span>" +
-          '<span class="stability">' + availability + " доступность</span>" +
-          '<span class="streak">' + streakLabel + " подряд</span>" +
-        "</div>" +
-        '<div class="entry-metrics">' +
-          '<div class="metric">' +
-            '<span class="metric-label">Медиана</span>' +
-            '<strong>' + medianLatency + '</strong>' +
-          "</div>" +
-          '<div class="metric">' +
-            '<span class="metric-label">Последний чек</span>' +
-            '<strong>' + currentLatency + '</strong>' +
-          "</div>" +
-          '<div class="metric">' +
-            '<span class="metric-label">Наблюдений</span>' +
-            '<strong>' + observations + "</strong>" +
-          "</div>" +
-      "</div>" +
-        '<div class="hostline">' + item.host + ":" + item.port + "</div>" +
-      "</div>" +
-      '<button class="copy-btn" onclick="copyText(\'' + encodeKey(item.key) + '\', this)">Копировать</button>' +
-    "</article>"
-  );
-}
-
-function renderList(data) {
-  const entries = data.top100 || data.top50 || data.top15 || [];
+function renderEntries(entries) {
   const container = document.getElementById("entries");
 
   if (!entries.length) {
-    container.innerHTML = '<div class="empty-state">Стабильных ключей пока нет. Следующая проверка обновит рейтинг.</div>';
+    container.innerHTML = '<p class="empty">Рабочих конфигов сейчас нет. Следующая проверка обновит список.</p>';
     return;
   }
 
-  container.innerHTML = entries.map(renderEntry).join("");
-}
+  container.innerHTML = entries
+    .map((item) => {
+      const facts = [
+        `${item.transport}+${item.security}`,
+        `${formatPercent(item.availability_pct)} доступность`,
+        `${formatNumber(item.success_streak)} ${plural(item.success_streak, "успех", "успеха", "успехов")} подряд`,
+        formatLatency(item.median_latency_ms),
+      ].join(" · ");
 
-function parseDownloadUrl(url) {
-  if (!url) {
-    return null;
-  }
+      return (
+        '<div class="entry">' +
+        `<div class="rank">${item.rank}</div>` +
+        '<div class="entry-body">' +
+        `<div class="entry-name">${item.name}${item.stable_qualified ? ' <span class="ok">стабилен</span>' : ""}</div>` +
+        `<div class="entry-facts">${facts}</div>` +
+        "</div>" +
+        `<button type="button" data-config="${item.rank}">Копировать</button>` +
+        "</div>"
+      );
+    })
+    .join("");
 
-  const jsdelivrMatch = url.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^/]+)\/([^/]+)\/(.+)$/);
-  if (!jsdelivrMatch) {
-    return null;
-  }
-
-  const [, owner, repo, path] = jsdelivrMatch;
-  return { owner, repo, ref: "main", path };
-}
-
-function buildModalLinks(kind) {
-  const parsed = parseDownloadUrl(currentDownloads[kind]);
-  if (!parsed) {
-    return null;
-  }
-
-  const { owner, repo, ref, path } = parsed;
-  const raw = "https://raw.githubusercontent.com/" + owner + "/" + repo + "/refs/heads/" + ref + "/" + path;
-
-  return {
-    jsdelivr: currentDownloads[kind],
-    yandex: "https://translate.yandex.ru/translate?url=" + raw + "&lang=de-de",
-    github: raw,
-  };
-}
-
-function setModalActionValue(id, mode, value) {
-  const button = document.getElementById(id);
-  if (!button) {
-    return;
-  }
-
-  button.dataset.mode = mode;
-  button.dataset.value = value;
-}
-
-function resetModalActionSubtitles() {
-  document.querySelectorAll(".modal-action-subtitle").forEach((subtitle) => {
-    if (subtitle.dataset.originalText) {
-      subtitle.textContent = subtitle.dataset.originalText;
-    }
+  container.querySelectorAll("button[data-config]").forEach((button) => {
+    const entry = entries[Number(button.dataset.config) - 1];
+    button.addEventListener("click", () => copy(button, entry.key));
   });
 }
 
-function openDownloadModal(kind) {
-  const links = buildModalLinks(kind);
-  if (!links) {
-    return;
+function renderStatus(data) {
+  const parts = [];
+  if (data.check_mode === "xray") {
+    parts.push("Проверка: Xray поднимает конфиг, через туннель уходит HTTP-запрос");
   }
-
-  const title = kind === "top100" ? "Подписка ТОП100" : "Подписка полная";
-  resetModalActionSubtitles();
-  setText("download-modal-title", title);
-  setText("download-modal-text", "Выберите способ получение подписки:");
-  setModalActionValue("download-jsdelivr", "copy", links.jsdelivr);
-  setModalActionValue("download-yandex", "open", links.yandex);
-  setModalActionValue("download-vk", "open", VK_PLACEHOLDER_URL);
-  setModalActionValue("download-github", "copy", links.github);
-  document.getElementById("download-modal").hidden = false;
-  document.body.classList.add("modal-open");
-}
-
-function closeDownloadModal() {
-  document.getElementById("download-modal").hidden = true;
-  document.body.classList.remove("modal-open");
-}
-
-function renderMeta(data) {
-  const totals = data.totals || {};
-  setText("updated", data.updated_at_msk ? "Обновлено: " + data.updated_at_msk : "Обновление недоступно");
-  setText("working-count", totals.working ?? "—");
-  setText("top-count", totals.top100 ?? totals.top50 ?? totals.top15 ?? "—");
-  setText("unique-count", totals.unique ?? "—");
-  setText("unsupported-count", totals.unsupported ?? "—");
-
-  const unsupported = data.unsupported_reasons || {};
-  const skipped = Object.entries(unsupported)
-    .map(([reason, count]) => reason + ": " + count)
-    .join(" · ");
-
-  const statusParts = [];
-  statusParts.push(data.check_mode === "tcp" ? "Проверка через TCP connect" : "Проверка через sing-box + generate_204");
-  statusParts.push("Рейтинг построен по стабильности: availability, streak и история чеков");
-  if (skipped) {
-    statusParts.push("Пропущено: " + skipped);
+  const ranking = data.ranking || {};
+  if (ranking.min_availability_pct) {
+    parts.push(
+      `«Стабилен» — не меньше ${ranking.min_observations} ${plural(ranking.min_observations, "проверки", "проверок", "проверок")}, ` +
+        `${ranking.min_availability_pct}% доступности и ${ranking.min_success_streak} ${plural(ranking.min_success_streak, "успех", "успеха", "успехов")} подряд`
+    );
   }
-  document.getElementById("status-line").textContent = statusParts.join(" • ");
+  setText("status-line", parts.join(". "));
 }
 
-function applyDownloads(data) {
-  const downloads = data.downloads || FALLBACK_DOWNLOADS;
-  currentDownloads = {
-    top100: downloads.top100 || downloads.top50 || downloads.top15 || FALLBACK_DOWNLOADS.top100,
-    top50: downloads.top50 || downloads.top15 || FALLBACK_DOWNLOADS.top50,
-    top15: downloads.top15 || FALLBACK_DOWNLOADS.top15,
-    full: downloads.full || FALLBACK_DOWNLOADS.full,
-  };
-}
-
-async function loadData() {
-  try {
-    const response = await fetch(KEYS_URL + "?t=" + Date.now());
-    if (!response.ok) {
-      throw new Error("Ошибка загрузки JSON");
-    }
-
-    const data = await response.json();
-    applyDownloads(data);
-    renderMeta(data);
-    renderList(data);
-  } catch (error) {
-    setText("updated", "Ошибка загрузки данных");
-    document.getElementById("status-line").textContent = "Не удалось загрузить актуальный рейтинг";
-    document.getElementById("entries").innerHTML =
-      '<div class="empty-state">JSON с результатами сейчас недоступен.</div>';
-  }
-}
-
-function copyText(text, button) {
+function copy(button, text) {
   navigator.clipboard.writeText(text).then(() => {
-    const originalText = button.textContent;
+    const original = button.textContent;
     button.textContent = "Скопировано";
+    button.classList.add("done");
     setTimeout(() => {
-      button.textContent = originalText;
+      button.textContent = original;
+      button.classList.remove("done");
     }, 1500);
   });
 }
 
-function flashModalSubtitle(button, message) {
-  const subtitle = button.querySelector(".modal-action-subtitle");
-  if (!subtitle) {
-    return;
-  }
-
-  const originalText = subtitle.dataset.originalText || subtitle.textContent;
-  subtitle.dataset.originalText = originalText;
-  subtitle.textContent = message;
-  setTimeout(() => {
-    subtitle.textContent = originalText;
-  }, 1600);
-}
-
-function copyDownloadLink(button, value) {
-  navigator.clipboard.writeText(value).then(() => {
-    flashModalSubtitle(button, "Ссылка скопирована");
+function initSubscriptionButtons() {
+  document.querySelectorAll(".sub").forEach((row) => {
+    const kind = row.dataset.kind;
+    links[kind] = buildLinks(kind);
+    row.querySelectorAll("button[data-copy]").forEach((button) => {
+      button.addEventListener("click", () => copy(button, links[kind][button.dataset.copy]));
+    });
   });
 }
 
-function openDownloadLink(button, value) {
-  flashModalSubtitle(button, "Открываем ссылку");
-  window.open(value, "_blank", "noopener,noreferrer");
-}
+async function load() {
+  try {
+    const response = await fetch(`${KEYS_URL}?t=${Date.now()}`);
+    if (!response.ok) {
+      throw new Error("keys.json недоступен");
+    }
 
-function handleModalAction(button) {
-  const value = button.dataset.value;
-  const mode = button.dataset.mode;
-  if (!value || !mode) {
-    return;
-  }
-
-  if (mode === "copy") {
-    copyDownloadLink(button, value);
-    return;
-  }
-
-  if (mode === "open") {
-    openDownloadLink(button, value);
+    const data = await response.json();
+    setText("updated", data.updated_at_msk ? `Обновлено: ${data.updated_at_msk}` : "Время обновления неизвестно");
+    renderStats(data.totals || {});
+    renderStatus(data);
+    renderEntries(data.top100 || []);
+  } catch (error) {
+    setText("updated", "Не удалось загрузить результаты проверки");
+    setText("status-line", "Ссылки на подписки выше работают независимо от этой страницы.");
+    document.getElementById("entries").innerHTML = '<p class="empty">Данные сейчас недоступны.</p>';
   }
 }
 
-document.getElementById("top100-link").addEventListener("click", () => {
-  openDownloadModal("top100");
-});
-
-document.getElementById("full-link").addEventListener("click", () => {
-  openDownloadModal("full");
-});
-
-document.getElementById("download-modal-close").addEventListener("click", closeDownloadModal);
-
-document.getElementById("download-modal").addEventListener("click", (event) => {
-  if (event.target.id === "download-modal") {
-    closeDownloadModal();
-  }
-});
-
-document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") {
-    closeDownloadModal();
-  }
-});
-
-document.querySelectorAll(".modal-action").forEach((button) => {
-  button.addEventListener("click", () => {
-    handleModalAction(button);
-  });
-});
-
-closeDownloadModal();
-loadData();
+initSubscriptionButtons();
+load();

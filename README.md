@@ -1,96 +1,156 @@
 # Kerosin White Lists Checker
 
-Репозиторий собирает VLESS-ключи из четырёх исходных источников, фильтрует неподходящие конфиги, проверяет TCP-доступность серверов и публикует две основные подписки:
+Репозиторий собирает VLESS-ключи из нескольких источников, отбрасывает всё, что
+не выживает при блокировках, **реально проверяет каждый конфиг через Xray** и
+публикует две подписки:
 
-- `good.txt` — полная подписка со всеми ключами, успешно прошедшими TCP-проверку
-- `top100.txt` — подписка со 100 самыми стабильными ключами по истории успешных чеков
+- `good.txt` — все конфиги, прошедшие проверку
+- `top100.txt` — до 100 самых стабильных по истории проверок и весу источника
 
-Для обратной совместимости `top50.txt` и `top15.txt` тоже сохраняются, но сейчас содержат тот же список, что и `top100.txt`.
+`top50.txt` и `top15.txt` остаются для обратной совместимости и содержат тот же
+список, что `top100.txt`.
 
-Сайт в `docs/` показывает текущий `top100`, доступность, серию успешных прохождений и даёт варианты получения подписки через белые и прямые ссылки.
+Сайт в `docs/` показывает текущий топ, доступность, серию успехов и две ссылки
+на подписку — jsDelivr и GitHub.
+
+## Что изменилось по сравнению с прежней версией
+
+1. **Проверка стала настоящей.** Раньше это был TCP-коннект до `host:port`:
+   порт отвечает почти всегда, поэтому в выдачу попадали мёртвые конфиги —
+   отбраковки фактически не было. Теперь `probe.py` поднимает Xray с
+   outbound'ом каждого конфига и гонит через туннель HTTP-запрос к
+   `generate_204`. Это проверяет весь путь: TLS/REALITY-хендшейк, авторизацию
+   по UUID, транспорт и выход в интернет с сервера. На живых данных проверку
+   проходит примерно половина кандидатов — то есть фильтр работает.
+2. **Добавлен источник [zieng2/wl](https://github.com/zieng2/wl)** с
+   приоритетным весом: при дедупликации его конфиг вытесняет чужой дубль, а в
+   рейтинге при близкой стабильности он идёт выше.
+3. **Политика отбора ужесточена:** остались только `raw`(tcp)+REALITY и
+   `xhttp`+TLS/REALITY. `grpc`, `ws`, `httpupgrade`, `kcp`, `quic`, `h2`,
+   конфиги без шифрования канала (`security=none`) и с `allowInsecure`
+   отбрасываются до проверки.
+4. **Сайт упрощён:** одна колонка, никаких модалок, ссылки на подписку только
+   через jsDelivr и GitHub (прежние Yandex Translate и заглушка VK убраны).
+5. **Нейминг унифицирован:** `🇷🇺 Russia #01` — флаг всегда первым символом,
+   чтобы работали фильтры по стране и балансировщик в клиентах.
+6. **История не обнуляется** при переименовании: ключ истории — хеш точки входа
+   и транспорта, а не строка URI.
+7. **Пустая выдача не перезаписывает файлы.** Если источники недоступны или
+   проверку не прошёл никто, скрипт падает с ошибкой, не ломая подписку.
 
 ## Источники
 
-- [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia)
-  - `WHITE-CIDR-RU-all.txt`
-  - `Vless-Reality-White-Lists-Rus-Mobile.txt`
-  - `Vless-Reality-White-Lists-Rus-Mobile-2.txt`
-  - `WHITE-CIDR-RU-checked.txt`
-## Как работает
+| Репозиторий | Файлы | Вес |
+| --- | --- | --- |
+| [zieng2/wl](https://github.com/zieng2/wl) | `vless_universal.txt`, `vless_lite.txt` | 30 |
+| [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) | `WHITE-CIDR-RU-all.txt`, `WHITE-CIDR-RU-checked.txt`, `WHITE-SNI-RU-all.txt`, `Vless-Reality-White-Lists-Rus-Mobile.txt` | 10 |
 
-1. `check_and_save.py` загружает четыре исходных списка.
-2. Скрипт оставляет только `vless://`-строки, дедуплицирует их и нормализует имя: по первому emoji-флагу определяет страну и приводит хвост к формату `🇳🇱 The Netherlands`. Если флага нет, имя становится `Cosmos`.
-3. Перед проверкой скрипт отбрасывает конфиги с `allowinsecure/insecure`, `security=none` и транспортом `xhttp`.
-4. Скрипт делает TCP-подключение к уникальным `host:port` и переиспользует результат для конфигов, которые смотрят в один endpoint.
-5. Результаты каждого запуска сохраняются в `history.json`, чтобы накапливать историю доступности.
-6. Успешные ключи ранжируются по стабильности: availability, success streak и истории прохождения. Задержка используется только как вторичный tie-breaker.
-7. Полный список сохраняется в `good.txt`, а `top100.txt` получает 100 самых стабильных ключей. `top50.txt` и `top15.txt` остаются совместимыми алиасами.
-8. `docs/keys.json` обновляется для GitHub Pages.
-9. GitHub Actions коммитит новые артефакты обратно в репозиторий.
+Вес источника участвует и в дедупликации, и в итоговом рейтинге. Добавить
+источник — одна запись в `SOURCES` в `sources.py`.
+
+Список сверен с текущим состоянием апстримов:
+
+- `Vless-Reality-White-Lists-Rus-Mobile-2.txt` удалён — файла больше нет в
+  репозитории, а старый код молча считал его нулём;
+- добавлен появившийся `WHITE-SNI-RU-all.txt`;
+- `BLACK_*`-файлы igareck сознательно не берём: это конфиги для обычного обхода
+  блокировок, а не для режима белых списков;
+- `vless.txt` у zieng2 не берём: там лежат конфиги-заглушки с предупреждением
+  об устаревшей подписке.
+
+## Как работает пайплайн
+
+1. `sources.py` скачивает списки и парсит `vless://`-строки.
+2. Дедупликация по точке входа (uuid, host, port, транспорт, security, sni,
+   host-заголовок, path, pbk, sid). При конфликте выживает источник с большим весом.
+3. `policy.py` отбрасывает всё, что не входит в белый список транспортов и
+   security, битые REALITY/TLS-конфиги и конфиги на нероутабельных адресах
+   (в `vless_lite.txt` zieng2 лежат четыре заглушки на `0.0.0.0:1-4`).
+4. `probe.py` проверяет оставшиеся конфиги партиями: один процесс Xray с
+   socks-инбаундом на каждый конфиг, затем параллельные запросы через
+   соответствующие прокси. Отказавшие конфиги проверяются повторно на другом
+   URL, чтобы снизить число ложных отказов.
+5. `stability.py` пишет результат в `history.json` (окно 96 запусков) и строит
+   рейтинг: `availability + серия успехов + вес источника + бонус за
+   стабильность`, задержка — только тай-брейкер.
+6. `build.py` раскладывает результат в `good.txt`, `top100.txt`,
+   `top50.txt`, `top15.txt` и `docs/keys.json`. В топ попадает не больше
+   `TOP_HOST_CAP` конфигов с одного хоста, чтобы падение одного сервера не
+   уносило всю подписку.
+
+## Настройка через переменные окружения
+
+| Переменная | По умолчанию | Назначение |
+| --- | --- | --- |
+| `XRAY_BIN` | `./xray` | Путь к бинарнику Xray |
+| `PROBE_BATCH_SIZE` | `50` | Сколько конфигов проверяется одним процессом Xray |
+| `PROBE_PARALLEL` | `25` | Параллельных запросов внутри партии |
+| `PROBE_TIMEOUT` | `12` | Таймаут запроса через туннель, сек |
+| `PROBE_RETRIES` | `2` | Попыток на конфиг |
+| `TOP_HOST_CAP` | `4` | Максимум конфигов с одного хоста в топе |
+| `TOP_LIMIT` | `100` | Размер топа |
 
 ## Автоматическое обновление
 
-- Workflow `.github/workflows/check_keys.yml` запускается каждые 30 минут по `schedule` и вручную через `workflow_dispatch`.
-- Из-за особенностей GitHub Actions scheduled workflow может запускаться с задержкой, а при высокой нагрузке отдельные окна могут быть пропущены.
-- Чтобы уменьшить такие пропуски, cron смещён с начала часа на `17` и `47` минут каждого часа по UTC.
+- Workflow `.github/workflows/check_keys.yml` запускается в `:17` и `:47`
+  каждого часа и вручную через `workflow_dispatch`.
+- Бинарник Xray берётся из релиза `XRAY_VERSION` и кешируется между запусками.
+- Scheduled workflow у GitHub может задерживаться или пропускать окна — это
+  нормально, история проверок это сглаживает.
 
 ## Ограничения
 
-- Это не полноценная VLESS-проверка, а именно TCP-check до `host:port`.
-- Проверка выполняется с GitHub-hosted runners, поэтому задержки отличаются от реальных у пользователя.
-- Поэтому `top100` строится не по минимальной задержке, а по стабильности прохождения серии чеков.
+- Проверка идёт с GitHub-раннера, а не из сети мобильного оператора. Она
+  доказывает, что конфиг жив и рабочий, но не то, что он доступен из-под
+  конкретного белого списка. Для этого запустите `build.py` локально со своей
+  сети.
+- Задержки раннера не совпадают с вашими, поэтому топ строится по стабильности,
+  а не по минимальной задержке.
+- Время жизни таких конфигов — от минут до суток. В клиенте имеет смысл
+  включить автообновление подписки и балансировщик (автовыбор сервера).
 
 ## Локальный запуск
 
 ```bash
 git clone https://github.com/lilyungcykamane/vless-checker.git
 cd vless-checker
-python3 -m venv .venv
-source .venv/bin/activate
-pip install requests
-python3 check_and_save.py
+
+# Linux
+curl -fsSL -o xray.zip https://github.com/XTLS/Xray-core/releases/download/v26.3.27/Xray-linux-64.zip
+# macOS (Apple Silicon)
+# curl -fsSL -o xray.zip https://github.com/XTLS/Xray-core/releases/download/v26.3.27/Xray-macos-arm64-v8a.zip
+unzip -q -o xray.zip xray && chmod +x xray
+
+python3 build.py
 ```
 
-## GitHub Pages
+Внешних Python-зависимостей нет — только стандартная библиотека, Xray и `curl`.
 
-После включения Pages сайт будет доступен по адресу:
-[lilyungcykamane.github.io/vless-checker](https://lilyungcykamane.github.io/vless-checker/)
-
-Основные подписки:
+## Подписки
 
 - [good.txt через jsDelivr](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/good.txt)
 - [top100.txt через jsDelivr](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top100.txt)
-- [top50.txt через jsDelivr](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top50.txt)
-- [top15.txt через jsDelivr](https://cdn.jsdelivr.net/gh/lilyungcykamane/vless-checker/top15.txt)
 - [good.txt через raw.githubusercontent.com](https://raw.githubusercontent.com/lilyungcykamane/vless-checker/refs/heads/main/good.txt)
 - [top100.txt через raw.githubusercontent.com](https://raw.githubusercontent.com/lilyungcykamane/vless-checker/refs/heads/main/top100.txt)
-- [top50.txt через raw.githubusercontent.com](https://raw.githubusercontent.com/lilyungcykamane/vless-checker/refs/heads/main/top50.txt)
-- [top15.txt через raw.githubusercontent.com](https://raw.githubusercontent.com/lilyungcykamane/vless-checker/refs/heads/main/top15.txt)
 
-На сайте кнопки подписки открывают модальное окно со способами выдачи:
-
-- белая auto-update ссылка через jsDelivr
-- ручная ссылка через Yandex Translate
-- прямая ссылка через `raw.githubusercontent.com`
+Сайт: [lilyungcykamane.github.io/vless-checker](https://lilyungcykamane.github.io/vless-checker/)
 
 ## Структура проекта
 
 ```text
 vless-checker/
-├── check_and_save.py    # Основной пайплайн генерации
-├── checker.py           # Точка входа для локального запуска
-├── stability_utils.py   # История чеков и рейтинг по стабильности
-├── vless_utils.py       # Загрузка и нормализация ключей
-├── history.json         # Накопленная история запусков
+├── build.py             # Пайплайн: источники → фильтр → проверка → выдача
+├── sources.py           # Источники, веса, дедупликация
+├── policy.py            # Что пропускаем и как называем конфиги
+├── probe.py             # Реальная проверка через Xray
+├── stability.py         # История проверок и рейтинг
+├── vless_uri.py         # Парсинг URI и сборка Xray-outbound
+├── history.json         # История проверок (окно 96 запусков)
 ├── good.txt             # Полная подписка
-├── top100.txt           # Топ-100 по стабильности
-├── top50.txt            # Совместимый алиас top100
-├── top15.txt            # Совместимый алиас top100
-├── docs/
-│   ├── index.html       # Сайт GitHub Pages
-│   ├── script.js        # Рендер top100
-│   ├── styles.css       # Стили сайта
-│   └── keys.json        # Данные для фронта
+├── top100.txt           # Топ по стабильности
+├── top50.txt            # Алиас top100 (совместимость)
+├── top15.txt            # Алиас top100 (совместимость)
+├── docs/                # Сайт GitHub Pages
 └── .github/workflows/
-    └── check_keys.yml   # Автоматическое обновление
+    └── check_keys.yml   # Автообновление
 ```

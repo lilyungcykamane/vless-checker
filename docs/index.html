@@ -4,126 +4,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kerosin Обход БС — ТОП-100 по стабильности</title>
+  <title>Kerosin White Lists — проверенные VLESS-конфиги</title>
   <meta name="description"
-    content="Автоматически обновляемый ТОП-100 VLESS-конфигов по стабильности с белыми и прямыми каналами выдачи подписки." />
-  <meta name="keywords"
-    content="VLESS, Reality, top100, стабильность, доступность, jsDelivr, Hiddify, v2ray, VPN" />
-  <meta name="author" content="lilyungcykamane" />
+    content="Подписка VLESS для обхода белых списков. Каждый конфиг проверен реальным подключением через Xray, рейтинг — по стабильности." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://lilyungcykamane.github.io/vless-checker/" />
-  <meta property="og:title" content="Kerosin Обход БС — ТОП-100 по стабильности" />
-  <meta property="og:description"
-    content="Список самых стабильных VLESS-конфигов с кнопками подписки и копирования." />
+  <meta property="og:title" content="Kerosin White Lists — проверенные VLESS-конфиги" />
+  <meta property="og:description" content="Подписка VLESS, проверенная реальным подключением. Рейтинг по стабильности." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://lilyungcykamane.github.io/vless-checker/" />
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛽</text></svg>" />
-  <link rel="stylesheet" href="styles.css?v=14" />
+  <link rel="stylesheet" href="styles.css?v=20" />
 </head>
 
 <body>
-  <main class="shell">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Kerosin White Lists</p>
-        <h1>ТОП-100 по стабильности</h1>
-        <p class="lead">
-          Сайт показывает самые стабильные конфиги по итогам TCP-проверки и истории успешных чеков.
-          Задержка здесь вторична, а в приоритете доступность, серия успехов и регулярность прохождения.
-        </p>
+  <main>
+    <header class="head">
+      <h1>⛽ Kerosin White Lists</h1>
+      <p class="tagline">
+        Подписка VLESS для обхода белых списков. Каждый конфиг проверяется реальным
+        подключением через Xray, в список попадают только живые.
+      </p>
+      <p class="updated" id="updated">Загружаем данные…</p>
+    </header>
+
+    <section class="card">
+      <h2>Подписки</h2>
+      <p class="hint">Нажмите, чтобы скопировать ссылку, и добавьте её в клиент. Включите автообновление раз в час.</p>
+
+      <div class="sub" data-kind="top100">
+        <div class="sub-info">
+          <strong>ТОП-100</strong>
+          <span>самые стабильные конфиги — рекомендуем</span>
+        </div>
+        <div class="sub-links">
+          <button type="button" data-copy="jsdelivr">jsDelivr</button>
+          <button type="button" data-copy="github">GitHub</button>
+        </div>
       </div>
 
-      <div class="hero-panel">
-        <p class="updated" id="updated">Загружаем данные...</p>
-
-        <div class="actions">
-          <button class="action primary" id="top100-link" type="button">Подписка ТОП100</button>
-          <button class="action secondary" id="full-link" type="button">Подписка полная</button>
+      <div class="sub" data-kind="full">
+        <div class="sub-info">
+          <strong>Полная</strong>
+          <span>все конфиги, прошедшие проверку</span>
         </div>
-
-        <div class="meta-grid">
-          <div class="meta-card">
-            <span class="meta-label">Рабочих сейчас</span>
-            <strong id="working-count">—</strong>
-          </div>
-          <div class="meta-card">
-            <span class="meta-label">В ТОП100</span>
-            <strong id="top-count">—</strong>
-          </div>
-          <div class="meta-card">
-            <span class="meta-label">Уникальных</span>
-            <strong id="unique-count">—</strong>
-          </div>
-          <div class="meta-card">
-            <span class="meta-label">Пропущено</span>
-            <strong id="unsupported-count">—</strong>
-          </div>
+        <div class="sub-links">
+          <button type="button" data-copy="jsdelivr">jsDelivr</button>
+          <button type="button" data-copy="github">GitHub</button>
         </div>
       </div>
     </section>
 
-    <section class="list-wrap">
-      <div class="list-head">
-        <div>
-          <p class="eyebrow">Live Ranking</p>
-          <h2>Стабильный рейтинг серверов</h2>
-        </div>
-      </div>
+    <section class="stats" id="stats"></section>
 
-      <div class="status-line" id="status-line">Проверяем доступность списка...</div>
+    <section class="card">
+      <h2>Рейтинг по стабильности</h2>
+      <p class="hint" id="status-line">Проверяем доступность списка…</p>
       <div class="entries" id="entries"></div>
     </section>
+
+    <footer>
+      <p>
+        Проверка выполняется с GitHub-раннера: она доказывает, что конфиг жив, но не то,
+        что он доступен из-под вашего оператора. Для подключения удобнее включить в клиенте
+        балансировщик (автовыбор сервера).
+      </p>
+      <p><a href="https://github.com/lilyungcykamane/vless-checker">Исходники и как это работает →</a></p>
+    </footer>
   </main>
 
-  <div class="modal-backdrop" id="download-modal" hidden>
-    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="download-modal-title">
-      <button class="modal-close" id="download-modal-close" type="button" aria-label="Закрыть">×</button>
-      <p class="eyebrow">Выбор ссылки</p>
-      <h2 id="download-modal-title">Подписка</h2>
-      <p class="modal-text" id="download-modal-text">Выберите способ получение подписки:</p>
-
-      <section class="modal-group">
-        <h3 class="modal-group-title">Белые ссылки с авто-обновлением (рекомендуем)</h3>
-        <p class="modal-group-subtitle">Ссылка скопируется в буфер обмена для последующей вставки в клиент</p>
-        <div class="modal-actions">
-          <button class="modal-action" id="download-jsdelivr" type="button" data-mode="copy">
-            <span class="modal-action-title">Ссылка 1 (JSDelivr)</span>
-            <span class="modal-action-subtitle">cdn.jsdelivr.net</span>
-          </button>
-        </div>
-      </section>
-
-      <section class="modal-group">
-        <h3 class="modal-group-title">Белые ссылки с ручным обновлением</h3>
-        <p class="modal-group-subtitle">Перейдите по ссылке и вставьте сервера вручную</p>
-        <div class="modal-actions">
-          <button class="modal-action" id="download-yandex" type="button" data-mode="open">
-            <span class="modal-action-title">Ссылка 5 (Yandex Translate)</span>
-            <span class="modal-action-subtitle">translate.yandex.ru</span>
-          </button>
-          <button class="modal-action" id="download-vk" type="button" data-mode="open">
-            <span class="modal-action-title">СКОРО</span>
-            <span class="modal-action-subtitle">Ссылка 6 (VK)</span>
-          </button>
-        </div>
-      </section>
-
-      <section class="modal-group">
-        <h3 class="modal-group-title">Прямые ссылки с авто-обновлением (ссылки ограничены при режиме БС)</h3>
-        <div class="modal-actions">
-          <button class="modal-action" id="download-github" type="button" data-mode="copy">
-            <span class="modal-action-title">Ссылка 7 (Github)</span>
-            <span class="modal-action-subtitle">github.com</span>
-          </button>
-        </div>
-      </section>
-
-      <p class="modal-note">* белые ссылки открываются с мобильного интернета при активном режиме БС</p>
-    </div>
-  </div>
-
-  <script src="script.js?v=14"></script>
+  <script src="script.js?v=20"></script>
 </body>
 
 </html>
